@@ -312,7 +312,7 @@ export default function SprayBusinessSoftware() {
                 <div className="svc-ft" style={active ? {} : {color:'rgba(255,255,255,.4)'}}>{ft}</div>
               </div>
             ))}
-            <div style={{marginTop:'12px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>89 stops across 6 services</div>
             </div>
@@ -346,7 +346,7 @@ export default function SprayBusinessSoftware() {
                 {n:'3', addr:'122 Ridgecrest Ln', sub:'Weed Control 3 · Due today', ft:'11,600 ft²'},
               ].map(({n, addr, sub, ft}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{sub}</div></div>
                   <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', fontWeight:600}}>{ft}</div>
                 </div>
@@ -357,7 +357,7 @@ export default function SprayBusinessSoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>82,400 ft²</div>
               </div>
             </div>
-            <div style={{marginTop:'10px', background:'rgba(13,148,136,.1)', border:'1px solid rgba(13,148,136,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(132,204,22,.1)', border:'1px solid rgba(132,204,22,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>12 stops · 110,600 ft² · $1,640</div>
             </div>
@@ -387,7 +387,7 @@ export default function SprayBusinessSoftware() {
             <div className="log-card" style={{background:'rgba(255,255,255,.06)', border:'1px solid rgba(255,255,255,.09)', borderRadius:'10px', padding:'14px 16px', marginBottom:'8px'}}>
               <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>308 Elmwood Cir</div>
-                <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, padding:'2px 8px', borderRadius:'10px'}}>Complete</div>
+                <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, padding:'2px 8px', borderRadius:'10px'}}>Complete</div>
               </div>
               <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'6px'}}>
                 {[['Product','Talstar P Pro'],['Rate','0.5 oz / gal'],['Area Treated','9,400 ft²'],['Gallons','3.2 gal'],['Temp / Wind','74°F · 6 mph'],['Applicator','J. Martinez #4821']].map(([lbl, val]) => (
@@ -401,7 +401,7 @@ export default function SprayBusinessSoftware() {
             <div style={{background:'rgba(255,255,255,.06)', border:'1px solid rgba(255,255,255,.09)', borderRadius:'10px', padding:'14px 16px', opacity:.65}}>
               <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>415 Sycamore Blvd</div>
-                <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, padding:'2px 8px', borderRadius:'10px'}}>Complete</div>
+                <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, padding:'2px 8px', borderRadius:'10px'}}>Complete</div>
               </div>
               <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'6px'}}>
                 {[['Product','Bifen IT'],['Rate','1 oz / gal'],['Area Treated','7,200 ft²'],['Gallons','2.4 gal']].map(([lbl, val]) => (

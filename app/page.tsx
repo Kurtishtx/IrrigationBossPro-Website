@@ -71,12 +71,12 @@ export default function Home() {
     <>
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        :root { --purple-dark:#0f1720; --purple-mid:#0d141c; --purple-deep:#1f2937; --orange:#0d9488; --orange-dark:#0f766e; --blue:#5eead4; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
+        :root { --purple-dark:#0f1720; --purple-mid:#0d141c; --purple-deep:#1f2937; --orange:#84cc16; --orange-dark:#4d7c0f; --blue:#bef264; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
         html { scroll-behavior: smooth; }
         body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
         .hero { background: linear-gradient(135deg, #0f1720 0%, #1f2937 60%, #263445 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(13,148,136,.15) 0%, transparent 70%); pointer-events: none; }
-        .hero-badge { display: inline-block; background: rgba(13,148,136,.15); border: 1px solid rgba(13,148,136,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
+        .hero::before { content: ''; position: absolute; top: -120px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(132,204,22,.15) 0%, transparent 70%); pointer-events: none; }
+        .hero-badge { display: inline-block; background: rgba(132,204,22,.15); border: 1px solid rgba(132,204,22,.4); color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
         .hero h1 { color: #fff; font-size: clamp(32px, 5vw, 58px); font-weight: 800; line-height: 1.15; max-width: 820px; margin: 0 auto 20px; }
         .hero h1 span { color: var(--orange); }
         .hero p { color: rgba(255,255,255,.75); font-size: clamp(16px, 2vw, 20px); max-width: 620px; margin: 0 auto 40px; }
@@ -108,7 +108,7 @@ export default function Home() {
         .highlight-text { flex: 1; min-width: 280px; }
         .highlight-text h2 { font-size: clamp(24px, 3vw, 36px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
         .highlight-text p { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
-        .highlight-visual { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #263445 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(13,148,136,.3); }
+        .highlight-visual { flex: 1; min-width: 280px; background: linear-gradient(135deg, var(--purple-deep) 0%, #263445 100%); border-radius: 14px; padding: 36px 32px; border: 2px solid rgba(132,204,22,.3); }
         .check-list { list-style: none; margin-top: 16px; }
         .check-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: var(--muted); margin-bottom: 12px; }
         .check-list li::before { content: '✓'; background: var(--orange); color: #fff; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
@@ -117,7 +117,7 @@ export default function Home() {
         .mock-dot.orange { background: var(--orange); }
         .mock-dot.green { background: #22c55e; }
         .mock-dot.blue { background: var(--blue); }
-        .mock-dot.yellow { background: #69bdb5; }
+        .mock-dot.yellow { background: #a1d84e; }
         .mock-label { color: rgba(255,255,255,.85); font-size: 13px; font-weight: 600; }
         .mock-sub { color: rgba(255,255,255,.45); font-size: 11px; margin-top: 1px; }
         .mock-badge { margin-left: auto; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 10px; flex-shrink: 0; }
@@ -159,7 +159,7 @@ export default function Home() {
         .testimonial-author { font-weight: 700; font-size: 14px; color: var(--text); }
         .testimonial-role { font-size: 12px; color: var(--muted); }
         .cta-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #263445 100%); text-align: center; padding: 100px 40px; position: relative; overflow: hidden; }
-        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(13,148,136,.12) 0%, transparent 70%); pointer-events: none; }
+        .cta-band::before { content: ''; position: absolute; bottom: -100px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(132,204,22,.12) 0%, transparent 70%); pointer-events: none; }
         .cta-band h2 { color: #fff; font-size: clamp(28px, 4vw, 46px); font-weight: 800; margin-bottom: 16px; }
         .cta-band p { color: rgba(255,255,255,.7); font-size: 18px; margin-bottom: 40px; max-width: 560px; margin-left: auto; margin-right: auto; }
         footer { background: var(--purple-dark); padding: 50px 40px 30px; border-top: 1px solid rgba(255,255,255,.08); }
@@ -172,7 +172,7 @@ export default function Home() {
         .footer-links a { color: rgba(255,255,255,.5); text-decoration: none; }
         .footer-links a:hover { color: #fff; }
         .premium-band { background: linear-gradient(135deg, var(--purple-dark) 0%, #1b2531 100%); padding: 90px 40px; text-align: center; position: relative; overflow: hidden; }
-        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(13,148,136,.1) 0%, transparent 65%); pointer-events: none; }
+        .premium-band::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(132,204,22,.1) 0%, transparent 65%); pointer-events: none; }
         .premium-band h2 { color: #fff; font-size: clamp(26px, 4vw, 44px); font-weight: 800; line-height: 1.2; max-width: 860px; margin: 0 auto 18px; }
         .premium-band h2 span { color: var(--orange); }
         .premium-band > p { color: rgba(255,255,255,.65); font-size: 17px; max-width: 700px; margin: 0 auto 52px; line-height: 1.8; }
@@ -186,7 +186,7 @@ export default function Home() {
         .lasso-ring { position: absolute; top: 14px; left: 18px; right: 18px; bottom: 14px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
         .lasso-pins { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; position: relative; z-index: 1; }
         .lpin { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(13,148,136,.3); }
+        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(132,204,22,.3); }
         .lpin.u { background: rgba(255,255,255,.2); }
         .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
@@ -196,7 +196,7 @@ export default function Home() {
         .stat-cell.full .stat-val { color: #fff; font-size: 13px; font-weight: 600; }
         .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
         .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
-        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(13,148,136,.1); transform: translateY(-2px); }
+        .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(132,204,22,.1); transform: translateY(-2px); }
         .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
         .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
         .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -396,7 +396,7 @@ export default function Home() {
               <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Lawn Insect 3 · 12,000 ft²</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
-            <div className="mock-item" style={{borderColor:'rgba(13,148,136,.5)'}}>
+            <div className="mock-item" style={{borderColor:'rgba(132,204,22,.5)'}}>
               <div className="mock-dot orange"></div>
               <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Mosquito 3 · 5,000 ft²</div></div>
               <div className="mock-badge">In Progress</div>
@@ -670,7 +670,7 @@ export default function Home() {
       {/* ═══ MODALS ═══ */}
       <div id="sbp-backdrop" onClick={() => closeAllModals()} style={{display:'none', position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,.55)', zIndex:99997}}></div>
       {[1,2,3].map(n => (
-        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #0d9488', boxShadow:'0 0 0 4px rgba(13,148,136,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
+        <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #84cc16', boxShadow:'0 0 0 4px rgba(132,204,22,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#0f1720,#263445)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
             <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
@@ -684,7 +684,7 @@ export default function Home() {
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn &amp; Spray Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#0d9488', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
+            <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#84cc16', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>
           <div id={`sbp${n}-step2`} style={{padding:'24px 28px', display:'none'}}>
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
@@ -695,8 +695,8 @@ export default function Home() {
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Confirm Password</label><input id={`sbp${n}-confirm`} type="password" placeholder="Repeat password" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
-            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#0d9488', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://irrigationbosspro.com/terms" target="_blank" style={{color:'#0d9488'}}>Terms of Service</a> and <a href="https://irrigationbosspro.com/privacy-policy" target="_blank" style={{color:'#0d9488'}}>Privacy Policy</a></label></div>
-            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#0d9488', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
+            <div style={{marginBottom:'18px', display:'flex', alignItems:'flex-start', gap:'10px'}}><input type="checkbox" id={`sbp${n}-agree`} style={{width:'16px', height:'16px', accentColor:'#84cc16', cursor:'pointer', flexShrink:0, marginTop:'3px'}} /><label htmlFor={`sbp${n}-agree`} style={{fontSize:'13px', color:'#555', cursor:'pointer', lineHeight:1.5}}>I agree to the <a href="https://irrigationbosspro.com/terms" target="_blank" style={{color:'#84cc16'}}>Terms of Service</a> and <a href="https://irrigationbosspro.com/privacy-policy" target="_blank" style={{color:'#84cc16'}}>Privacy Policy</a></label></div>
+            <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} style={{width:'100%', background:'#84cc16', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Create My Account</button>
             <button onClick={() => sbpBackToStep1(n)} style={{width:'100%', background:'none', border:'none', color:'#888', fontSize:'13px', cursor:'pointer', marginTop:'10px', padding:'6px', fontFamily:'inherit', textDecoration:'underline'}}>← Back</button>
           </div>
           <div id={`sbp${n}-success`} style={{padding:'48px 28px', textAlign:'center', display:'none'}}>

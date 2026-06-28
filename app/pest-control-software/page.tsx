@@ -282,18 +282,18 @@ export default function PestControlSoftware() {
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Lasso — Route Selector</div>
             <div style={{background:'rgba(255,255,255,.04)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'10px', padding:'20px', marginBottom:'14px', position:'relative', minHeight:'130px', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden'}}>
-              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #0d9488', borderRadius:'50%', opacity:.7}}></div>
+              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #84cc16', borderRadius:'50%', opacity:.7}}></div>
               <div style={{display:'flex', gap:'12px', flexWrap:'wrap', justifyContent:'center', position:'relative', zIndex:1}}>
                 {['s','s','u','s','s','s','u','s','s','u','s','s','s','u','s','s','s','u','s'].map((t,i) => (
-                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#0d9488' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(13,148,136,.3)' : 'none'}}></div>
+                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#84cc16' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(132,204,22,.3)' : 'none'}}></div>
                 ))}
               </div>
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px'}}>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>14</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Stops Selected</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>19</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Total Treatments</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>8</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>General Pest</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>6</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Mosquito Barrier</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>14</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Stops Selected</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>19</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Total Treatments</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>8</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>General Pest</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}><div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>6</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Mosquito Barrier</div></div>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', gridColumn:'span 2'}}><div style={{color:'#fff', fontSize:'13px', fontWeight:600}}>Quarterly · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Rodent · 5</div><div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Breakdown by Treatment Type</div></div>
             </div>
           </div>
@@ -408,8 +408,8 @@ export default function PestControlSoftware() {
             </div>
             {[
               {color:'#22c55e', label:'Temprid SC · General Pest', sub:'J. Smith · Sunny · 82°F · 0.4 oz/gal', badge:'3 gal', badgeBg:'#16a34a'},
-              {color:'#0d9488', label:'Bifen IT · Mosquito Barrier', sub:'M. Torres · Partly Cloudy', badge:'5 gal', badgeBg:'#0d9488'},
-              {color:'#5eead4', label:'Talstar P · Perimeter', sub:'R. Davis · Clear · 78°F', badge:'2 gal', badgeBg:'#2272c3'},
+              {color:'#84cc16', label:'Bifen IT · Mosquito Barrier', sub:'M. Torres · Partly Cloudy', badge:'5 gal', badgeBg:'#84cc16'},
+              {color:'#bef264', label:'Talstar P · Perimeter', sub:'R. Davis · Clear · 78°F', badge:'2 gal', badgeBg:'#2272c3'},
             ].map(({color, label, sub, badge, badgeBg}) => (
               <div key={label} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
                 <div style={{width:'10px', height:'10px', borderRadius:'50%', background:color, flexShrink:0}}></div>
@@ -446,9 +446,9 @@ export default function PestControlSoftware() {
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Waiting List — By Service Type</div>
             {[
               {color:'#22c55e', label:'General Pest — Quarterly', sub:'38 properties due', badgeBg:'#16a34a'},
-              {color:'#0d9488', label:'Mosquito Barrier', sub:'24 properties due', badgeBg:'#0d9488'},
-              {color:'#5eead4', label:'Rodent Control — Monthly', sub:'11 properties due', badgeBg:'#2272c3'},
-              {color:'#0d9488', label:'Termite Inspection', sub:'6 properties due', badgeBg:'#0d9488'},
+              {color:'#84cc16', label:'Mosquito Barrier', sub:'24 properties due', badgeBg:'#84cc16'},
+              {color:'#bef264', label:'Rodent Control — Monthly', sub:'11 properties due', badgeBg:'#2272c3'},
+              {color:'#84cc16', label:'Termite Inspection', sub:'6 properties due', badgeBg:'#84cc16'},
             ].map(({color, label, sub, badgeBg}) => (
               <div key={label} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
                 <div style={{width:'10px', height:'10px', borderRadius:'50%', background:color, flexShrink:0}}></div>

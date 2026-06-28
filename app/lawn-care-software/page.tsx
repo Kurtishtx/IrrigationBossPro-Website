@@ -282,28 +282,28 @@ export default function LawnCareSoftware() {
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Lasso — Route Selector</div>
             <div style={{background:'rgba(255,255,255,.04)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'10px', padding:'20px', marginBottom:'14px', position:'relative', minHeight:'130px', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden'}}>
-              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #0d9488', borderRadius:'50%', opacity:.7}}></div>
+              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #84cc16', borderRadius:'50%', opacity:.7}}></div>
               <div style={{display:'flex', gap:'12px', flexWrap:'wrap', justifyContent:'center', position:'relative', zIndex:1}}>
                 {['s','s','u','s','s','s','u','s','s','u','s','s','s','u','s','s','s','u','s'].map((t,i) => (
-                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#0d9488' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(13,148,136,.3)' : 'none'}}></div>
+                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#84cc16' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(132,204,22,.3)' : 'none'}}></div>
                 ))}
               </div>
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px'}}>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
-                <div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>14</div>
+                <div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>14</div>
                 <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Stops Selected</div>
               </div>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
-                <div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>19</div>
+                <div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>19</div>
                 <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Total Services</div>
               </div>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
-                <div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>118,400</div>
+                <div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>118,400</div>
                 <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Sq Ft (Lawn)</div>
               </div>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
-                <div style={{color:'#0d9488', fontSize:'18px', fontWeight:800}}>4,200</div>
+                <div style={{color:'#84cc16', fontSize:'18px', fontWeight:800}}>4,200</div>
                 <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Linear Ft (Beds)</div>
               </div>
               <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', gridColumn:'span 2'}}>
@@ -422,12 +422,12 @@ export default function LawnCareSoftware() {
               <div style={{marginLeft:'auto', background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>384,200 ft²</div>
             </div>
             <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
-              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#0d9488', flexShrink:0}}></div>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#84cc16', flexShrink:0}}></div>
               <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Lawn Insect 3</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>31 properties waiting</div></div>
-              <div style={{marginLeft:'auto', background:'#0d9488', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>246,500 ft²</div>
+              <div style={{marginLeft:'auto', background:'#84cc16', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>246,500 ft²</div>
             </div>
             <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
-              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#5eead4', flexShrink:0}}></div>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#bef264', flexShrink:0}}></div>
               <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Mosquito Treatment</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>22 properties waiting</div></div>
               <div style={{marginLeft:'auto', background:'#2272c3', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>118,000 ft²</div>
             </div>
@@ -437,7 +437,7 @@ export default function LawnCareSoftware() {
               <div style={{marginLeft:'auto', background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>42,300 ft²</div>
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
-              <div style={{color:'#0d9488', fontSize:'16px', fontWeight:700}}>Know before you dial.</div>
+              <div style={{color:'#84cc16', fontSize:'16px', fontWeight:700}}>Know before you dial.</div>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'12px', marginTop:'4px'}}>No other lawn care software shows you this.</div>
             </div>
           </div>
@@ -473,11 +473,11 @@ export default function LawnCareSoftware() {
                 <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Properties</div>
               </div>
               <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}>
-                <div style={{color:'#0d9488', fontSize:'20px', fontWeight:700}}>1.1M</div>
+                <div style={{color:'#84cc16', fontSize:'20px', fontWeight:700}}>1.1M</div>
                 <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Sq Ft Treated</div>
               </div>
               <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}>
-                <div style={{color:'#0d9488', fontSize:'20px', fontWeight:700}}>412</div>
+                <div style={{color:'#84cc16', fontSize:'20px', fontWeight:700}}>412</div>
                 <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gallons Applied</div>
               </div>
             </div>
@@ -487,9 +487,9 @@ export default function LawnCareSoftware() {
               <div style={{background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>14 gal</div>
             </div>
             <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', display:'flex', alignItems:'center', gap:'12px'}}>
-              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#0d9488', flexShrink:0}}></div>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#84cc16', flexShrink:0}}></div>
               <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Insect Control · 12,000 ft²</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>M. Torres · Partly Cloudy</div></div>
-              <div style={{background:'#0d9488', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>9 gal</div>
+              <div style={{background:'#84cc16', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>9 gal</div>
             </div>
           </div>
         </div>

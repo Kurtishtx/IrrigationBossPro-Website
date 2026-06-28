@@ -306,7 +306,7 @@ export default function FertilizerSoftware() {
               {lbl:'Conditions at Application', val:'Wind: 4 mph · Temp: 52°F · Clear'},
               {lbl:'Applicator License', val:'TX-LAW-20419'},
             ].map(({lbl, val, highlight}) => (
-              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'} : {})}}>
+              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'} : {})}}>
                 <div className="log-label">{lbl}</div>
                 <div className="log-value">{val}</div>
               </div>
@@ -345,7 +345,7 @@ export default function FertilizerSoftware() {
                 {n:'3', addr:'301 Elmwood Blvd', sub:'Fertilizer Round 5 · 11,200 ft² · Winterizer', rev:'$88'},
               ].map(({n, addr, sub, rev}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{sub}</div></div>
                   <div style={{color:'var(--orange)', fontSize:'11px', fontWeight:700}}>{rev}</div>
                 </div>
@@ -356,7 +356,7 @@ export default function FertilizerSoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>$1,480</div>
               </div>
             </div>
-            <div style={{marginTop:'10px', background:'rgba(13,148,136,.1)', border:'1px solid rgba(13,148,136,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(132,204,22,.1)', border:'1px solid rgba(132,204,22,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>22 stops · 196,600 ft² · $1,715</div>
             </div>
@@ -390,7 +390,7 @@ export default function FertilizerSoftware() {
               {name:'Weed Control Round 3', sub:'19 properties waiting', ft:'168,800 ft²', active:false},
               {name:'Fertilizer Round 3 — Overdue', sub:'7 properties — past due date', ft:'62,400 ft²', overdue:true},
             ].map(({name, sub, ft, active, overdue}) => (
-              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'} : {})}}>
+              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'} : {})}}>
                 <div>
                   <div className="svc-name">{name}</div>
                   <div className="svc-sub">{sub}</div>
@@ -398,7 +398,7 @@ export default function FertilizerSoftware() {
                 <div className="svc-ft" style={overdue ? {color:'#f87171'} : active ? {} : {color:'rgba(255,255,255,.4)'}}>{ft}</div>
               </div>
             ))}
-            <div style={{marginTop:'12px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>93 stops across 5 round types</div>
             </div>

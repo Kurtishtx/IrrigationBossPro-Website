@@ -301,11 +301,11 @@ export default function LawnCareSchedulingSoftware() {
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'12px'}}>Waiting List — Today&#39;s Lawn Care Queue</div>
-            <div className="svc-row" style={{borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'}}>
+            <div className="svc-row" style={{borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'}}>
               <div><div className="svc-name">Lawn Fertilizer 4</div><div className="svc-sub">38 properties waiting</div></div>
               <div className="svc-ft">342,000 ft²</div>
             </div>
-            <div className="svc-row" style={{borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'}}>
+            <div className="svc-row" style={{borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'}}>
               <div><div className="svc-name">Weed Control 3</div><div className="svc-sub">24 properties waiting</div></div>
               <div className="svc-ft">216,800 ft²</div>
             </div>
@@ -325,7 +325,7 @@ export default function LawnCareSchedulingSoftware() {
               <div><div className="svc-name">Aeration 1</div><div className="svc-sub">5 properties — overdue</div></div>
               <div className="svc-ft" style={{color:'#f87171'}}>44,500 ft²</div>
             </div>
-            <div style={{marginTop:'12px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>104 stops across 6 services</div>
             </div>
@@ -359,7 +359,7 @@ export default function LawnCareSchedulingSoftware() {
                 {n:3, addr:'88 Pinecrest Ln', svc:'Lawn Fertilizer 4 · 9,600 ft² · Due today', price:'$79'},
               ].map(({n, addr, svc, price}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{svc}</div></div>
                   <div style={{color:'var(--orange)', fontSize:'11px', fontWeight:700}}>{price}</div>
                 </div>
@@ -370,7 +370,7 @@ export default function LawnCareSchedulingSoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>$1,190</div>
               </div>
             </div>
-            <div style={{marginTop:'10px', background:'rgba(13,148,136,.1)', border:'1px solid rgba(13,148,136,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(132,204,22,.1)', border:'1px solid rgba(132,204,22,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>17 stops · 148,400 ft² · $1,429</div>
             </div>
@@ -397,7 +397,7 @@ export default function LawnCareSchedulingSoftware() {
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'12px'}}>Application Log — Completed In-Field on Tech&#39;s Phone</div>
-            <div className="log-row" style={{borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'}}><div className="log-label">Property</div><div className="log-value">204 Oakwood Blvd — 8,200 ft²</div></div>
+            <div className="log-row" style={{borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'}}><div className="log-label">Property</div><div className="log-value">204 Oakwood Blvd — 8,200 ft²</div></div>
             <div className="log-row"><div className="log-label">Service</div><div className="log-value">Lawn Fertilizer — Round 4 (Fall)</div></div>
             <div className="log-row"><div className="log-label">Product</div><div className="log-value">Lesco Fertilizer 32-3-8 SCU</div></div>
             <div className="log-row"><div className="log-label">EPA Reg Number</div><div className="log-value">10631-42</div></div>

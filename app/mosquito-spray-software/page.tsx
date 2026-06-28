@@ -318,7 +318,7 @@ export default function MosquitoSpraySoftware() {
                 {n:4, addr:'91 Willow Creek Rd', detail:'Mosquito 3 · Due today', sqft:'11,200 ft²'},
               ].map(({n, addr, detail, sqft}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'11px 14px', display:'flex', alignItems:'center', gap:'12px'}}>
-                  <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'11px', fontWeight:700, width:'24px', height:'24px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'11px', fontWeight:700, width:'24px', height:'24px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}>
                     <div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div>
                     <div style={{color:'rgba(255,255,255,.35)', fontSize:'10px', marginTop:'1px'}}>{detail}</div>
@@ -332,7 +332,7 @@ export default function MosquitoSpraySoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>31,400 ft²</div>
               </div>
             </div>
-            <div style={{background:'rgba(13,148,136,.1)', border:'1px solid rgba(13,148,136,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center', marginTop:'4px'}}>
+            <div style={{background:'rgba(132,204,22,.1)', border:'1px solid rgba(132,204,22,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center', marginTop:'4px'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Selected</div>
               <div style={{color:'var(--orange)', fontSize:'14px', fontWeight:700}}>8 stops · 63,050 ft² · $1,120</div>
             </div>
@@ -366,7 +366,7 @@ export default function MosquitoSpraySoftware() {
                 {svc:'Lawn Insect 3', count:'6 properties waiting', sqft:'53,200 ft²', active:false},
                 {svc:'Flower Beds 4', count:'4 properties waiting', sqft:'18,900 ft²', active:false},
               ].map(({svc, count, sqft, active}) => (
-                <div key={svc} style={{background: active ? 'rgba(13,148,136,.07)' : 'rgba(255,255,255,.06)', border:`1px solid ${active ? 'rgba(13,148,136,.35)' : 'rgba(255,255,255,.09)'}`, borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                <div key={svc} style={{background: active ? 'rgba(132,204,22,.07)' : 'rgba(255,255,255,.06)', border:`1px solid ${active ? 'rgba(132,204,22,.35)' : 'rgba(255,255,255,.09)'}`, borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                   <div>
                     <div style={{color:'rgba(255,255,255,.75)', fontSize:'13px', fontWeight:600}}>{svc}</div>
                     <div style={{color:'rgba(255,255,255,.4)', fontSize:'11px', marginTop:'2px'}}>{count}</div>
@@ -375,7 +375,7 @@ export default function MosquitoSpraySoftware() {
                 </div>
               ))}
             </div>
-            <div style={{marginTop:'14px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'14px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Mosquito Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>22 stops · 202,200 ft²</div>
             </div>

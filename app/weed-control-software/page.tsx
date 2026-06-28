@@ -304,7 +304,7 @@ export default function WeedControlSoftware() {
               {name:'Nutsedge / Sedge Control 2', sub:'8 properties waiting', ft:'71,400 ft²', active:false},
               {name:'Pre-Emergent Round 2 — Overdue', sub:'5 properties — past window', ft:'44,600 ft²', overdue:true},
             ].map(({name, sub, ft, active, overdue}) => (
-              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'} : {})}}>
+              <div key={name} className="svc-row" style={{marginBottom:'6px', ...(active ? {borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'} : {})}}>
                 <div>
                   <div className="svc-name">{name}</div>
                   <div className="svc-sub">{sub}</div>
@@ -312,7 +312,7 @@ export default function WeedControlSoftware() {
                 <div className="svc-ft" style={overdue ? {color:'#f87171'} : active ? {} : {color:'rgba(255,255,255,.4)'}}>{ft}</div>
               </div>
             ))}
-            <div style={{marginTop:'12px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>74 stops across 5 weed control programs</div>
             </div>
@@ -348,7 +348,7 @@ export default function WeedControlSoftware() {
               {lbl:'Re-Entry Interval', val:'4 hours — SMS queued to customer'},
               {lbl:'Conditions', val:'Wind: 5 mph · Temp: 61°F · Partly Cloudy'},
             ].map(({lbl, val, highlight}) => (
-              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'} : {})}}>
+              <div key={lbl} className="log-row" style={{marginBottom:'6px', ...(highlight ? {borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'} : {})}}>
                 <div className="log-label">{lbl}</div>
                 <div className="log-value">{val}</div>
               </div>

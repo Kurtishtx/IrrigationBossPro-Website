@@ -273,15 +273,15 @@ export default function MosquitoControlSoftware() {
               {name:'Thompson — 501 Maple Dr', detail:'Mosquito Control · Monthly · 8,800 ft²', badge:'Jun 28', active:false},
               {name:'Davis — 77 Birchwood Ct', detail:'Perimeter Pest · Monthly · 620 ln ft', badge:'Jul 1', active:false},
             ].map(({name, detail, badge, active}) => (
-              <div key={name} style={{background: active ? 'rgba(13,148,136,.07)' : 'rgba(255,255,255,.06)', border: `1px solid ${active ? 'rgba(13,148,136,.35)' : 'rgba(255,255,255,.09)'}`, borderRadius:'8px', padding:'11px 14px', marginBottom:'7px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+              <div key={name} style={{background: active ? 'rgba(132,204,22,.07)' : 'rgba(255,255,255,.06)', border: `1px solid ${active ? 'rgba(132,204,22,.35)' : 'rgba(255,255,255,.09)'}`, borderRadius:'8px', padding:'11px 14px', marginBottom:'7px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                 <div>
                   <div style={{color:'rgba(255,255,255,.8)', fontSize:'13px', fontWeight:600}}>{name}</div>
                   <div style={{color:'rgba(255,255,255,.38)', fontSize:'11px', marginTop:'2px'}}>{detail}</div>
                 </div>
-                <div style={{fontSize:'10px', fontWeight:700, padding:'3px 9px', borderRadius:'10px', background: active ? 'rgba(13,148,136,.2)' : 'rgba(255,255,255,.06)', border: `1px solid ${active ? 'rgba(13,148,136,.4)' : 'rgba(255,255,255,.12)'}`, color: active ? 'var(--orange)' : 'rgba(255,255,255,.4)'}}>{badge}</div>
+                <div style={{fontSize:'10px', fontWeight:700, padding:'3px 9px', borderRadius:'10px', background: active ? 'rgba(132,204,22,.2)' : 'rgba(255,255,255,.06)', border: `1px solid ${active ? 'rgba(132,204,22,.4)' : 'rgba(255,255,255,.12)'}`, color: active ? 'var(--orange)' : 'rgba(255,255,255,.4)'}}>{badge}</div>
               </div>
             ))}
-            <div style={{marginTop:'10px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Season Total</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>147 active programs · 83 due this week</div>
             </div>
@@ -315,7 +315,7 @@ export default function MosquitoControlSoftware() {
                 {n:3, name:'Williams — 308 Ridgecrest Ln', detail:'Mosquito Control · Every 21 days', sqft:'11,600 ft²'},
               ].map(({n, name, detail, sqft}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{name}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{detail}</div></div>
                   <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', fontWeight:600}}>{sqft}</div>
                 </div>
@@ -326,7 +326,7 @@ export default function MosquitoControlSoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>96,400 ft²</div>
               </div>
             </div>
-            <div style={{marginTop:'10px', background:'rgba(13,148,136,.1)', border:'1px solid rgba(13,148,136,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(132,204,22,.1)', border:'1px solid rgba(132,204,22,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>14 stops · 124,600 ft² · $1,960</div>
             </div>

@@ -301,11 +301,11 @@ export default function PestControlSchedulingSoftware() {
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'12px'}}>Waiting List — Today&#39;s Pest Control Queue by Program</div>
-            <div className="svc-row" style={{borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'}}>
+            <div className="svc-row" style={{borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'}}>
               <div><div className="svc-name">Quarterly Treatment Q3</div><div className="svc-sub">34 properties · auto-scheduled</div></div>
               <div className="svc-ft">$3,060</div>
             </div>
-            <div className="svc-row" style={{borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'}}>
+            <div className="svc-row" style={{borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'}}>
               <div><div className="svc-name">Bi-Monthly Treatment 4</div><div className="svc-sub">21 properties · auto-scheduled</div></div>
               <div className="svc-ft">$1,890</div>
             </div>
@@ -321,7 +321,7 @@ export default function PestControlSchedulingSoftware() {
               <div><div className="svc-name">Quarterly Treatment — Overdue</div><div className="svc-sub">6 properties past due date</div></div>
               <div className="svc-ft" style={{color:'#f87171'}}>$540</div>
             </div>
-            <div style={{marginTop:'12px', background:'rgba(13,148,136,.08)', border:'1px solid rgba(13,148,136,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'12px', background:'rgba(132,204,22,.08)', border:'1px solid rgba(132,204,22,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
               <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>91 stops · $8,190 route revenue</div>
             </div>
@@ -355,7 +355,7 @@ export default function PestControlSchedulingSoftware() {
                 {n:3, addr:'204 Thornwood Blvd',   svc:'Bi-Monthly Treatment 4 · General Pest · Due today', price:'$79'},
               ].map(({n, addr, svc, price}) => (
                 <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(13,148,136,.2)', border:'1px solid rgba(13,148,136,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
+                  <div style={{background:'rgba(132,204,22,.2)', border:'1px solid rgba(132,204,22,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
                   <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{svc}</div></div>
                   <div style={{color:'var(--orange)', fontSize:'11px', fontWeight:700}}>{price}</div>
                 </div>
@@ -366,7 +366,7 @@ export default function PestControlSchedulingSoftware() {
                 <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>$1,490</div>
               </div>
             </div>
-            <div style={{marginTop:'10px', background:'rgba(13,148,136,.1)', border:'1px solid rgba(13,148,136,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+            <div style={{marginTop:'10px', background:'rgba(132,204,22,.1)', border:'1px solid rgba(132,204,22,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>20 stops · $1,747 route revenue</div>
             </div>
@@ -393,7 +393,7 @@ export default function PestControlSchedulingSoftware() {
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'12px'}}>Pest Control Application Log — Filed In-Field on Tech&#39;s Phone</div>
-            <div className="log-row" style={{borderColor:'rgba(13,148,136,.35)', background:'rgba(13,148,136,.07)'}}><div className="log-label">Property</div><div className="log-value">512 Maplewood Ct — Quarterly Q3</div></div>
+            <div className="log-row" style={{borderColor:'rgba(132,204,22,.35)', background:'rgba(132,204,22,.07)'}}><div className="log-label">Property</div><div className="log-value">512 Maplewood Ct — Quarterly Q3</div></div>
             <div className="log-row"><div className="log-label">Service</div><div className="log-value">General Pest Control — Exterior + Perimeter</div></div>
             <div className="log-row"><div className="log-label">Product Applied</div><div className="log-value">Bifen IT Bifenthrin 7.9%</div></div>
             <div className="log-row"><div className="log-label">EPA Reg Number</div><div className="log-value">53883-284</div></div>

@@ -191,7 +191,7 @@ export default function Pricing() {
 
       {/* PRICE CARD */}
       <section>
-        <div style={{background:'#fff',border:'3px solid var(--orange)',borderRadius:'20px',padding:'52px 48px',maxWidth:'620px',margin:'0 auto',position:'relative',boxShadow:'0 0 0 6px rgba(13,148,136,.1), 0 24px 80px rgba(15,23,32,.12)'}}>
+        <div style={{background:'#fff',border:'3px solid var(--orange)',borderRadius:'20px',padding:'52px 48px',maxWidth:'620px',margin:'0 auto',position:'relative',boxShadow:'0 0 0 6px rgba(132,204,22,.1), 0 24px 80px rgba(15,23,32,.12)'}}>
           <div style={{position:'absolute',top:'-16px',left:'50%',transform:'translateX(-50%)',background:'var(--orange)',color:'#fff',fontSize:'12px',fontWeight:700,letterSpacing:'1px',textTransform:'uppercase',padding:'5px 20px',borderRadius:'20px',whiteSpace:'nowrap'}}>One Plan — No Surprises</div>
           <div style={{fontSize:'13px',fontWeight:700,color:'var(--muted)',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'10px'}}>IrrigationBossPro</div>
           <div style={{fontSize:'72px',fontWeight:800,color:'var(--text)',lineHeight:1}}><sup style={{fontSize:'30px',verticalAlign:'super'}}>$</sup>129</div>
@@ -292,7 +292,7 @@ export default function Pricing() {
       <div id="sbp-backdrop" onClick={closeAllModals} style={{display:'none',position:'fixed',top:0,left:0,width:'100%',height:'100%',background:'rgba(0,0,0,.55)',zIndex:99997}}></div>
 
       {/* FORM 1 */}
-      <div id="sbp-form-1" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #0d9488',boxShadow:'0 0 0 4px rgba(13,148,136,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
+      <div id="sbp-form-1" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #84cc16',boxShadow:'0 0 0 4px rgba(132,204,22,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
         <div style={{background:'linear-gradient(135deg,#0f1720,#263445)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
           <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
@@ -306,7 +306,7 @@ export default function Pricing() {
           </div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp1-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
-          <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#0d9488',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
+          <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#84cc16',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
         <div id="sbp1-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp1-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
@@ -315,10 +315,10 @@ export default function Pricing() {
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp1-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp1-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'18px',display:'flex',alignItems:'flex-start',gap:'10px'}}>
-            <input type="checkbox" id="sbp1-agree" style={{width:'16px',height:'16px',accentColor:'#0d9488',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
-            <label htmlFor="sbp1-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://irrigationbosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#0d9488'}}>Terms of Service</a> and <a href="https://irrigationbosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#0d9488'}}>Privacy Policy</a></label>
+            <input type="checkbox" id="sbp1-agree" style={{width:'16px',height:'16px',accentColor:'#84cc16',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
+            <label htmlFor="sbp1-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://irrigationbosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#84cc16'}}>Terms of Service</a> and <a href="https://irrigationbosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#84cc16'}}>Privacy Policy</a></label>
           </div>
-          <button id="sbp1-create-btn" onClick={() => sbpCreateAccount(1)} style={{width:'100%',background:'#0d9488',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
+          <button id="sbp1-create-btn" onClick={() => sbpCreateAccount(1)} style={{width:'100%',background:'#84cc16',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
           <button onClick={() => sbpBackToStep1(1)} style={{width:'100%',background:'none',border:'none',color:'#888',fontSize:'13px',cursor:'pointer',marginTop:'10px',padding:'6px',fontFamily:'inherit',textDecoration:'underline'}}>← Back</button>
         </div>
         <div id="sbp1-success" style={{padding:'48px 28px',textAlign:'center',display:'none'}}>
@@ -330,7 +330,7 @@ export default function Pricing() {
       </div>
 
       {/* FORM 2 */}
-      <div id="sbp-form-2" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #0d9488',boxShadow:'0 0 0 4px rgba(13,148,136,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
+      <div id="sbp-form-2" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #84cc16',boxShadow:'0 0 0 4px rgba(132,204,22,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
         <div style={{background:'linear-gradient(135deg,#0f1720,#263445)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
           <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required. Full access. Cancel anytime.</div>
@@ -344,7 +344,7 @@ export default function Pricing() {
           </div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp2-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
-          <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#0d9488',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
+          <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#84cc16',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
         <div id="sbp2-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp2-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
@@ -353,10 +353,10 @@ export default function Pricing() {
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp2-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp2-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'18px',display:'flex',alignItems:'flex-start',gap:'10px'}}>
-            <input type="checkbox" id="sbp2-agree" style={{width:'16px',height:'16px',accentColor:'#0d9488',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
-            <label htmlFor="sbp2-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://irrigationbosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#0d9488'}}>Terms of Service</a> and <a href="https://irrigationbosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#0d9488'}}>Privacy Policy</a></label>
+            <input type="checkbox" id="sbp2-agree" style={{width:'16px',height:'16px',accentColor:'#84cc16',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
+            <label htmlFor="sbp2-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://irrigationbosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#84cc16'}}>Terms of Service</a> and <a href="https://irrigationbosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#84cc16'}}>Privacy Policy</a></label>
           </div>
-          <button id="sbp2-create-btn" onClick={() => sbpCreateAccount(2)} style={{width:'100%',background:'#0d9488',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
+          <button id="sbp2-create-btn" onClick={() => sbpCreateAccount(2)} style={{width:'100%',background:'#84cc16',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Create My Account</button>
           <button onClick={() => sbpBackToStep1(2)} style={{width:'100%',background:'none',border:'none',color:'#888',fontSize:'13px',cursor:'pointer',marginTop:'10px',padding:'6px',fontFamily:'inherit',textDecoration:'underline'}}>← Back</button>
         </div>
         <div id="sbp2-success" style={{padding:'48px 28px',textAlign:'center',display:'none'}}>
