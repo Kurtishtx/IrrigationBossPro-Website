@@ -131,8 +131,8 @@ export default function VsHousecallPro() {
 
       <div className="hero">
         <div className="hero-badge">Housecall Pro Alternative</div>
-        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>IrrigationBossPro Is Built for Spray.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
-        <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. IrrigationBossPro is built specifically for lawn care and pest control — with the sq ft waiting list, chemical compliance logs, lasso route selector, and recurring treatment tracking that HCP doesn&apos;t have at any price.</p>
+        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>IrrigationBossPro Is Built for Irrigation.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
+        <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. IrrigationBossPro is built specifically for irrigation and sprinkler businesses — with the parts catalog for heads, valves and controllers, recurring seasonal service for winterizations and start-ups, crew dispatch and routing, and backflow tracking that HCP doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -168,7 +168,7 @@ export default function VsHousecallPro() {
                     <div className="hcp-tier-users">Up to 5 users</div>
                   </div>
                   <div className="hcp-tier-price">$149/mo</div>
-                  <div className="hcp-tier-note">Most spray teams need this tier. Same price as SBP — far fewer spray features.</div>
+                  <div className="hcp-tier-note">Most irrigation teams need this tier. More than IrrigationBossPro — far fewer irrigation features.</div>
                 </div>
                 <div className="hcp-tier">
                   <div className="hcp-tier-header">
@@ -176,25 +176,25 @@ export default function VsHousecallPro() {
                     <div className="hcp-tier-users">Up to 8 users</div>
                   </div>
                   <div className="hcp-tier-price">$299/mo</div>
-                  <div className="hcp-tier-note">Still no sq ft waiting list, lasso, or chemical compliance logs.</div>
+                  <div className="hcp-tier-note">Still no parts catalog for heads &amp; valves, crew dispatch, or recurring seasonal service.</div>
                 </div>
               </div>
               <div className="sbp-contrast">
                 <div className="sbp-contrast-label">IrrigationBossPro — $129/month</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users</span><span className="sbp-contrast-row-val">Unlimited — no caps</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Sq Ft Waiting List</span><span className="sbp-contrast-row-val">✓ Included</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Chemical Compliance Logs</span><span className="sbp-contrast-row-val">✓ Included</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Parts &amp; Materials Catalog</span><span className="sbp-contrast-row-val">✓ Included</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Recurring Seasonal Service</span><span className="sbp-contrast-row-val">✓ Included</span></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Math</span>
-              <h2>At the Same Price as HCP Essentials, IrrigationBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
-              <p>HCP Essentials is $149/month and covers up to 5 users. IrrigationBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a sq ft waiting list, a lasso circle route selector, or dedicated chemical compliance logs. These aren&apos;t premium add-ons in IrrigationBossPro — they&apos;re in the base price.</p>
+              <h2>At a Lower Price Than HCP Essentials, IrrigationBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
+              <p>HCP Essentials is $149/month and covers up to 5 users. IrrigationBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a parts catalog built for heads, valves and controllers, crew dispatch and routing, or recurring seasonal service for winterizations and start-ups. These aren&apos;t premium add-ons in IrrigationBossPro — they&apos;re in the base price.</p>
               <ul className="check-list">
-                <li>Sq ft waiting list by service type — doesn&apos;t exist in HCP</li>
-                <li>Lasso circle map selector — doesn&apos;t exist in HCP</li>
-                <li>Chemical compliance logs — doesn&apos;t exist in HCP</li>
-                <li>Recurring treatment waiting list — doesn&apos;t exist in HCP</li>
+                <li>Parts &amp; materials catalog for heads, valves &amp; controllers — doesn&apos;t exist in HCP</li>
+                <li>Crew dispatch &amp; route map — built for irrigation, not in HCP</li>
+                <li>Recurring seasonal service for winterizations &amp; start-ups — doesn&apos;t exist in HCP</li>
+                <li>Backflow testing &amp; certification tracking — doesn&apos;t exist in HCP</li>
                 <li>Unlimited users at $129 — HCP needs MAX ($299) for 8 users</li>
               </ul>
             </div>
@@ -203,14 +203,14 @@ export default function VsHousecallPro() {
       </section>
 
       <div className="premium-band">
-        <h2>Housecall Pro Was Designed for Cleaning Companies and Plumbers.<br /><span>Not for Spray Routes.</span></h2>
-        <p>Housecall Pro is a capable general home service platform. But when your business runs on recurring spray routes with square footage tracking, chemical application logs, and dense geographic scheduling, "general home service" isn&apos;t what you need. IrrigationBossPro was built around the specific operational model of lawn care and pest control — and it shows in every feature.</p>
+        <h2>Housecall Pro Was Designed for Cleaning Companies and Plumbers.<br /><span>Not for Sprinkler Routes.</span></h2>
+        <p>Housecall Pro is a capable general home service platform. But when your business runs on system installs, sprinkler and valve repairs, backflow testing, and seasonal winterizations and start-ups, "general home service" isn&apos;t what you need. IrrigationBossPro was built around the specific operational model of irrigation and sprinkler businesses — and it shows in every feature.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before scheduling, IrrigationBossPro shows you exactly how much sq ft is waiting per service type. Know your Lawn Care 4, Mosquito, and Insect Control backlog. Build routes around what&apos;s due. HCP doesn&apos;t have this model at any tier.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on your map, instantly see every property inside with a service due. Stops, sq ft, service type — all shown before you schedule. HCP has basic job scheduling. Not the same as a geographic lasso built for spray route density.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Logs</h4><p>Log product, mix rate, area, weather, and tech license automatically on every application. Pull compliance reports on demand. HCP has job notes — not a dedicated pesticide compliance system built for applicator licensing requirements.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Line-Item Estimates</h4><p>Build detailed estimates for new system installs and repairs — zones, heads, valves, controllers, trenching, labor. Customers approve online and the job converts straight to scheduling. HCP has estimates, but not built around the way irrigation jobs are quoted.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Parts &amp; Materials Catalog</h4><p>Track heads, valves, controllers, pipe, and backflow devices with your pricing built in. Drop parts onto any estimate or invoice in seconds. HCP doesn&apos;t carry an irrigation parts catalog out of the box.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Crew Dispatch &amp; Routing</h4><p>Assign jobs to crews, build efficient routes across the day, and dispatch from the Job Board. Stops, addresses, and job type all shown before you send the truck. HCP has job scheduling — IrrigationBossPro routes irrigation crews the way the work actually flows.</p></div>
           <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. IrrigationBossPro covers your entire team at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Model</h4><p>IrrigationBossPro is built around recurring service programs — waiting lists, treatment cycles, package renewals, due-date flags. HCP handles recurring jobs for general trades. The spray-specific workflow is different, and HCP wasn&apos;t built for it.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Seasonal Service</h4><p>IrrigationBossPro is built around recurring seasonal programs — fall winterizations and blowouts, spring start-ups, backflow re-tests, due-date flags. HCP handles recurring jobs for general trades. The seasonal irrigation workflow is different, and HCP wasn&apos;t built for it.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
         </div>
       </div>
@@ -219,7 +219,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">IrrigationBossPro vs Housecall Pro</h2>
-          <p className="section-sub">The features that matter for spray businesses — not general home service.</p>
+          <p className="section-sub">The features that matter for irrigation businesses — not general home service.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -231,17 +231,17 @@ export default function VsHousecallPro() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Built Specifically for Lawn Care &amp; Pest Control</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs &amp; Reports</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Built Specifically for Irrigation &amp; Sprinkler</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Parts Catalog: Heads, Valves &amp; Controllers</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Crew Dispatch &amp; Route Map</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Backflow Testing &amp; Certification Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Seasonal Service (Winterization/Start-Up)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">Chemical Product Catalog &amp; Mix Recipes</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Job Board for Installs &amp; Repairs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Essentials+</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Techs &amp; Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
               <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
@@ -254,39 +254,39 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Tool</span>
           <h2 className="section-title">When You Need a Tool Built for Your Business — Not Every Business</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Housecall Pro does many things well for general home service companies. IrrigationBossPro does fewer things — but all of them are the exact things a spray business needs, built deeper and better than any general platform.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Housecall Pro does many things well for general home service companies. IrrigationBossPro does fewer things — but all of them are the exact things an irrigation business needs, built deeper and better than any general platform.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Unit That Matters</h3><p>IrrigationBossPro tracks everything in square feet — waiting lists, route totals, property breakdowns, billing. Lawn care and pest control pricing is sq ft based. Your software should be too. HCP tracks job duration and billing, not sq ft.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>The Spray Route Model Is Different</h3><p>Spray businesses run recurring treatment schedules across hundreds of properties. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. IrrigationBossPro was built around the spray model from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Chemical Compliance Isn&apos;t Optional</h3><p>Pesticide applicators are subject to state compliance requirements. Chemical application logs, product records, license tracking — these need to be built into the software. HCP has job notes. IrrigationBossPro has compliance logs.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>IrrigationBossPro is $129/month with unlimited users, unlimited routes, chemical logs, lasso, sq ft waiting list, and SMS. HCP Essentials is $149 with a 5-user cap and none of those spray-specific features. Less money. More spray.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Parts Are the Detail That Matters</h3><p>IrrigationBossPro tracks heads, valves, controllers, pipe, and backflow devices with your pricing built in — on every estimate and invoice. Irrigation jobs live and die on parts and materials. Your software should know them. HCP tracks job duration and billing, not an irrigation parts catalog.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>The Seasonal Service Model Is Different</h3><p>Irrigation businesses run recurring seasonal programs across hundreds of properties — winterizations, blowouts, spring start-ups, backflow re-tests. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. IrrigationBossPro was built around the seasonal model from day one.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Backflow &amp; Certification Tracking</h3><p>Irrigation systems need backflow testing and certification on a schedule. Test dates, device records, due-date flags — these need to be built into the software. HCP has job notes. IrrigationBossPro tracks backflow tests and seasonal service automatically.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>IrrigationBossPro is $129/month with unlimited users, unlimited routes, a full parts catalog, crew dispatch, recurring seasonal service, and SMS. HCP Essentials is $149 with a 5-user cap and none of those irrigation-specific features. Less money. More irrigation.</p></div>
         </div>
       </section>
 
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">Less Than HCP Essentials — More Spray Features</h2>
-          <p className="section-sub">$129/month. Unlimited users. Every spray-specific feature included.</p>
+          <h2 className="section-title">Less Than HCP Essentials — More Irrigation Features</h2>
+          <p className="section-sub">$129/month. Unlimited users. Every irrigation-specific feature included.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
-            <div className="featured-badge">Less Than HCP Essentials — More Spray Features</div>
-            <div className="price-tier">One Plan. Built for Spray. Start Today.</div>
+            <div className="featured-badge">Less Than HCP Essentials — More Irrigation Features</div>
+            <div className="price-tier">One Plan. Built for Irrigation. Start Today.</div>
             <div className="price-amount"><sup>$</sup>129</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Parts Catalog: Heads, Valves &amp; Controllers</li>
+              <li>Line-Item Estimates for Installs &amp; Repairs</li>
+              <li>Recurring Seasonal Service &amp; Backflow Tracking</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Techs &amp; Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -297,7 +297,7 @@ export default function VsHousecallPro() {
       </section>
 
       <div className="cta-band">
-        <h2>Done Paying for General Home Service Software<span>That Doesn&apos;t Know What a Spray Business Needs?</span></h2>
+        <h2>Done Paying for General Home Service Software<span>That Doesn&apos;t Know What an Irrigation Business Needs?</span></h2>
         <p>Try IrrigationBossPro free for 14 days. No credit card required. Set up in an afternoon.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -318,7 +318,7 @@ export default function VsHousecallPro() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Irrigation" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#84cc16', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>

@@ -100,6 +100,13 @@ export default function Home() {
         .feature-icon { font-size: 32px; margin-bottom: 14px; display: block; }
         .feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
         .feature-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
+        .hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; max-width: 1100px; margin: 0 auto; }
+        .hub-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 26px 24px; text-decoration: none; display: block; transition: box-shadow .2s, border-color .2s, transform .2s; }
+        .hub-card:hover { box-shadow: 0 8px 32px rgba(15,23,32,.1); border-color: var(--orange); transform: translateY(-3px); }
+        .hub-card .hub-icon { font-size: 28px; display: block; margin-bottom: 12px; }
+        .hub-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+        .hub-card p { color: var(--muted); font-size: 13px; line-height: 1.55; }
+        .hub-card .hub-arrow { color: var(--orange); font-size: 13px; font-weight: 700; margin-top: 10px; display: inline-block; }
         .dark-section { background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-deep) 100%); color: #fff; }
         .dark-section .section-title { color: #fff; }
         .dark-section .section-sub { color: rgba(255,255,255,.65); }
@@ -213,15 +220,15 @@ export default function Home() {
       {/* ═══ MOCKUP IMAGE ═══ */}
       <div style={{background:'linear-gradient(135deg,#0f1720 0%,#1f2937 60%,#263445 100%)', padding:'80px 40px 0', textAlign:'center'}}>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="IrrigationBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="IrrigationBossPro irrigation business software showing the job board, route map, line-item estimates, and the mobile app for sprinkler install and repair crews" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
       </div>
 
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'60px'}}>
-        <div className="hero-badge">Built for Lawn Care &amp; Pest Control</div>
-        <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
-        <p>IrrigationBossPro is the all-in-one field management platform built specifically for lawn care and pest control businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
+        <div className="hero-badge">Built for Irrigation &amp; Sprinkler Pros</div>
+        <h1>Run Your Whole Irrigation Business<br /><span>From One Dashboard</span></h1>
+        <p>IrrigationBossPro is the all-in-one software built for sprinkler and irrigation contractors. Build line-item estimates, track parts and materials, schedule installs and repairs, dispatch crews, invoice, and run your recurring winterization and start-up seasons &mdash; all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -236,38 +243,38 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still doesn&apos;t do what your business actually needs. IrrigationBossPro does everything the enterprise platforms do — route mapping, chemical compliance, automated SMS, Stripe payments, role-based access, mobile app — built specifically for spray businesses, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can — and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean irrigation bid or keep your part counts straight. IrrigationBossPro does everything the enterprise platforms do &mdash; line-item estimates, materials &amp; parts tracking, the Job Board, crew dispatch and routing, Stripe payments, role-based access, and a full mobile app &mdash; built specifically for sprinkler and irrigation contractors, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Enterprise Route Intelligence</h4><p>Live route maps, drag-and-drop stop ordering, and circle-to-schedule map selection — tools that cost thousands per month at other platforms are standard in IrrigationBossPro at every plan level.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Full Chemical Compliance Engine</h4><p>Pesticide application logs, technician license tracking, weather conditions per application, print-ready compliance reports — built to hold up to any state inspector, at no extra charge.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Communication Suite</h4><p>10+ automated SMS alert types, a two-way texting inbox, 3-step estimate follow-up sequences, 3-step payment follow-up sequences — all running without you every single day.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payment Processing</h4><p>Card-on-file storage, post-service billing, partial payments, automated payment reminders, and full payment history. The same billing infrastructure the big guys use — included in your $129.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, Technician, and Mobile roles — the same granular permission system as platforms charging 5× more per month. Your office staff sees what they need. Your techs see only their stops.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Field Techs</h4><p>Your technicians manage their stops, log chemicals, mark complete, add notes, and skip stops from their phone — all in a mobile-optimized view purpose-built for someone in a truck.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimates &amp; Bids</h4><p>Build detailed install and repair bids with zones, heads, valves, controllers, pipe, and backflow devices as line items. Save your catalog once and turn a walkthrough into a priced proposal in minutes &mdash; included at every plan level.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Materials &amp; Parts Tracking</h4><p>Keep a full parts catalog &mdash; rotor and spray heads, valves, controllers, wire, fittings, and backflow assemblies. Pull materials straight onto estimates and work orders so every job is priced and stocked right before the truck rolls.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📅</div><h4>Job Board &amp; Scheduling</h4><p>Every install, repair, backflow test, winterization, and start-up lives on one Job Board. Drag jobs onto the calendar, assign crews, and see your whole week at a glance &mdash; no extra charge.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Invoicing &amp; Card-on-File</h4><p>Convert an accepted bid to an invoice, store a card on file, collect deposits, and take post-service payments through Stripe. The same billing infrastructure the big guys use &mdash; included in your $129.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, and Field Tech roles &mdash; the same granular permission system as platforms charging 5× more. Your office staff sees bids and billing. Your techs see only their stops for the day.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Crews</h4><p>Your techs see their route, open work orders, log the parts used, mark complete, and add photos and notes from their phone &mdash; a mobile view purpose-built for someone working out of a service truck.</p></div>
         </div>
       </div>
 
-      {/* ═══ LASSO FEATURE ═══ */}
-      <section id="lasso">
+      {/* ═══ SEASONAL FEATURE ═══ */}
+      <section id="seasonal">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Only in IrrigationBossPro</span>
-            <h2>Circle Any Area on the Map.<br />Instantly Know Everything Inside It.</h2>
-            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and IrrigationBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
-            <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, what to load, and how much chemical to mix. No calls. No guesses. No wasted time.</p>
+            <span className="section-label">Built for Irrigation Seasons</span>
+            <h2>Winterizations and Start-Ups,<br />Scheduled Months Ahead.</h2>
+            <p>Irrigation is seasonal, recurring work &mdash; and IrrigationBossPro is built for it. Tag every property for fall blowouts and spring start-ups, then let the software roll the whole list onto your Job Board when the season turns. No spreadsheet, no scrambling, no customer falling through the cracks.</p>
+            <p style={{marginTop:'12px'}}>When blowout season hits, you already know exactly how many systems are on the list, how many zones each one has, and how many days of work that is for your crews. Batch-schedule the entire route, send the customer texts, and start dispatching &mdash; all from one screen.</p>
             <ul className="check-list">
-              <li>Total sq ft and linear ft for all properties inside the circle</li>
-              <li>Total stop count and total number of services across all types</li>
-              <li>Breakdown by service type — Lawn Care 4 · 8, Mosquito · 6, Insect · 5, etc.</li>
-              <li>Per-service sq ft totals so you know exactly how much chemical to mix before loading</li>
-              <li>Schedule all circled stops at once — they drop straight to the dispatch board with a full route map</li>
-              <li>All service types are fully customizable to match exactly how your operation runs</li>
-              <li>The system calculates how much to do per day and how many gallons to mix per service</li>
-              <li>Know before you load the truck. Know before you mix a gallon. Stop wasting both.</li>
+              <li>Tag properties for recurring fall winterization and spring start-up</li>
+              <li>Roll the full seasonal list onto the Job Board in one click</li>
+              <li>Total zone counts so you know how many systems a crew can do per day</li>
+              <li>Automatic customer texts when their seasonal service is booked</li>
+              <li>Track which systems still need a blowout before the first freeze</li>
+              <li>Carry notes forward year to year &mdash; valve locations, controller type, problem zones</li>
+              <li>Build recurring seasonal packages and bill them automatically</li>
+              <li>Know your whole season before the temperature ever drops.</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Waiting List Map — Circle Selection</div>
+            <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Fall Winterization List &mdash; Ready to Schedule</div>
             <div className="lasso-map">
               <div className="lasso-ring"></div>
               <div className="lasso-pins">
@@ -278,15 +285,34 @@ export default function Home() {
               </div>
             </div>
             <div className="stat-grid">
-              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell"><div className="stat-val">38</div><div className="stat-lbl">Systems on List</div></div>
+              <div className="stat-cell"><div className="stat-val">214</div><div className="stat-lbl">Total Zones</div></div>
+              <div className="stat-cell"><div className="stat-val">12</div><div className="stat-lbl">Backflow Tests Due</div></div>
+              <div className="stat-cell"><div className="stat-val">3 days</div><div className="stat-lbl">Est. Crew Time</div></div>
+              <div className="stat-cell full"><div className="stat-val">Winterization · 38 &nbsp;|&nbsp; Backflow Test · 12 &nbsp;|&nbsp; Repair Add-On · 7</div><div className="stat-lbl">Breakdown by Service Type</div></div>
             </div>
-            <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule These 14 Stops →</button>
-            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to dispatch board with full route map</div>
+            <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule All 38 Blowouts →</button>
+            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to the Job Board with a full route map</div>
           </div>
+        </div>
+      </section>
+
+      {/* ═══ HUB LINKS ═══ */}
+      <section id="solutions" style={{background:'var(--light-bg)'}}>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
+          <span className="section-label">Explore the Platform</span>
+          <h2 className="section-title">Software for Every Side of Your Irrigation Business</h2>
+          <p className="section-sub">From the first bid to the last winterization, IrrigationBossPro covers it. Dig into the part of the platform that matters most to your shop.</p>
+        </div>
+        <div className="hub-grid">
+          <a href="/irrigation-software" className="hub-card"><span className="hub-icon">💧</span><h3>Irrigation Software</h3><p>The complete platform for sprinkler and irrigation contractors &mdash; estimates, scheduling, dispatch, parts, and billing in one place.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/sprinkler-repair-software" className="hub-card"><span className="hub-icon">🔧</span><h3>Sprinkler Repair Software</h3><p>Track service calls, log the heads and valves replaced, and turn every repair into a clean invoice on the spot.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-scheduling-software" className="hub-card"><span className="hub-icon">📅</span><h3>Irrigation Scheduling Software</h3><p>The Job Board and calendar for installs, repairs, start-ups, and blowouts &mdash; assign crews and fill every day.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-estimating-software" className="hub-card"><span className="hub-icon">📝</span><h3>Irrigation Estimating Software</h3><p>Build line-item bids with zones, heads, valves, controllers, and pipe &mdash; priced and ready to send in minutes.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/backflow-testing-software" className="hub-card"><span className="hub-icon">🛡️</span><h3>Backflow Testing Software</h3><p>Track test due dates, log device readings, and keep certification records ready for any water authority report.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-dispatch-software" className="hub-card"><span className="hub-icon">🚛</span><h3>Irrigation Crew &amp; Dispatch Software</h3><p>Route your trucks, dispatch crews to the right stops, and keep the field and office connected all day long.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-invoicing-software" className="hub-card"><span className="hub-icon">💳</span><h3>Irrigation Invoicing &amp; Billing</h3><p>Convert bids to invoices, store cards on file, collect deposits, and take card payments through Stripe.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-business-software" className="hub-card"><span className="hub-icon">📊</span><h3>Irrigation Business Software</h3><p>Run the whole operation &mdash; clients, properties, crews, seasons, and reports &mdash; from a single dashboard.</p><span className="hub-arrow">Learn more →</span></a>
         </div>
       </section>
 
@@ -295,13 +321,13 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Built Different</span>
           <h2 className="section-title">Powerful Doesn&apos;t Have to Mean Complicated.</h2>
-          <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. IrrigationBossPro is designed so any owner or office manager can be running real routes on day one — without training, without a consultant, without an IT department.</p>
+          <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. IrrigationBossPro is designed so any owner or office manager can be writing bids and scheduling installs on day one &mdash; without training, without a consultant, without an IT department.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, set up your chemical mixes, and configure your SMS alert templates. Most businesses are scheduling real routes the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The dispatch board shows your waiting list, your scheduled stops, your route map, your day summary, and your chemical needs all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Your Techs Learn It in Minutes</h3><p>The mobile tech view is built for people in trucks, not office managers at desks. Big buttons, clear status, one tap to mark complete, log chemicals, skip a stop, or add a note. We&apos;ve had technicians learn the system while sitting in the parking lot before their first stop.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your alert templates once — scheduled, completed, skipped, estimate follow-ups, payment follow-ups, review requests. After that, IrrigationBossPro handles customer communication automatically on every single job, every single day, without you having to think about it again.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, load your parts catalog, and set up your customer text templates. Most contractors are building bids and scheduling jobs the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The Job Board shows your unscheduled work, your booked installs and repairs, your route map, and your day summary all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Your Crews Learn It in Minutes</h3><p>The mobile field view is built for techs in service trucks, not office managers at desks. Big buttons, clear status, one tap to open a work order, log the parts used, mark complete, or add a photo. We&apos;ve had crews learn the system while sitting in the parking lot before their first stop.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Reminders Run Without You</h3><p>Set your text templates once &mdash; job scheduled, on the way, completed, bid follow-ups, and seasonal start-up and winterization reminders. After that, IrrigationBossPro keeps customers in the loop automatically on every job, without you having to think about it again.</p></div>
         </div>
       </section>
 
@@ -310,21 +336,21 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
           <span className="section-label">Everything You Need</span>
           <h2 className="section-title">Stop Juggling 5 Different Apps</h2>
-          <p className="section-sub">IrrigationBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner — all under one roof.</p>
+          <p className="section-sub">IrrigationBossPro replaces your estimating tool, your scheduling app, your billing software, and your route planner &mdash; all under one roof.</p>
         </div>
         <div className="feature-grid">
-          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>IrrigationBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the square footage or linear footage so you know precisely how much you can fit in a day before you ever make a single call. No more guessing, no more overbooking — just look at your waiting list, see the ft² or linear ft for each service, and schedule with confidence.</p></div>
-          <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build efficient routes, drag to reorder, and give your drivers a clear path every single day.</p></div>
-          <div className="feature-card"><span className="feature-icon">💰</span><h3>Estimates &amp; Invoices</h3><p>Create professional estimates in seconds, email them to clients, and convert accepted estimates directly to invoices. Track every dollar owed.</p></div>
-          <div className="feature-card"><span className="feature-icon">💳</span><h3>Stripe Payments</h3><p>Accept credit cards directly through the platform. Store cards on file, charge after service, and track payment history all in one place.</p></div>
-          <div className="feature-card"><span className="feature-icon">💬</span><h3>Two-Way SMS</h3><p>Send and receive text messages from customers right inside the app. Full conversation history organized by contact — no more switching to your phone.</p></div>
-          <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a service is scheduled, completed, or rescheduled. Set it once and let IrrigationBossPro handle the communication.</p></div>
-          <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track estimates, service history, properties, and notes all tied to each contact.</p></div>
-          <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile with coordinates, notes, service history, and the ability to map it instantly.</p></div>
-          <div className="feature-card"><span className="feature-icon">🧪</span><h3>Chemical Tracking</h3><p>Log every chemical application with mix used, area treated, gallons applied, weather, and technician. Generate compliance reports in one click.</p></div>
-          <div className="feature-card"><span className="feature-icon">📦</span><h3>Package Plans</h3><p>Create recurring service packages, assign clients, and manage renewals. IrrigationBossPro reminds you when package renewals are due.</p></div>
-          <div className="feature-card"><span className="feature-icon">🚛</span><h3>Team &amp; Truck Management</h3><p>Manage employees, assign trucks, track hours, and control who sees what with role-based access for office staff, technicians, and drivers.</p></div>
-          <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, services completed, properties served, money owed, and more — all at a glance the moment you log in.</p></div>
+          <div className="feature-card"><span className="feature-icon">📝</span><h3>Line-Item Estimates</h3><p>Build install and repair bids with every zone, head, valve, controller, run of pipe, and backflow device as its own line item. Save your catalog once and turn a site walkthrough into a priced, professional proposal in minutes.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔧</span><h3>Materials &amp; Parts</h3><p>Keep a full parts catalog &mdash; rotor and spray heads, valves, controllers, wire, fittings, and backflow assemblies. Pull parts onto estimates and work orders so every job is priced and stocked right.</p></div>
+          <div className="feature-card"><span className="feature-icon">📅</span><h3>Job Board &amp; Scheduling</h3><p>Every install, repair, backflow test, start-up, and winterization on one board. Drag jobs onto the calendar, assign crews, and see exactly how full each day is.</p></div>
+          <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build tight routes, drag to reorder, and give every crew a clear path through the day.</p></div>
+          <div className="feature-card"><span className="feature-icon">🚛</span><h3>Crew Dispatch</h3><p>Send the right crew to the right stops and keep the field and office in sync. Techs get their route and work orders on their phone in real time.</p></div>
+          <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Stripe</h3><p>Convert an accepted bid to an invoice in one click, store a card on file, collect deposits, and take post-service payments &mdash; all in one place.</p></div>
+          <div className="feature-card"><span className="feature-icon">🛡️</span><h3>Backflow Testing</h3><p>Track test due dates, log device readings and pass or fail results, and keep clean certification records ready for any water authority.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔁</span><h3>Recurring Seasonal Service</h3><p>Tag properties for fall winterization and spring start-up, then roll the whole list onto the Job Board when the season turns.</p></div>
+          <div className="feature-card"><span className="feature-icon">💬</span><h3>Customer Texts</h3><p>Send and receive texts from customers right inside the app. Full conversation history by contact &mdash; no more switching to your phone.</p></div>
+          <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track bids, service history, properties, and notes all tied to each contact.</p></div>
+          <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile &mdash; controller type, zone count, valve locations, system notes, and full job history.</p></div>
+          <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, jobs completed, properties served, money owed, and more &mdash; the moment you log in.</p></div>
         </div>
       </section>
 
@@ -333,11 +359,11 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Simple Pricing</span>
           <h2 className="section-title">We Got Tired of Getting Ripped Off.<br />So We Fixed It.</h2>
-          <p className="section-sub">Over the past 20 years we have tried just about every field service software out there — and for 10+ years we were paying $500–$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
+          <p className="section-sub">Over the past 20 years we have tried just about every field service software out there &mdash; and for 10+ years we were paying $500&ndash;$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a spray route in their life.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended &mdash; and none of those people had ever pulled a valve box or chased a wire fault in their life.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built IrrigationBossPro with one flat price that includes everything. <strong>$129 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple — they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple &mdash; they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
@@ -350,95 +376,95 @@ export default function Home() {
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Smart Maps &amp; Property Mapping</li>
-              <li>Estimates, Invoices &amp; Stripe Payments</li>
-              <li>Two-Way SMS &amp; Automated Alerts</li>
-              <li>Chemical Tracking &amp; Compliance Reports</li>
-              <li>Package Plans &amp; Renewals</li>
-              <li>Mobile App for Technicians</li>
+              <li>Line-Item Estimates &amp; Bids</li>
+              <li>Materials &amp; Parts Catalog</li>
+              <li>Job Board, Scheduling &amp; Route Map</li>
+              <li>Crew Dispatch &amp; Mobile Field App</li>
+              <li>Invoicing &amp; Stripe Card-on-File</li>
+              <li>Backflow Testing &amp; Certification Records</li>
+              <li>Recurring Winterization &amp; Start-Up Service</li>
               <li>500 Outbound SMS/month included</li>
               <li>+$15 per additional 500 SMS after that</li>
             </ul>
             <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</a>
           </div>
         </div>
-        <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
+        <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
 
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Scheduling</span>
-            <h2>From Waiting List to Dispatched in Seconds</h2>
-            <p>IrrigationBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
+            <span className="section-label">Scheduling &amp; Dispatch</span>
+            <h2>From Job Board to Dispatched in Seconds</h2>
+            <p>IrrigationBossPro gives you a Job Board of every install, repair, and seasonal job not yet scheduled, a full calendar for booked work, and a live map so you can build tight, efficient routes every morning.</p>
             <ul className="check-list">
-              <li>Waiting list with sq ft totals and service counts per type</li>
-              <li>One-click scheduling with date picker and tech assignment</li>
+              <li>Job Board with job type, zone count, and crew assignment</li>
+              <li>One-click scheduling with date picker and crew assignment</li>
               <li>Drag-and-drop route ordering</li>
-              <li>Interactive map showing all stops with stop detail panel</li>
-              <li>Filter by employee, date range, or service status</li>
-              <li>Summary bar: total stops, revenue, sq ft, jobs completed</li>
-              <li>Print dispatch sheets for drivers in the field</li>
-              <li>Mark jobs complete, skipped, or rescheduled with one click</li>
+              <li>Interactive map showing all stops with job detail panel</li>
+              <li>Filter by crew, date range, or job status</li>
+              <li>Summary bar: total stops, revenue, jobs completed</li>
+              <li>Print dispatch sheets and work orders for the field</li>
+              <li>Mark jobs complete, on hold, or rescheduled with one click</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Route — 12 Stops</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Route &mdash; 12 Stops</div>
             <div className="mock-item">
               <div className="mock-dot green"></div>
-              <div><div className="mock-label">123 Oak St — Smith, J.</div><div className="mock-sub">Lawn Care 4 · 8,200 ft²</div></div>
+              <div><div className="mock-label">123 Oak St &mdash; Smith, J.</div><div className="mock-sub">New System Install · 8 zones</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot green"></div>
-              <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Lawn Insect 3 · 12,000 ft²</div></div>
+              <div><div className="mock-label">456 Elm Ave &mdash; Torres, M.</div><div className="mock-sub">Sprinkler Repair · 3 heads, 1 valve</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
             <div className="mock-item" style={{borderColor:'rgba(132,204,22,.5)'}}>
               <div className="mock-dot orange"></div>
-              <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Mosquito 3 · 5,000 ft²</div></div>
+              <div><div className="mock-label">789 Pine Rd &mdash; Johnson, K.</div><div className="mock-sub">Backflow Test &amp; Certification</div></div>
               <div className="mock-badge">In Progress</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot blue"></div>
-              <div><div className="mock-label">321 Maple Dr — Garcia, L.</div><div className="mock-sub">Flower Beds 4 · 3,400 ft²</div></div>
+              <div><div className="mock-label">321 Maple Dr &mdash; Garcia, L.</div><div className="mock-sub">Fall Winterization · 6 zones</div></div>
               <div className="mock-badge blue-badge">Up Next</div>
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'6px', padding:'12px 14px'}}>
               <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'10px', paddingBottom:'8px', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Properties · 8 Services</span>
-                <span style={{color:'#fff', fontSize:'14px', fontWeight:700}}>$427.00</span>
+                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Properties · 4 Jobs</span>
+                <span style={{color:'#fff', fontSize:'14px', fontWeight:700}}>$2,140.00</span>
               </div>
               <div style={{display:'flex', flexDirection:'column', gap:'7px'}}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>4</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Care 4</span>
+                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>New System Install</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>23,168 ft²</span>
-                </div>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>2</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Insect 3</span>
-                  </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>13,289 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>8 zones</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Flower Beds 4</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Sprinkler Repair</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>5,043 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>3 heads</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Mosquito 3</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Backflow Test</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>3,200 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>1 device</span>
+                </div>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
+                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
+                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Fall Winterization</span>
+                  </div>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>6 zones</span>
                 </div>
               </div>
             </div>
@@ -450,36 +476,36 @@ export default function Home() {
       <section id="billing" style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Billing</span>
+            <span className="section-label">Estimates &amp; Billing</span>
             <h2>Get Paid Faster. Chase Less.</h2>
-            <p>Build an estimate in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving IrrigationBossPro.</p>
+            <p>Build a line-item bid in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice, collect a deposit, and take the balance &mdash; all without leaving IrrigationBossPro.</p>
             <ul className="check-list">
-              <li>Estimate builder with your service catalog and line items</li>
-              <li>Email estimates via Resend with custom branded templates</li>
+              <li>Estimate builder with your parts catalog and line items</li>
+              <li>Email bids via Resend with custom branded templates</li>
               <li>Client-facing estimate page with Accept / Decline buttons</li>
               <li>Automatic status tracking: Draft → Sent → Accepted → Invoiced</li>
               <li>Invoice management with unpaid, partial, paid, and overdue filters</li>
-              <li>Stripe card-on-file for quick payment collection</li>
+              <li>Stripe card-on-file for deposits and post-service payments</li>
               <li>Sales tax management by jurisdiction with tax reports</li>
-              <li>Discount codes — percentage or fixed dollar amount</li>
+              <li>Discount codes &mdash; percentage or fixed dollar amount</li>
               <li>Full payment history with method, date, and reference tracking</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Estimate #0042 — Pending Acceptance</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Estimate #0042 &mdash; Pending Acceptance</div>
             <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
               <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items</div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Care 4 (8,200 sq ft)</span><span>$95.00</span>
+                <span>Add Zone 7 &mdash; 4 rotor heads</span><span>$420.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Insect 3 (8,200 sq ft)</span><span>$75.00</span>
+                <span>Replace 1&quot; master valve</span><span>$185.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Mosquito Treatment</span><span>$55.00</span>
+                <span>Smart controller upgrade</span><span>$310.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
-                <span>Total</span><span style={{color:'var(--orange)'}}>$225.00</span>
+                <span>Total</span><span style={{color:'var(--orange)'}}>$915.00</span>
               </div>
             </div>
             <div style={{display:'flex', gap:'8px', marginTop:'4px'}}>
@@ -493,31 +519,31 @@ export default function Home() {
       {/* ═══ ALERTS ═══ */}
       <section id="alerts" className="dark-section">
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
-          <span className="section-label">Automated Alerts</span>
+          <span className="section-label">Automated Customer Texts</span>
           <h2 className="section-title">Communicate Like a Big Company.<br />Run Like a Small One.</h2>
-          <p className="section-sub">Set up automated SMS and email alerts once. IrrigationBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
+          <p className="section-sub">Set up automated text and email alerts once. IrrigationBossPro sends them automatically &mdash; keeping your customers informed without any extra work from you.</p>
         </div>
         <div className="alert-grid">
-          <div className="alert-pill"><span className="ap-icon">📅</span><div><div className="ap-label">Service Scheduled</div><div className="ap-sub">Auto-text when a job is booked</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">✅</span><div><div className="ap-label">Service Completed</div><div className="ap-sub">Notify customer when tech finishes</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">📅</span><div><div className="ap-label">Job Scheduled</div><div className="ap-sub">Auto-text when a job is booked</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">🚛</span><div><div className="ap-label">Crew On The Way</div><div className="ap-sub">Text the customer before you arrive</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">✅</span><div><div className="ap-label">Job Completed</div><div className="ap-sub">Notify customer when the crew finishes</div></div></div>
           <div className="alert-pill"><span className="ap-icon">🔄</span><div><div className="ap-label">Rescheduled Alert</div><div className="ap-sub">Instantly notify on date changes</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">⏭️</span><div><div className="ap-label">Service Skipped</div><div className="ap-sub">Let customers know before you skip</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">📄</span><div><div className="ap-label">Estimate Sent</div><div className="ap-sub">SMS when estimate hits their inbox</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">🔁</span><div><div className="ap-label">Estimate Follow-Ups</div><div className="ap-sub">3 automated follow-ups if not accepted</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">🎉</span><div><div className="ap-label">Estimate Accepted</div><div className="ap-sub">Celebrate (and get ready to roll)</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">📄</span><div><div className="ap-label">Bid Sent</div><div className="ap-sub">Text when an estimate hits their inbox</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">🔁</span><div><div className="ap-label">Bid Follow-Ups</div><div className="ap-sub">3 automated follow-ups if not accepted</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">❄️</span><div><div className="ap-label">Winterization Reminder</div><div className="ap-sub">Text the list before the first freeze</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">🌱</span><div><div className="ap-label">Spring Start-Up Reminder</div><div className="ap-sub">Auto-text when start-up season opens</div></div></div>
           <div className="alert-pill"><span className="ap-icon">⭐</span><div><div className="ap-label">Review Request</div><div className="ap-sub">Auto-ask for Google reviews after service</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">💳</span><div><div className="ap-label">Payment Declined</div><div className="ap-sub">Notify and follow up automatically</div></div></div>
           <div className="alert-pill"><span className="ap-icon">💬</span><div><div className="ap-label">Inbound Text Alert</div><div className="ap-sub">Get notified when a customer texts you</div></div></div>
         </div>
-        <p style={{textAlign:'center', color:'rgba(255,255,255,.45)', fontSize:'13px', marginTop:'32px'}}>Toggle SMS and Email independently for each alert type — you&apos;re in full control.</p>
+        <p style={{textAlign:'center', color:'rgba(255,255,255,.45)', fontSize:'13px', marginTop:'32px'}}>Toggle SMS and Email independently for each alert type &mdash; you&apos;re in full control.</p>
       </section>
 
       {/* ═══ STATS BAND ═══ */}
       <div className="stats-band">
         <div className="stats-band-inner">
           <div className="stat-item"><div className="val">10+</div><div className="lbl">Automated Alert Types</div></div>
-          <div className="stat-item"><div className="val">3</div><div className="lbl">Estimate Follow-Up Sequences</div></div>
-          <div className="stat-item"><div className="val">3</div><div className="lbl">Payment Follow-Up Sequences</div></div>
+          <div className="stat-item"><div className="val">3</div><div className="lbl">Bid Follow-Up Sequences</div></div>
+          <div className="stat-item"><div className="val">2</div><div className="lbl">Seasonal Reminder Sequences</div></div>
           <div className="stat-item"><div className="val">∞</div><div className="lbl">Custom SMS Templates</div></div>
         </div>
       </div>
@@ -527,87 +553,87 @@ export default function Home() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Your Team</span>
-            <h2>Office, Field, and Mobile — All Connected</h2>
-            <p>IrrigationBossPro isn&apos;t just for the office. Your technicians get a mobile-optimized version built for the truck. Roles control exactly what each person can see and do.</p>
+            <h2>Office, Field, and Mobile &mdash; All Connected</h2>
+            <p>IrrigationBossPro isn&apos;t just for the office. Your field techs get a mobile-optimized version built for the truck. Roles control exactly what each person can see and do.</p>
             <ul className="check-list">
-              <li>Role-based access: Owner, Manager, Office, Technician, Mobile</li>
-              <li>Mobile technicians see their jobs, mark complete, and skip</li>
-              <li>Office staff manages scheduling, billing, and messaging</li>
+              <li>Role-based access: Owner, Manager, Office, Field Tech</li>
+              <li>Mobile techs see their stops, open work orders, and log parts</li>
+              <li>Office staff manages bids, scheduling, billing, and messaging</li>
               <li>Employee hour tracking and payroll-ready reports</li>
-              <li>Truck management — assign vehicles to services</li>
+              <li>Truck management &mdash; assign vehicles and crews to jobs</li>
               <li>Admin controls for adding, deactivating, and managing users</li>
             </ul>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Team Access Levels</div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>👑</span><div><div className="mock-label">Owner</div><div className="mock-sub">Full access — all features, billing, users</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>🏢</span><div><div className="mock-label">Manager</div><div className="mock-sub">Scheduling, clients, estimates, reports</div></div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>👑</span><div><div className="mock-label">Owner</div><div className="mock-sub">Full access &mdash; all features, billing, users</div></div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>🏢</span><div><div className="mock-label">Manager</div><div className="mock-sub">Scheduling, clients, bids, reports</div></div></div>
             <div className="mock-item"><span style={{fontSize:'20px'}}>📋</span><div><div className="mock-label">Office Staff</div><div className="mock-sub">Billing, messaging, client management</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>📱</span><div><div className="mock-label">Technician (Mobile)</div><div className="mock-sub">Today&apos;s jobs only — mark complete or skip</div></div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>📱</span><div><div className="mock-label">Field Tech (Mobile)</div><div className="mock-sub">Today&apos;s stops only &mdash; work orders &amp; parts</div></div></div>
           </div>
         </div>
       </section>
 
-      {/* ═══ CHEMICAL TRACKING ═══ */}
+      {/* ═══ BACKFLOW / COMPLIANCE ═══ */}
       <section style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Compliance</span>
-            <h2>Chemical Tracking Built Right In</h2>
-            <p>Every application logged. Every mix recorded. Every technician tracked. IrrigationBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
+            <span className="section-label">Backflow &amp; Records</span>
+            <h2>Backflow Testing &amp; Certification, Tracked</h2>
+            <p>Every backflow test logged. Every device tracked. Every certification on file. IrrigationBossPro gives you a complete testing history you can filter, print, and hand to any water authority without digging through a filing cabinet.</p>
             <ul className="check-list">
-              <li>Log product mixes, area treated, and gallons applied per job</li>
-              <li>Track weather conditions at time of application</li>
-              <li>Filter reports by client, mix, technician, or date range</li>
-              <li>Summary cards: total applications, properties, sq ft, gallons</li>
-              <li>Full product catalog with mix recipes</li>
-              <li>Print-ready chemical reports for compliance</li>
-              <li>Area treated types (lawn, shrubs, beds, etc.) tracked separately</li>
+              <li>Track every backflow device by property and serial number</li>
+              <li>Log test readings and pass or fail results per visit</li>
+              <li>Annual test due dates with automatic reminders</li>
+              <li>Filter records by client, device, tech, or date range</li>
+              <li>Summary cards: tests done, devices, properties, passes</li>
+              <li>Print-ready certification reports for the water authority</li>
+              <li>Full device history carried forward year to year</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Chemical Report — This Month</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Backflow Report &mdash; This Season</div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px', marginBottom:'12px'}}>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>142</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Applications</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>142</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Tests Done</div></div>
               <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>87</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Properties</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>751K</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Sq Ft Treated</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>284</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gallons Applied</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>136</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Passed</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>6</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Repairs Needed</div></div>
             </div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Lawn Care Mix A</div><div className="mock-sub">Applied by J. Smith · 6/14/2026</div></div><div className="mock-badge green-badge">12 gal</div></div>
-            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Insect Control Mix</div><div className="mock-sub">Applied by M. Torres · 6/14/2026</div></div><div className="mock-badge">8.5 gal</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">123 Oak St &mdash; RPZ Device</div><div className="mock-sub">Tested by J. Smith · 6/14/2026</div></div><div className="mock-badge green-badge">Passed</div></div>
+            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">456 Elm Ave &mdash; PVB Device</div><div className="mock-sub">Tested by M. Torres · 6/14/2026</div></div><div className="mock-badge">Repair</div></div>
           </div>
         </div>
       </section>
 
-      {/* ═══ TESTIMONIALS ═══ */}
+      {/* ═══ ABOUT / TESTIMONIALS ═══ */}
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Who We Are</span>
           <h2 className="section-title">Built by an Operator. Owned by an Operator.</h2>
           <p className="section-sub">We&apos;re not a big corporation. We&apos;re not a venture-backed tech startup. We&apos;re a privately owned company built by someone who has been in the field since 2006.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a spray business. We&apos;ve been in this industry since <strong>2006</strong> — which means when we built IrrigationBossPro, we didn&apos;t have to guess what operators need. We already knew. We lived it every day.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never driven a spray truck, never managed a waiting list of hundreds or thousands of properties, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>IrrigationBossPro is <strong>privately owned</strong> — no corporate board, no outside investors, no decisions made by people who have never touched a sprayer. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate an irrigation business. We&apos;ve been in this trade since <strong>2006</strong> &mdash; which means when we built IrrigationBossPro, we didn&apos;t have to guess what contractors need. We already knew. We lived it every install, every repair, every blowout season.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never trenched a mainline, never tracked a thousand zones across hundreds of properties, never had to chase a payment while also dispatching a crew to a sprung valve. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>IrrigationBossPro is <strong>privately owned</strong> &mdash; no corporate board, no outside investors, no decisions made by people who have never touched a controller. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
           </div>
         </div>
         <div className="testimonial-grid" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;Before IrrigationBossPro I was using 3 different apps and still falling through the cracks on follow-ups. Now everything is in one place and my close rate on estimates is way up because the follow-up texts go out automatically.&rdquo;</p>
-            <div className="testimonial-author">Lawn Care Owner</div>
+            <p className="testimonial-body">&ldquo;Before IrrigationBossPro I was writing bids on a notepad and losing track of follow-ups. Now every estimate is line-itemed, the follow-up texts go out on their own, and my close rate on installs is way up.&rdquo;</p>
+            <div className="testimonial-author">Irrigation Contractor</div>
             <div className="testimonial-role">Nashville, TN</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The chemical tracking alone is worth it. I used to keep a spreadsheet and it was always behind. Now every application is logged right when the job is done and I can pull a report for any inspector in 30 seconds.&rdquo;</p>
-            <div className="testimonial-author">Pest Control Operator</div>
+            <p className="testimonial-body">&ldquo;Winterization season used to be chaos. Now the whole blowout list rolls onto the Job Board in one click, the customers get texted automatically, and I know exactly how many systems my crew can hit per day.&rdquo;</p>
+            <div className="testimonial-author">Sprinkler Service Owner</div>
             <div className="testimonial-role">Phoenix, AZ</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The route map changed how I schedule. I can look at where all my jobs are, drag them into order, and cut drive time in half. My guys are doing more stops per day with less fuel.&rdquo;</p>
-            <div className="testimonial-author">Spray Tech Business Owner</div>
+            <p className="testimonial-body">&ldquo;The route map changed how I dispatch. I can see where all my repair calls are, drag them into order, and cut drive time in half. My crews do more stops a day with less windshield time.&rdquo;</p>
+            <div className="testimonial-author">Irrigation Business Owner</div>
             <div className="testimonial-role">Charlotte, NC</div>
           </div>
         </div>
@@ -619,17 +645,17 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Built on Modern Technology</span>
             <h2>Fast. Reliable. No Delays.</h2>
-            <p>IrrigationBossPro runs on the latest and greatest infrastructure available today. That means your texts and emails go out in seconds — not hours. No queues backing up, no alerts firing late, no wondering if your customer got the message. Everything happens in real time, the way it&apos;s supposed to.</p>
+            <p>IrrigationBossPro runs on the latest and greatest infrastructure available today. That means your texts and emails go out in seconds &mdash; not hours. No queues backing up, no reminders firing late, no wondering if your customer got the message. Everything happens in real time, the way it&apos;s supposed to.</p>
             <p style={{marginTop:'12px'}}>We built on a modern stack specifically to eliminate the performance issues and outages that plague older field service platforms. Less downtime. Fewer bugs. A faster experience every time you log in.</p>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Alert Delivery</div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Service Completed SMS</div><div className="mock-sub">Sent to customer · 0.4 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Job Completed SMS</div><div className="mock-sub">Sent to customer · 0.4 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
             <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Estimate Email</div><div className="mock-sub">Sent to customer · 0.9 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Review Request SMS</div><div className="mock-sub">Sent to customer · 0.6 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Winterization Reminder SMS</div><div className="mock-sub">Sent to customer · 0.6 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
               <div style={{color:'var(--orange)', fontSize:'22px', fontWeight:800}}>No Hours-Long Delays.</div>
-              <div style={{color:'rgba(255,255,255,.55)', fontSize:'13px', marginTop:'4px'}}>Your customers hear from you instantly — every time.</div>
+              <div style={{color:'rgba(255,255,255,.55)', fontSize:'13px', marginTop:'4px'}}>Your customers hear from you instantly &mdash; every time.</div>
             </div>
           </div>
         </div>
@@ -641,15 +667,15 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label" style={{color:'var(--orange)'}}>We Actually Listen</span>
             <h2 style={{color:'#fff'}}>Have an Idea? We&apos;ll Build It.</h2>
-            <p style={{color:'rgba(255,255,255,.7)'}}>Most software companies put your feature request in a queue and get back to you six months later — if ever. That&apos;s not us. When you have a suggestion or need something built for your workflow, we listen. We respond. And we build it fast.</p>
-            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Custom features for our clients typically ship in 1–2 weeks, not months. IrrigationBossPro is built by someone who runs a field service business, and we know that when you need something, you need it now — not on the next quarterly release cycle.</p>
-            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Our goal is simple: be the best field management software available. And the only way to get there is by building it with our clients — not just for them.</p>
+            <p style={{color:'rgba(255,255,255,.7)'}}>Most software companies put your feature request in a queue and get back to you six months later &mdash; if ever. That&apos;s not us. When you have a suggestion or need something built for your workflow, we listen. We respond. And we build it fast.</p>
+            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Custom features for our clients typically ship in 1&ndash;2 weeks, not months. IrrigationBossPro is built by someone who runs an irrigation business, and we know that when you need something, you need it now &mdash; not on the next quarterly release cycle.</p>
+            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Our goal is simple: be the best irrigation software available. And the only way to get there is by building it with our clients &mdash; not just for them.</p>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Feature Request Timeline</div>
             <div className="mock-item"><span style={{fontSize:'20px'}}>💬</span><div><div className="mock-label">You submit a request</div><div className="mock-sub">Tell us what you need and why</div></div><div className="mock-badge blue-badge">Day 1</div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>⚡</span><div><div className="mock-label">We start building</div><div className="mock-sub">No committees. No approval queues.</div></div><div className="mock-badge blue-badge">Day 2–3</div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>✅</span><div><div className="mock-label">Feature is live</div><div className="mock-sub">In your account, ready to use</div></div><div className="mock-badge green-badge">Week 1–2</div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>⚡</span><div><div className="mock-label">We start building</div><div className="mock-sub">No committees. No approval queues.</div></div><div className="mock-badge blue-badge">Day 2&ndash;3</div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>✅</span><div><div className="mock-label">Feature is live</div><div className="mock-sub">In your account, ready to use</div></div><div className="mock-badge green-badge">Week 1&ndash;2</div></div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
               <div style={{color:'var(--orange)', fontSize:'16px', fontWeight:700}}>Not months. Weeks.</div>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'12px', marginTop:'4px'}}>Your input shapes the software you use every day.</div>
@@ -661,7 +687,7 @@ export default function Home() {
       {/* ═══ CTA ═══ */}
       <div className="cta-band">
         <h2>Your Competition Is Already<br />Using Software Like This.</h2>
-        <p>Stop running your business out of a notepad and a group text. Get organized, get paid faster, and give your customers an experience that wins referrals.</p>
+        <p>Stop running your irrigation business out of a notepad and a group text. Get your bids organized, get paid faster, and give your customers an experience that wins referrals.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
         </div>
@@ -682,7 +708,7 @@ export default function Home() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn &amp; Spray Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Irrigation &amp; Sprinkler Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#84cc16', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>

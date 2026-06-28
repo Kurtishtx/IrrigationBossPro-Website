@@ -2,29 +2,21 @@
 import { useState } from 'react';
 
 const solutions = [
-  { label: 'Lawn Care Software',           href: '/lawn-care-software' },
-  { label: 'Lawn Care Scheduling',         href: '/lawn-care-scheduling-software' },
-  { label: 'Mosquito Control Software',    href: '/mosquito-control-software' },
-  { label: 'Mosquito Spray Software',      href: '/mosquito-spray-software' },
-  { label: 'Pest Control Software',        href: '/pest-control-software' },
-  { label: 'Pest Control Scheduling',      href: '/pest-control-scheduling-software' },
-  { label: 'Spray Business Software',      href: '/spray-business-software' },
-  { label: 'Weed Control Software',        href: '/weed-control-software' },
-  { label: 'Fertilizer Software',          href: '/fertilizer-software' },
+  { label: 'Irrigation Software',      href: '/irrigation-software' },
+  { label: 'Sprinkler Repair',         href: '/sprinkler-repair-software' },
+  { label: 'Irrigation Scheduling',    href: '/irrigation-scheduling-software' },
+  { label: 'Irrigation Estimating',    href: '/irrigation-estimating-software' },
+  { label: 'Backflow Testing',         href: '/backflow-testing-software' },
+  { label: 'Crew & Dispatch',          href: '/irrigation-dispatch-software' },
+  { label: 'Invoicing & Billing',      href: '/irrigation-invoicing-software' },
+  { label: 'Irrigation Business',      href: '/irrigation-business-software' },
 ];
 
 const comparisons = [
-  { label: 'vs. Jobber',             href: '/vs-jobber' },
-  { label: 'vs. ServiceTitan',       href: '/vs-servicetitan' },
-  { label: 'vs. GorillaDesk',        href: '/vs-gorilladesk' },
-  { label: 'vs. Housecall Pro',      href: '/vs-housecallpro' },
-  { label: 'vs. FieldRoutes',        href: '/vs-fieldroutes' },
-  { label: 'vs. Service AutoPilot',  href: '/vs-serviceautopilot' },
-  { label: 'vs. Spraye',             href: '/vs-spraye' },
-  { label: 'vs. RealGreen',          href: '/vs-realgreen' },
-  { label: 'vs. LawnPro',            href: '/vs-lawnpro' },
-  { label: 'vs. CLIP',               href: '/vs-clip' },
-  { label: 'vs. Aspire',             href: '/vs-aspire' },
+  { label: 'vs. Jobber',            href: '/vs-jobber' },
+  { label: 'vs. ServiceTitan',      href: '/vs-servicetitan' },
+  { label: 'vs. Service AutoPilot', href: '/vs-serviceautopilot' },
+  { label: 'vs. Housecall Pro',     href: '/vs-housecallpro' },
 ];
 
 export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElement) => void }) {
