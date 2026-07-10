@@ -217,15 +217,8 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
-      {/* ═══ MOCKUP IMAGE ═══ */}
-      <div style={{background:'linear-gradient(135deg,#0f1720 0%,#1f2937 60%,#263445 100%)', padding:'80px 40px 0', textAlign:'center'}}>
-        <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="IrrigationBossPro irrigation business software showing the job board, route map, line-item estimates, and the mobile app for sprinkler install and repair crews" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
-        </div>
-      </div>
-
       {/* ═══ HERO ═══ */}
-      <div className="hero" style={{paddingTop:'60px'}}>
+      <div className="hero" style={{paddingTop:'110px'}}>
         <div className="hero-badge">Built for Irrigation &amp; Sprinkler Pros</div>
         <h1>Run Your Whole Irrigation Business<br /><span>From One Dashboard</span></h1>
         <p>IrrigationBossPro is the all-in-one software built for sprinkler and irrigation contractors. Build line-item estimates, track parts and materials, schedule installs and repairs, dispatch crews, invoice, and run your recurring winterization and start-up seasons &mdash; all in one place.</p>
