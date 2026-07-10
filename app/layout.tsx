@@ -5,13 +5,17 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: 'IrrigationBossPro | Irrigation & Sprinkler Business Software',
-  description: "IrrigationBossPro is premium lawn care and pest control software built by people who've run real routes. Circle a map area and instantly know sq ft, stops, and chemical needs. $129/month, everything included.",
+  description: "IrrigationBossPro is irrigation and sprinkler business software — spring startups, repairs, winterizations, scheduling, system records, automated SMS, and invoicing. $129/month, everything included.",
 };
+
+
+const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://irrigationbosspro.com/#organization","name":"IrrigationBossPro","url":"https://irrigationbosspro.com","logo":"https://irrigationbosspro.com/icon.svg","description":"Irrigation and sprinkler business software for spring startups, repairs, winterizations, scheduling, system records, and invoicing."},{"@type":"WebSite","@id":"https://irrigationbosspro.com/#website","url":"https://irrigationbosspro.com","name":"IrrigationBossPro","publisher":{"@id":"https://irrigationbosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"IrrigationBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Irrigation and sprinkler business software for spring startups, repairs, winterizations, scheduling, system records, and invoicing.","offers":{"@type":"Offer","price":"129","priceCurrency":"USD","description":"$129/month flat — everything included, 14-day free trial."},"publisher":{"@id":"https://irrigationbosspro.com/#organization"}}]};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         {children}
         <Footer />
         <Script
