@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run your spring start-up surge on one routed, assigned board</h3>
           <p>IrrigationBossPro pulls your start-up list from last fall, batch-books it onto routed crew days, and turns every found repair into a billable, scheduled job.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

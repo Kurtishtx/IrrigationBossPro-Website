@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop rediscovering systems on every call</h3>
           <p>IrrigationBossPro keeps every property and system profile, repair history, and parts list in one place so your crew quotes faster and fixes more.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, irrigation system profiles, property profiles irrigation, irrigation repair scheduling software, sprinkler parts estimating software, backflow service history software</div>
       </article>

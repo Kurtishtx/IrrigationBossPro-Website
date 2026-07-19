@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Rebuild Repeat Estimates in Seconds</h3>
           <p>IrrigationBossPro keeps every property&apos;s zones, heads, valves, and parts on file so repeat and seasonal bids build themselves, then schedules and invoices the work in one platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, property profiles, repeat irrigation estimates, sprinkler system records, seasonal irrigation bids, saved materials pricing</div>
       </article>

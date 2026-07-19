@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop losing stops to no-shows and callbacks.</h3>
           <p>IrrigationBossPro confirms visits with automated texts, carries full property profiles and parts lists into the field, and routes crews tight &mdash; so jobs get done right the first time.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

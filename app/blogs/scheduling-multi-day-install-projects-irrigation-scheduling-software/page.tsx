@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Next Install Like a Project, Not a Guess</h3>
           <p>IrrigationBossPro turns approved bids into phased install projects with crews, materials, milestone billing, and seasonal follow-up all connected.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler install project scheduling, multi-day install scheduling, irrigation job board, crew dispatch and routing, milestone invoicing for installs</div>
       </article>

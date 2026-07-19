@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See the return on your own routes, not a sales pitch.</h3>
           <p>IrrigationBossPro hands back office hours, protects install margin, and recaptures seasonal winterization and start-up revenue &mdash; estimating, scheduling, dispatch, and invoicing on one system.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

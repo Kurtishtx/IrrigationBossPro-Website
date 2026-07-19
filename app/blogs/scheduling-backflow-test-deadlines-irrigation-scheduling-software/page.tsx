@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Clear Every Backflow Deadline Without the Scramble</h3>
           <p>IrrigationBossPro turns due dates into routed, dispatched, and billed jobs so your tester beats the cutoff on every device, every year.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, backflow test scheduling, backflow deadline reminders, sprinkler service routing, irrigation crew dispatch, recurring backflow renewals</div>
       </article>

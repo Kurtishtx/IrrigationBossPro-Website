@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Price every job right with IrrigationBossPro</h3>
           <p>IrrigationBossPro gives you a built-in price book, line-item estimates, scheduling, dispatch, and card-on-file invoicing so your irrigation business quotes faster and bills smarter.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software price book, sprinkler parts pricing, irrigation estimating software, valve and controller pricing, irrigation invoicing software, line-item irrigation bids</div>
       </article>

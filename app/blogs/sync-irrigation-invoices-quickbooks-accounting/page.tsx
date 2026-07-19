@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill Once, Sync Everywhere</h3>
           <p>IrrigationBossPro records each irrigation invoice and card payment in the field and pushes it straight to QuickBooks, so your books match your work without a single number typed twice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation invoicing software, sync invoices to QuickBooks, irrigation accounting software, eliminate double entry, card-on-file irrigation payments, seasonal irrigation billing software</div>

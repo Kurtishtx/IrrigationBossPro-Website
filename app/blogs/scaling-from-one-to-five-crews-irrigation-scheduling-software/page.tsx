@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run All Five Crews From One Screen With IrrigationBossPro</h3>
           <p>IrrigationBossPro gives your irrigation business one Job Board for estimates, materials, dispatch, seasonal service, and payments &mdash; so you can scale without the chaos.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation crew dispatch, sprinkler business scheduling, irrigation job board, winterization scheduling software, irrigation estimating and materials</div>
       </article>

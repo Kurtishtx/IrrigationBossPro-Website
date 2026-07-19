@@ -225,6 +225,7 @@ export default function BackflowTestingSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. IrrigationBossPro is built from the ground up for irrigation and sprinkler businesses — backflow testing, certification deadlines, valve and head repairs, new system installs, and seasonal winterizations all run on a calendar that generic software simply doesn&apos;t understand.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Tests</div><div className="hero-stat-lbl">Certification Renewals Tracked Per Device</div></div>
@@ -556,6 +557,7 @@ export default function BackflowTestingSoftware() {
         <p>IrrigationBossPro is the only backflow and irrigation management software built by someone who has actually pulled tests and dug up valves. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

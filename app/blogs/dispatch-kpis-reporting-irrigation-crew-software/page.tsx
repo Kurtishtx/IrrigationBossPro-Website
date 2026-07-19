@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Irrigation Crews on Real Numbers</h3>
           <p>IrrigationBossPro pairs the Job Board, dispatch, line-item estimates, and invoicing with built-in KPIs so you can keep every crew productive through install and service season.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler crew KPIs, irrigation job board, irrigation crew reporting, winterization scheduling software, irrigation invoicing software</div>

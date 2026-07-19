@@ -94,6 +94,7 @@ export default function Page() {
           <h3>Send Every Truck Out Stocked for the Whole Route</h3>
           <p>IrrigationBossPro turns your line-item estimates into per-truck loading lists, checks them against inventory, and routes, bills, and rebooks the work for you.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler parts and materials tracking, truck loading list software, irrigation crew routing, irrigation inventory management software, heads valves controllers job parts</div>
       </article>

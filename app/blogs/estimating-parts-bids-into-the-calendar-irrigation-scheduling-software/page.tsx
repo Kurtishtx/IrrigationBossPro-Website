@@ -91,6 +91,7 @@ export default function Page() {
           <h3>Turn Approved Bids Into Booked Jobs Automatically</h3>
           <p>IrrigationBossPro carries your line-item estimates straight onto the calendar&mdash;parts list, route, and invoice included&mdash;so nothing gets retyped between the bid and the paycheck.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, line-item irrigation bids, sprinkler estimate to schedule, irrigation parts list software, irrigation job scheduling, sprinkler install invoicing software</div>
       </article>

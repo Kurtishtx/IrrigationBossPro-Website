@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every valve and head replacement from estimate to paid in one place</h3>
           <p>IrrigationBossPro builds line-item repair estimates from a saved parts catalog, schedules and dispatches the work, keeps customers updated by text, and turns completed jobs into invoices and card-on-file payments automatically.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

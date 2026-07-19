@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Put Your Irrigation Calendar to Work</h3>
           <p>IrrigationBossPro organizes installs, repairs, backflow tests, and seasonal blowouts into one calendar &mdash; with routing, estimates, invoicing, and card-on-file payments built in.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler business software ROI, irrigation dispatch and routing, winterization scheduling, irrigation invoicing software, seasonal irrigation service management</div>
       </article>

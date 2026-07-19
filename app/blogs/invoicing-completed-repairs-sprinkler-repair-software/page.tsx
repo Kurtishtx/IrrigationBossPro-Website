@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn every finished repair into a paid invoice before the truck leaves the driveway.</h3>
           <p>IrrigationBossPro converts completed repairs into itemized, card-on-file invoices the same day &mdash; off the same record that priced the job, scheduled the crew, and tracked the parts.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

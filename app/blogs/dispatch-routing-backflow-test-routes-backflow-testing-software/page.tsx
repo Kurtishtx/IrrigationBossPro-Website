@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Build Test Days That Drive Themselves</h3>
           <p>IrrigationBossPro groups due devices by neighborhood, routes the day, and dispatches it to your tester so every backflow visit is fast, full, and paid.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, backflow test routing, sprinkler crew dispatch, irrigation job board, backflow device tracking, recurring backflow renewals</div>
       </article>

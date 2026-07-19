@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Put Your Seasonal Route on Autopilot</h3>
           <p>IrrigationBossPro auto-dispatches recurring winterizations and start-ups, routes your crews, and collects payment so each season runs itself.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring seasonal irrigation software, irrigation dispatch software, winterization scheduling software, sprinkler start-up scheduling, irrigation crew routing software, irrigation job board</div>
       </article>

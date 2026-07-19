@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Backflow on One Connected System</h3>
           <p>IrrigationBossPro keeps device records, scheduling, certificates, repairs, and recurring billing on one platform instead of a patchwork of tools.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, all-in-one irrigation software, backflow scheduling software, backflow certificate tracking, recurring backflow billing, sprinkler service software</div>
       </article>

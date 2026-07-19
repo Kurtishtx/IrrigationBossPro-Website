@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Backflow Season on Tight, Profitable Routes</h3>
           <p>IrrigationBossPro batches your due tests by neighborhood, dispatches your certified tester, and bills each stop so backflow becomes pure recurring revenue.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing dispatch software, irrigation route scheduling, certified tester routing, backflow certification software, irrigation crew dispatch, recurring backflow scheduling</div>
       </article>

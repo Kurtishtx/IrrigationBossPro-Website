@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Set up your irrigation business in a week, not a month</h3>
           <p>IrrigationBossPro brings property profiles, a parts library, line-item estimates, the Job Board, dispatch, invoicing, and seasonal scheduling into one platform built for sprinkler and irrigation pros.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

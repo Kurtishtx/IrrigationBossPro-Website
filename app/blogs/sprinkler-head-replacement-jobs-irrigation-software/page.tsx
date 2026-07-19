@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Log every head and part once &mdash; and watch it flow to the invoice automatically</h3>
           <p>IrrigationBossPro builds line-item repair estimates from a saved irrigation parts catalog, logs the heads and parts used on every job, and turns them into invoices and card-on-file payments without re-typing a thing.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

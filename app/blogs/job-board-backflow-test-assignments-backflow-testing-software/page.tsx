@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Keep Your Backflow Job Board Full and Tested</h3>
           <p>IrrigationBossPro auto-posts due tests, builds repair estimates, dispatches crews, and collects payment so no certification gets missed.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, irrigation job board, backflow certification scheduling, sprinkler service dispatch, recurring backflow tests, irrigation estimating software</div>
       </article>

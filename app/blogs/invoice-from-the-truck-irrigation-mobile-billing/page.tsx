@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bill the Job Before You Leave the Driveway</h3>
           <p>IrrigationBossPro lets your sprinkler crews invoice and collect card payments from the truck, so every repair, blowout, and start-up gets billed the day it is done.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mobile irrigation invoicing, sprinkler crew billing software, field invoicing app, card on file payments, irrigation invoicing software, seasonal service billing</div>
       </article>

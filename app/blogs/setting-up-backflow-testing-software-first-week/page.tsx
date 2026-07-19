@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Get your backflow testing program running in days, not months</h3>
           <p>IrrigationBossPro tracks every assembly, schedules annual tests automatically, and bills them with card-on-file payments &mdash; all built for irrigation businesses.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

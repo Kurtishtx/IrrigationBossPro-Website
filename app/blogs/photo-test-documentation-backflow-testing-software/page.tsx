@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Document every backflow test the right way</h3>
           <p>IrrigationBossPro captures gauge readings, on-site photos, and certifications on one record, then reminds you when each device is due.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, backflow certification software, gauge reading documentation, irrigation business software, backflow device records, annual backflow test scheduling</div>
       </article>

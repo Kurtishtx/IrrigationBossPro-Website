@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill Installs the Right Way With IrrigationBossPro</h3>
           <p>IrrigationBossPro turns your line-item bids into deposit and progress-billing schedules with card-on-file payments, so your materials are covered and your cash flows before the system is ever charged.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation install billing software, sprinkler system deposit software, progress billing irrigation, irrigation invoicing card on file, irrigation estimate to invoice software, irrigation install project billing</div>

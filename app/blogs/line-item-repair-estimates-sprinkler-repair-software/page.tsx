@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Quote every repair part-by-part, win the approval, and keep the margin.</h3>
           <p>IrrigationBossPro builds part-loaded, line-item repair estimates that convert straight into dispatched jobs, tech pull lists, and itemized card-on-file invoices &mdash; all on one customer record.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

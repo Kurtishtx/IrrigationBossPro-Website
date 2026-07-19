@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Keep Every Customer in the Loop&mdash;Automatically</h3>
           <p>IrrigationBossPro texts your customers their service window, day-of reminders, and reschedules straight from the schedule, then carries estimates, invoices, and payment in the same thread.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, automated customer texts, appointment reminder texts, sprinkler service scheduling, irrigation crew dispatch, recurring seasonal service software</div>
       </article>

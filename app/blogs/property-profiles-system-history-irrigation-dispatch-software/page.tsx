@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Send Every Crew Out Knowing the Job With IrrigationBossPro</h3>
           <p>IrrigationBossPro keeps property profiles and full system history on the dispatch board so every irrigation crew arrives with the right parts and the full story on each sprinkler system.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler property profiles, irrigation system history, irrigation crew dispatch, sprinkler service scheduling, seasonal irrigation software</div>
       </article>

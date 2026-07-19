@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Make Every First Trip the Only Trip</h3>
           <p>IrrigationBossPro documents every scheduled visit with property profiles, line-item work orders, parts lists, and photos&mdash;so repairs get done right the first time and callbacks disappear.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, reduce repair callbacks, documented service visits, sprinkler repair work orders, irrigation property profiles, line-item repair estimates software</div>
       </article>

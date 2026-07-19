@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run installs, repairs, backflow, and winterizations from one system built for sprinkler contractors.</h3>
           <p>IrrigationBossPro turns line-item estimates into scheduled, dispatched, and invoiced jobs &mdash; with parts tracking, crew routing, recurring seasonal service, and card-on-file payments in one place.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

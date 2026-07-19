@@ -90,6 +90,7 @@ export default function Page() {
           <h3>Put Every System&apos;s History on the Schedule</h3>
           <p>IrrigationBossPro carries each property&apos;s zones, parts, past repairs, open estimates, and backflow dates onto every scheduled stop, so your crew shows up already knowing the system.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, service history tracking, sprinkler property profiles, irrigation job scheduling, recurring seasonal service software, irrigation crew dispatch</div>
       </article>

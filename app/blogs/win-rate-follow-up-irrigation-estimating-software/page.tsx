@@ -56,6 +56,7 @@ export default function Page() {
           <h3>Turn More Irrigation Bids Into Booked Jobs</h3>
           <p>IrrigationBossPro builds line-item estimates, sends automated follow-up texts, and flows accepted bids straight into scheduling, dispatch, and card-on-file invoicing.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, sprinkler bid follow-up, automated estimate texts, irrigation quoting software, win more irrigation bids, sprinkler install estimates</div>
       </article>

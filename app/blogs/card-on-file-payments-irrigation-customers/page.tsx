@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Charge the card the day the crew finishes &mdash; no invoices, no chasing checks.</h3>
           <p>IrrigationBossPro stores customer cards, builds invoices from your line-item jobs, and charges repairs, installs, and seasonal service automatically the moment the work is marked complete.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

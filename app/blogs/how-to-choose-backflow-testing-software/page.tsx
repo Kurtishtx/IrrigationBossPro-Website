@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Backflow Program on IrrigationBossPro</h3>
           <p>IrrigationBossPro tracks every device, due date, and certificate &mdash; then schedules, routes, tests, and bills the work so backflow stays effortless and profitable.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, irrigation business software, backflow due date reminders, irrigation scheduling software, sprinkler service software, backflow certificate tracking</div>
       </article>

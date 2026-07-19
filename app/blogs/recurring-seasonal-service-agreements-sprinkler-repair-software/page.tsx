@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Lock In Recurring Seasonal Revenue</h3>
           <p>IrrigationBossPro turns one-off sprinkler repairs into recurring seasonal agreements that auto-schedule winterizations, start-ups, and backflow tests &mdash; and bill themselves.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, recurring seasonal service agreements, irrigation winterization scheduling, spring start-up scheduling, seasonal recurring revenue, card-on-file seasonal billing</div>
       </article>

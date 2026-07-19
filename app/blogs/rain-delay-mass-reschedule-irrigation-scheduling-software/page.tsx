@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn rain days into a two-click task with IrrigationBossPro</h3>
           <p>IrrigationBossPro lets you bulk-reschedule a full day of installs, repairs, and start-ups and text every customer their new time in one move.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, mass reschedule rain day, irrigation customer text updates, sprinkler crew dispatch, irrigation job board, seasonal start-up scheduling</div>
       </article>

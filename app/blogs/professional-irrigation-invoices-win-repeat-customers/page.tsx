@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill like the professional your customers already think you are</h3>
           <p>IrrigationBossPro turns estimates, parts, labor, and card-on-file payments into clean itemized invoices that win repeat seasonal customers.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

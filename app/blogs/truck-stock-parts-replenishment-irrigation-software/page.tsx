@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stock smarter with IrrigationBossPro</h3>
           <p>IrrigationBossPro connects your estimates, schedule, and truck inventory so the right heads, valves, and controllers are reordered before your crews ever run short.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, sprinkler truck stock, parts replenishment software, irrigation inventory management, irrigation materials tracking, sprinkler repair software</div>
       </article>

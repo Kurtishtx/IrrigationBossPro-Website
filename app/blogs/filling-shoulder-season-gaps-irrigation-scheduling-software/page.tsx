@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Keep Your Crews Booked Between the Rushes</h3>
           <p>IrrigationBossPro surfaces flagged repairs, backflow tests, and upgrades, then routes, texts, and invoices them&mdash;so your slow weeks fill themselves from one job board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, shoulder-season scheduling, fill irrigation calendar gaps, backflow testing scheduling, sprinkler repair job board, recurring seasonal service software</div>
       </article>

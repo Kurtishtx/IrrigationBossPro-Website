@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Keep Every Crew Booked Solid</h3>
           <p>IrrigationBossPro captures repair calls, fills the gaps in your schedule, routes crews efficiently, and bills the work on the spot so your technicians stay busy and paid.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, irrigation scheduling software, repair call dispatch, irrigation crew routing, sprinkler service scheduling, irrigation job board</div>
       </article>

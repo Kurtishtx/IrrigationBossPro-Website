@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop losing backflow renewals with IrrigationBossPro</h3>
           <p>IrrigationBossPro tracks every backflow device and renewal date, batch-schedules and routes annual tests, delivers certificates, and bills each test with card-on-file payments from one platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, backflow renewal tracking, irrigation compliance software, backflow certificate software, annual backflow test scheduling, irrigation business software</div>
       </article>

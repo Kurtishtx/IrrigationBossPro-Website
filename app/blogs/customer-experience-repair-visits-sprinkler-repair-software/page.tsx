@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Give every repair customer a five-star visit with IrrigationBossPro</h3>
           <p>IrrigationBossPro ties scheduling, line-item estimates, parts tracking, and card-on-file invoicing into one platform so every repair visit feels organized from booking to paid.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Handle Every Sprinkler Emergency With IrrigationBossPro</h3>
           <p>IrrigationBossPro helps you triage urgent calls, slot same-day repairs, dispatch the nearest tech, and turn a broken line into a paid invoice before the truck leaves.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, same-day irrigation repair, emergency dispatch software, irrigation job scheduling, crew routing software, irrigation repair invoicing</div>
       </article>

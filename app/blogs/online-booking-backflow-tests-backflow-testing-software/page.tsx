@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Let Customers Book Their Backflow Tests Themselves</h3>
           <p>IrrigationBossPro turns online bookings into scheduled, routed, and invoiced jobs so you fill your tester&apos;s calendar without answering a single phone call.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, online booking for backflow tests, irrigation contractor software, backflow test scheduling, backflow due date tracking, recurring backflow renewals</div>
       </article>

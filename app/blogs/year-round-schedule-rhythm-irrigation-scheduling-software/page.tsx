@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run Every Irrigation Season From One Schedule</h3>
           <p>IrrigationBossPro ties start-ups, repairs, backflow tests, and winterizations into one recurring schedule with estimates, dispatch, and card-on-file invoicing built in.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler winterization scheduling, irrigation start-up software, backflow testing scheduling, seasonal irrigation service software, irrigation dispatch software</div>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Cost Every Repair and Protect Your Margins With IrrigationBossPro</h3>
           <p>IrrigationBossPro ties real parts and labor to every sprinkler repair, shows your margin before you bill, and turns each estimate into a paid invoice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, irrigation job costing, repair margin tracking, line-item estimates, irrigation parts pricing, sprinkler repair invoicing</div>
       </article>

@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Bid, Schedule, and Bill Every Controller Upgrade in One Place</h3>
           <p>IrrigationBossPro quotes smart timer installs as line-item estimates, tracks the parts, routes the crew, and collects payment on the card you have on file.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, controller upgrade scheduling, smart timer install software, sprinkler controller estimate software, irrigation parts tracking, irrigation crew dispatch software</div>
       </article>

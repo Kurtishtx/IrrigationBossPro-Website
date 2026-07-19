@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Whole Start-Up Season From IrrigationBossPro</h3>
           <p>IrrigationBossPro turns last fall&apos;s blowout list into batched, routed spring start-ups &mdash; with on-site repair estimates, customer texts, and card-on-file invoicing built in.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, spring start-up scheduling, batch scheduling irrigation, irrigation crew dispatch, seasonal irrigation service software, sprinkler repair estimates</div>
       </article>

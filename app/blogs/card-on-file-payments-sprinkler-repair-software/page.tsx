@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Paid the Moment the Repair Is Done</h3>
           <p>IrrigationBossPro keeps a card on file for every customer and lets your techs collect in the field, so sprinkler repairs close paid instead of past due.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, card-on-file payments, field payment collection, irrigation invoicing software, recurring seasonal billing, line-item repair estimates</div>
       </article>

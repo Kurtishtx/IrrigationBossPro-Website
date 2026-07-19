@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Route smarter and cut fuel with IrrigationBossPro</h3>
           <p>IrrigationBossPro maps, sequences, and dispatches your irrigation crews so service days have less drive time, more stops, and lower fuel costs.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation crew routing software, sprinkler dispatch software, irrigation route optimization, irrigation service scheduling, cut drive time irrigation crews, seasonal irrigation dispatch</div>
       </article>

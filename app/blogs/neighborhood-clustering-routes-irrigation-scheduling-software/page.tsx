@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Cluster Your Routes With IrrigationBossPro</h3>
           <p>IrrigationBossPro groups your installs, repairs, winterizations, and start-ups by neighborhood so crews drive less and bill more every day.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation route optimization, sprinkler crew dispatch software, winterization scheduling software, irrigation job board, sprinkler service routing</div>
       </article>

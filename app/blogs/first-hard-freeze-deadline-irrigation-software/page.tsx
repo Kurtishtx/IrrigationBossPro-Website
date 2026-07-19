@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Beat the freeze with IrrigationBossPro</h3>
           <p>IrrigationBossPro tracks every winterization deadline, routes your crews, and bills each blowout so no system goes into winter unprotected.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation software, sprinkler winterization scheduling, seasonal irrigation service software, irrigation crew dispatch, sprinkler blowout invoicing, irrigation job scheduling</div>

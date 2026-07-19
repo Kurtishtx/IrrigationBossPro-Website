@@ -96,6 +96,7 @@ export default function Page() {
           <h3>Get Paid the Day the Job Closes</h3>
           <p>IrrigationBossPro turns completed jobs into invoices automatically and collects on a card on file&mdash;so your crews&apos; work hits the bank the same day, not next month.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation invoicing software, card-on-file payments, sprinkler service billing, recurring seasonal service invoicing, irrigation job board</div>
       </article>

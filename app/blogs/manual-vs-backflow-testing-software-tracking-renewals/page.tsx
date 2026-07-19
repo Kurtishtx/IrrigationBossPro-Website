@@ -52,6 +52,7 @@ export default function Page() {
           <h3>Never miss a backflow renewal again</h3>
           <p>IrrigationBossPro auto-schedules annual tests, texts your customers, routes the work, and bills it &mdash; so every certification renewal turns into booked, paid work.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

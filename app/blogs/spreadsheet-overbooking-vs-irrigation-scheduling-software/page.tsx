@@ -94,6 +94,7 @@ export default function Page() {
           <h3>Stop Overbooking Your Irrigation Crews</h3>
           <p>IrrigationBossPro turns line-item bids, parts, and recurring seasonal service into a capacity-aware schedule that books crews on real availability&mdash;not blank cells.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler crew scheduling, irrigation dispatch software, irrigation job board, winterization scheduling, irrigation business software</div>
       </article>

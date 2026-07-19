@@ -54,6 +54,7 @@ export default function Page() {
           <h3>Run Your Whole Winterization Season From One Screen</h3>
           <p>IrrigationBossPro schedules, routes, bills, and texts every fall blowout so your crews stay booked and you get paid the same day.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, winterization scheduling software, sprinkler blowout software, recurring seasonal service software, irrigation crew dispatch, card-on-file irrigation billing</div>
       </article>

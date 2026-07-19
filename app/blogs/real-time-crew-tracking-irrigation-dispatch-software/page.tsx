@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See every irrigation truck, in real time, from one screen</h3>
           <p>IrrigationBossPro tracks your crews live as they run installs, repairs, backflow tests, and seasonal blowouts &mdash; so you always know where every truck is and what is done.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

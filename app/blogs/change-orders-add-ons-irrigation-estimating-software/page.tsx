@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Quote Every Add-On Before the Crew Leaves the Yard</h3>
           <p>IrrigationBossPro lets you add zones, heads, valves, and parts to a live estimate, get instant approval, then schedule and bill the change in one platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, change order management, irrigation add-ons, line-item irrigation bids, sprinkler install estimating, materials and parts pricing</div>
       </article>

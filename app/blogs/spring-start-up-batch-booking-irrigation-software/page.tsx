@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Book Your Whole Spring Start-Up List in One Pass</h3>
           <p>IrrigationBossPro batch-books seasonal start-ups, auto-routes your crews, texts customers, and turns every visit into a line-item estimate and paid invoice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, sprinkler start-up scheduling, batch booking irrigation jobs, seasonal irrigation service software, irrigation crew dispatch and routing, irrigation estimating and invoicing</div>
       </article>

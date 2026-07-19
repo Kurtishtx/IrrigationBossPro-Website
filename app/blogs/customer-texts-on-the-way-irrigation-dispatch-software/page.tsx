@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Keep Every Customer Posted Without Touching the Phone</h3>
           <p>IrrigationBossPro fires on-my-way and arrival-window texts straight from the dispatch board, so your office stays quiet and your customers stay informed.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, on-my-way texts, customer notification software, sprinkler crew dispatch, arrival window texts, irrigation customer texts</div>
       </article>

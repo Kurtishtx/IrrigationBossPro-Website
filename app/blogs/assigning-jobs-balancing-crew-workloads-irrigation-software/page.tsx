@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Load Every Truck for a Full, Fair Day</h3>
           <p>IrrigationBossPro puts every install, repair, and seasonal job on one board so you can assign by skill, balance the hours, and keep every crew busy.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, crew scheduling software, job assignment software, sprinkler crew management, irrigation job board, balancing crew workloads</div>
       </article>

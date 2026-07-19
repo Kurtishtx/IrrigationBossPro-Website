@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Replace the Patchwork With IrrigationBossPro</h3>
           <p>IrrigationBossPro brings estimates, materials, scheduling, dispatch, invoicing, and seasonal service into one sprinkler repair system so nothing gets re-typed or lost.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, all-in-one irrigation software, irrigation estimating software, irrigation scheduling and dispatch, irrigation invoicing software, seasonal irrigation service software</div>
       </article>

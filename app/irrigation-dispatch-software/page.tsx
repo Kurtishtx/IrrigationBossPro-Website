@@ -225,6 +225,7 @@ export default function IrrigationDispatchSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. IrrigationBossPro is built from the ground up for irrigation and sprinkler businesses &mdash; the way you bid system installs, order parts, schedule repairs, and run seasonal winterizations and start-ups is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Job Board</div><div className="hero-stat-lbl">Every Install &amp; Repair in One View</div></div>
@@ -557,6 +558,7 @@ export default function IrrigationDispatchSoftware() {
         <p>IrrigationBossPro is the only irrigation management software built by someone who has actually pulled valves, set heads, and run a winterization route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

@@ -225,6 +225,7 @@ export default function IrrigationInvoicingSoftware() {
         <p>A sprinkler job is never one flat line. It&apos;s heads, valves, a controller, pipe, fittings, a backflow device, and the labor to install it. IrrigationBossPro turns your line-item estimates into clean invoices &mdash; materials, parts, and labor all itemized &mdash; and collects payment with a card on file before your truck leaves the driveway.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Line-Item</div><div className="hero-stat-lbl">Parts &amp; Labor on Every Invoice</div></div>
@@ -541,6 +542,7 @@ export default function IrrigationInvoicingSoftware() {
         <p>IrrigationBossPro is the only billing software built by someone who has actually priced a sprinkler install and chased down a past-due invoice. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

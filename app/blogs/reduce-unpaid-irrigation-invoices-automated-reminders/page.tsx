@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Let the software chase overdue invoices so you never have to.</h3>
           <p>IrrigationBossPro builds invoices from your line-item jobs and sends automatic text and email reminders until repairs, installs, and seasonal service get paid.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

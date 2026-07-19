@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Let Customers Book Their Own Winterizations</h3>
           <p>IrrigationBossPro hands homeowners a self-scheduling link that fills your fall calendar, routes the work, and texts and invoices every blowout automatically.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, customer self-scheduling software, online winterization booking, sprinkler blowout scheduling software, seasonal irrigation scheduling, irrigation crew dispatch software</div>
       </article>

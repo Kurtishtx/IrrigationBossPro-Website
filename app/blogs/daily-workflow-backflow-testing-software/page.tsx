@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Whole Backflow Season From One Screen</h3>
           <p>IrrigationBossPro routes your tests, stores every device, generates certificates, and collects payment in the field so nothing rides home in the truck.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, irrigation scheduling software, backflow certificate tracking, mobile invoicing for irrigation, device record management, seasonal backflow service software</div>
       </article>

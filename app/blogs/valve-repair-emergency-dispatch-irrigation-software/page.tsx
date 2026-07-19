@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Dispatch your next emergency in two taps</h3>
           <p>IrrigationBossPro turns leak and valve calls into same-day jobs with the right crew, the right parts, and payment collected before the truck leaves.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, same-day crew dispatch, valve repair scheduling, sprinkler leak repair software, irrigation job board, emergency irrigation service software</div>
       </article>

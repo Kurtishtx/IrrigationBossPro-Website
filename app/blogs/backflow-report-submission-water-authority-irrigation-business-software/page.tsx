@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Backflow Season on IrrigationBossPro</h3>
           <p>IrrigationBossPro captures test results in the field, generates authority-ready reports, and tracks every certification due date so nothing slips.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, irrigation business software, backflow report submission, sprinkler service scheduling, irrigation certification tracking, recurring seasonal service software</div>
       </article>

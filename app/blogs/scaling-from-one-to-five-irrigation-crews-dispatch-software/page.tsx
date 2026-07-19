@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Grow your irrigation crews without losing control</h3>
           <p>IrrigationBossPro gives every crew one schedule, mapped routes, attached parts, and consistent bids so you can scale from one truck to five.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation crew dispatch software, scaling irrigation business, sprinkler dispatch software, multi-crew irrigation scheduling, irrigation route management, seasonal irrigation service software</div>
       </article>

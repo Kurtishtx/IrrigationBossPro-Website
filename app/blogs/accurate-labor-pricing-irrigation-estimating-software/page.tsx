@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Price Your Labor Like You Mean It</h3>
           <p>IrrigationBossPro builds task-based labor and materials lines at your true loaded rate, then schedules, dispatches, and bills the work in one connected platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, labor pricing for irrigation, sprinkler install estimating, line-item irrigation bids, seasonal service labor pricing, loaded labor rate estimating</div>
       </article>

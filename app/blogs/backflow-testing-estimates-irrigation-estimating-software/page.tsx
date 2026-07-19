@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Backflow Work in Seconds, Not Minutes</h3>
           <p>IrrigationBossPro builds line-item backflow estimates with saved parts and labor, then schedules, tests, and bills the work in one connected platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, backflow testing estimates, backflow certification software, line-item irrigation bids, sprinkler repair estimating, backflow device materials pricing</div>
       </article>

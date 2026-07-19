@@ -109,6 +109,7 @@ export default function Page() {
             your seasonal routes in batches &mdash; so you capture every part and get paid faster.
           </p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Batch a Drivable Spring Start-Up Season in One Sitting</h3>
           <p>IrrigationBossPro pulls last fall&apos;s customers into routed start-up days, dispatches your crews, texts your customers, and invoices on completion&mdash;all from one job board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, spring start-up routing, batch route scheduling, sprinkler crew dispatch software, recurring seasonal irrigation service, irrigation start-up invoicing</div>
       </article>

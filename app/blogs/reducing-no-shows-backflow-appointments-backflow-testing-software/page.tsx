@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Keep your backflow certification calendar full.</h3>
           <p>IrrigationBossPro sends automatic confirmations and day-before reminders, makes reschedules one tap, and bills the test the moment it passes &mdash; so fewer slots go empty.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Run Your Whole Day From One Board</h3>
           <p>IrrigationBossPro puts every install, repair, winterization, and backflow test on a dispatch board and Job Board that assigns crews, routes the day, and invoices the work for you.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, dispatch board software, sprinkler job board, irrigation crew dispatch, irrigation routing software, sprinkler service scheduling software</div>
       </article>

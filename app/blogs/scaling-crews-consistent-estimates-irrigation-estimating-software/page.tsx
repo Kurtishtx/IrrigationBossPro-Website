@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Add crews without losing control of your pricing.</h3>
           <p>IrrigationBossPro keeps every crew bidding sprinkler jobs from one shared catalog and template set, then flows approved estimates straight onto the Job Board, the schedule, and the invoice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

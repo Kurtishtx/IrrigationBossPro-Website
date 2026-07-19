@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn Every Audit Into a Bid That Books Itself</h3>
           <p>IrrigationBossPro captures zone-by-zone findings, prices them into a line-item estimate, then schedules, dispatches, and bills the work in one connected platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, zone-by-zone system audit, sprinkler repair estimating, line-item irrigation estimates, irrigation parts and labor pricing, seasonal irrigation service software</div>
       </article>

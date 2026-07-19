@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run Every Controller Repair Through IrrigationBossPro</h3>
           <p>IrrigationBossPro logs your controller and wiring repairs with parts, photos, and history so every job is billed in full and every property stays on record.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, irrigation controller repair tracking, wiring repair logging, irrigation service software, irrigation parts and materials, sprinkler repair invoicing</div>
       </article>

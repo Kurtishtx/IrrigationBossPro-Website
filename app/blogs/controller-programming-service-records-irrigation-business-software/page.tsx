@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Keep Every System&apos;s Settings on File with IrrigationBossPro</h3>
           <p>IrrigationBossPro stores controller programming, zones, and wiring on each property profile so winterizations, start-ups, and repairs go faster.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, controller programming records, sprinkler service history, property profiles, winterization scheduling software, irrigation system records</div>
       </article>

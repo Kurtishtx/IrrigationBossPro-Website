@@ -90,6 +90,7 @@ export default function Page() {
           <h3>Stop Double-Entering Backflow Invoices</h3>
           <p>IrrigationBossPro builds the test invoice once, charges the card, and syncs every fee, part, and payment straight into QuickBooks.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, QuickBooks sync irrigation, irrigation invoicing software, sprinkler service billing, irrigation accounting software, seasonal irrigation billing</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bill Callbacks Right Every Time</h3>
           <p>IrrigationBossPro links every warranty and callback visit to its original job so no-charge work stays free and billable add-ons get invoiced cleanly.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation invoicing software, sprinkler callback billing, warranty visit tracking, irrigation service software, line-item irrigation invoices, irrigation job management software</div>
       </article>

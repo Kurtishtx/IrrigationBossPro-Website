@@ -96,6 +96,7 @@ export default function Page() {
             card on file so the final payment lands the day the system runs.
           </p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation business software, sprinkler install deposits, progress payment billing, card-on-file invoicing, irrigation estimates and bids, irrigation install scheduling</div>

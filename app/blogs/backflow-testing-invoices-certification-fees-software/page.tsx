@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill every backflow test, certification fee, and failed-device repair on one clean itemized invoice.</h3>
           <p>IrrigationBossPro gives irrigation companies line-item estimates, a parts catalog, card-on-file payments, and recurring property tracking so annual backflow testing bills cleanly and gets paid the day it happens.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

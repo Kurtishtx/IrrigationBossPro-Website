@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Quote Controllers and Zones Right With IrrigationBossPro</h3>
           <p>IrrigationBossPro builds line-item sprinkler bids that price controllers, zones, and wire, then converts them to scheduled jobs and recurring seasonal service.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, sprinkler controller pricing, zone-by-zone irrigation bids, irrigation wire estimating, sprinkler system quote software, irrigation materials catalog</div>
       </article>

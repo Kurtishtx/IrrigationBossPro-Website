@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop Re-Digging the Same Yard Every Year</h3>
           <p>IrrigationBossPro documents valve locates and mainline leak repairs on the property profile so every return visit is faster and every invoice is itemized.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, valve locating documentation, mainline leak repair software, sprinkler repair estimates, irrigation job scheduling, property profile history</div>
       </article>

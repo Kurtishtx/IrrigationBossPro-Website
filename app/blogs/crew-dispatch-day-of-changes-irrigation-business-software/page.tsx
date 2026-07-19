@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run a calmer dispatch day with IrrigationBossPro</h3>
           <p>IrrigationBossPro lets you reroute crews, swap jobs with parts and estimates attached, and text customers the moment plans change&mdash;all from one live Job Board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, irrigation crew dispatch software, sprinkler job scheduling, irrigation job board, irrigation route optimization, irrigation customer texts</div>
       </article>

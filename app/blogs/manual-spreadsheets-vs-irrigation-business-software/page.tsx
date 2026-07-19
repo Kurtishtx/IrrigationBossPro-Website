@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run Your Sprinkler Company on One System</h3>
           <p>IrrigationBossPro handles your line-item bids, parts, scheduling, dispatch, seasonal service, and card-on-file invoicing so you can grow past what a spreadsheet allows.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, sprinkler company software, irrigation scheduling software, winterization scheduling, irrigation estimates and invoicing, irrigation parts tracking</div>
       </article>

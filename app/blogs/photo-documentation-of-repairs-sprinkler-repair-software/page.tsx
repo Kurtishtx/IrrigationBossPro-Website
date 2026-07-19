@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Document Every Repair With IrrigationBossPro</h3>
           <p>IrrigationBossPro attaches before-and-after photos to every job, estimate, and invoice so your crew can prove the work, prevent callbacks, and build a visual history on every property.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, repair photo documentation, prevent irrigation callbacks, irrigation job records, before-and-after repair photos, property service history</div>
       </article>

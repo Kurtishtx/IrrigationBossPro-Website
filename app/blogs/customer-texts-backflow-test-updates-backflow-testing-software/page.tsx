@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Your Backflow Testing on IrrigationBossPro</h3>
           <p>IrrigationBossPro tracks every backflow device, schedules the annual test, and keeps your customers informed with automatic texts from reminder to certificate.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, customer text alerts, backflow test reminders, irrigation scheduling software, backflow certificate delivery, card-on-file payments</div>
       </article>

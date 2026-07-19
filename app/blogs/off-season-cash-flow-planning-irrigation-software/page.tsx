@@ -62,6 +62,7 @@ export default function Page() {
           <h3>Fund Your Off-Season With IrrigationBossPro</h3>
           <p>IrrigationBossPro lets you sell prepaid seasonal plans, collect install deposits, and bill cards on file automatically &mdash; so your cash flows year-round, not just in peak season.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, prepaid winterization billing, recurring seasonal service software, irrigation invoicing and card-on-file payments, sprinkler install deposits, off-season cash flow planning</div>
       </article>

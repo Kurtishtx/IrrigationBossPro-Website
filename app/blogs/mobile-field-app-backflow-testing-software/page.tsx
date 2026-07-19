@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run Backflow Tests From the Truck, Not the Office</h3>
           <p>IrrigationBossPro puts the schedule, gauge readings, certificates, and payments on your tester&apos;s phone, so every test closes out done and certified from the field.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, mobile field app, backflow test readings, irrigation certificate software, field service scheduling, backflow device profiles</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Grow Your Fleet With IrrigationBossPro</h3>
           <p>IrrigationBossPro standardizes estimates, parts, scheduling, dispatch, and invoicing so you can add trucks and crews without losing control of the work.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, irrigation business scaling, irrigation crew dispatch software, line-item repair estimates, irrigation parts tracking, irrigation invoicing software</div>
       </article>

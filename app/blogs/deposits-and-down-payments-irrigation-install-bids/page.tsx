@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Take Deposits on Every Install With IrrigationBossPro</h3>
           <p>IrrigationBossPro turns your line-item install bids into deposit requests with a card on file, so your materials are paid for and the money is moving before the crew ever digs.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation install deposit software, sprinkler bid down payment, irrigation estimate to invoice software, irrigation card on file payments, irrigation install billing software, irrigation invoicing and billing</div>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Your Crew on IrrigationBossPro</h3>
           <p>IrrigationBossPro puts routing, parts, estimates, invoicing, and seasonal service in one app so your techs spend the day working, not chasing answers.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, irrigation business software, sprinkler repair software, irrigation scheduling software, irrigation estimating software, winterization scheduling software</div>
       </article>

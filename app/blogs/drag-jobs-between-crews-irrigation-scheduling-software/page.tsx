@@ -89,6 +89,7 @@ export default function Page() {
           <h3>Rebalance Any Day in Seconds, Not Phone Calls</h3>
           <p>IrrigationBossPro lets you drag jobs between crews on a live Job Board&mdash;rerouting, re-texting customers, and invoicing on completion automatically.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, drag and drop crew scheduling, irrigation job board, sprinkler crew dispatch, reassign irrigation jobs, irrigation route rebalancing</div>
       </article>

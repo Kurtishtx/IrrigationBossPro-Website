@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Estimate every install and repair head-by-head, with margin in plain sight.</h3>
           <p>IrrigationBossPro builds material-loaded, line-item bids that convert straight into scheduled jobs, crew pull lists, and itemized invoices &mdash; all on one customer record.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

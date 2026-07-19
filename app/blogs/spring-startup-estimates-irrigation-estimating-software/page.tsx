@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run Your Whole Start-Up Season in IrrigationBossPro</h3>
           <p>IrrigationBossPro gives irrigation contractors line-item estimates, parts pricing, recurring seasonal scheduling, and card-on-file payments in one system built for sprinkler work.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, spring start-up estimates, sprinkler tune-up bids, irrigation parts pricing, recurring seasonal service scheduling, irrigation invoicing software</div>
       </article>

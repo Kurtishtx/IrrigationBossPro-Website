@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Every System Blown Out Before the Freeze</h3>
           <p>IrrigationBossPro auto-rebooks your seasonal customers, batches winterizations by neighborhood, dispatches tight routes, and collects payment at every stop.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, winterization scheduling software, sprinkler blowout routing, recurring seasonal irrigation service, irrigation crew dispatch, fall winterization software</div>
       </article>

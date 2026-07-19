@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Route every irrigation crew by neighborhood, not by accident</h3>
           <p>IrrigationBossPro turns the Job Board into tight, area-based routes and dispatches them straight to your crews&apos; phones &mdash; so installs, repairs, and seasonal blowouts get done with less drive time and more billable work.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, crew dispatch software, sprinkler route optimization, irrigation job board, neighborhood routing, seasonal irrigation scheduling</div>
       </article>

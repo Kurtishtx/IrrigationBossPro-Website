@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn One Spring Visit Into Two Billed Services</h3>
           <p>IrrigationBossPro bundles backflow tests into your spring start-up visits, schedules them as one stop, and bills both services on a single invoice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, spring start-up scheduling, irrigation service bundling, backflow certification software, seasonal irrigation scheduling, sprinkler dispatch software</div>
       </article>

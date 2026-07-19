@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run Your Seasonal Renewals on Autopilot</h3>
           <p>IrrigationBossPro rebuilds your winterization and start-up campaigns from last season, texts every customer, routes your crews, and bills the card on file &mdash; so no recurring revenue slips through the cracks.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation business software, winterization scheduling software, sprinkler start-up campaigns, seasonal service renewal automation, irrigation customer texts, irrigation invoicing software</div>

@@ -94,6 +94,7 @@ export default function Page() {
           <h3>Run Your Backflow Program On Autopilot</h3>
           <p>IrrigationBossPro stores cards on file, charges test fees the second the job closes, and keeps every certification, part, and receipt on the property record.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, card-on-file payments, irrigation invoicing software, sprinkler service scheduling, seasonal irrigation billing, irrigation customer payments</div>
       </article>

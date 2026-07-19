@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Keep every irrigation customer in the loop</h3>
           <p>IrrigationBossPro sends automatic confirmations, on-the-way alerts, and invoice texts for every install, repair, and seasonal visit &mdash; so your phone stops ringing and your trucks stay on schedule.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, customer text alerts, on-the-way notifications, sprinkler service scheduling, seasonal irrigation reminders, irrigation appointment software</div>
       </article>

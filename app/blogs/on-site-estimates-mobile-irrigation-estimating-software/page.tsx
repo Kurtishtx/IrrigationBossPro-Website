@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build line-item irrigation bids from the truck and book the job before you leave the driveway</h3>
           <p>IrrigationBossPro lets you price installs, repairs, and backflow work on-site from a built-in parts catalog, text the estimate, capture a card on file, and convert it straight into a scheduled job.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

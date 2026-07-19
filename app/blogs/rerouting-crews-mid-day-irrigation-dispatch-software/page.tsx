@@ -37,6 +37,7 @@ export default function Page() {
           <h3>When an install runs long, reroute the day in seconds &mdash; not after the callbacks start.</h3>
           <p>IrrigationBossPro gives you a live schedule board with real-time job status, one-tap crew reassignment, and automated customer texts so a long irrigation job never wrecks the rest of your route.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

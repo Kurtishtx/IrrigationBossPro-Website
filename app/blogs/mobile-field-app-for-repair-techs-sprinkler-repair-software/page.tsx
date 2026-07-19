@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Put the Office in Every Repair Truck</h3>
           <p>IrrigationBossPro gives your repair techs a mobile app for tickets, parts, estimates, photos, and card-on-file payments &mdash; all synced to the office in real time.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, mobile field app for irrigation techs, irrigation service software, repair ticket app, field estimating and invoicing software, card-on-file payments for irrigation</div>
       </article>

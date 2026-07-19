@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Handle Every Emergency Without Wrecking Your Route</h3>
           <p>IrrigationBossPro lets you slot urgent valve and head repairs into a crew&apos;s day, build the estimate, stage the parts, and text the customer &mdash; all from one screen.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation scheduling software, emergency sprinkler repair scheduling, valve and head repair dispatch, irrigation crew routing, sprinkler repair estimates and parts, irrigation invoicing software</div>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Dispatch and Route Repair Crews the Easy Way</h3>
           <p>IrrigationBossPro turns repair calls into dispatched, routed jobs with the right parts, automatic customer texts, and same-day invoicing &mdash; so your crews close more sprinkler repairs every day.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, irrigation crew dispatch software, repair crew routing, sprinkler service scheduling, irrigation job board software, winterization and start-up scheduling</div>
       </article>

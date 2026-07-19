@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Remember Every System You Service With IrrigationBossPro</h3>
           <p>IrrigationBossPro stores a full property profile for every sprinkler system &mdash; controllers, valves, heads, and backflow devices &mdash; so your crews estimate, schedule, and bill from one running record.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, sprinkler property profiles, irrigation system history, irrigation client profiles, sprinkler system records software, seasonal irrigation service software</div>
       </article>

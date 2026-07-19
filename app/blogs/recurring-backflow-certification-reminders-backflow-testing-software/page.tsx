@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Put Every Backflow Renewal on Autopilot</h3>
           <p>IrrigationBossPro fires recurring certification reminders, rebooks every annual test, and bills it on a card on file so you never lose a renewal or a customer.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, recurring certification reminders, backflow renewal scheduling, irrigation scheduling software, backflow due date tracking, sprinkler service software</div>
       </article>

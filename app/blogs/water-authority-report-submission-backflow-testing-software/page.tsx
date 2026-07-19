@@ -57,6 +57,7 @@ export default function Page() {
           <h3>Run Backflow Testing Without the Paperwork Pile</h3>
           <p>IrrigationBossPro captures gauge readings in the field, builds the water authority report, and tracks every submission so no test ever misses its deadline.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, water authority report submission, backflow certification tracking, irrigation backflow test reports, sprinkler service scheduling software, backflow repair estimates</div>
       </article>

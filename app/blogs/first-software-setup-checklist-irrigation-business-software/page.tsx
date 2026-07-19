@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Set Up and Selling This Week</h3>
           <p>IrrigationBossPro puts your clients, parts, estimates, scheduling, dispatch, invoicing, and seasonal service in one connected platform you can stand up in days.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, irrigation software setup, sprinkler business software, irrigation scheduling software, irrigation estimating and invoicing, seasonal irrigation service software</div>
       </article>

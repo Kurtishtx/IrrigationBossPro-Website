@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Every Certificate Where It Needs to Go</h3>
           <p>IrrigationBossPro stores, delivers, and renews backflow certificates so customers and cities get their proof without the paperwork chase.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow certificate software, irrigation compliance software, backflow test delivery, water authority certificate submission, sprinkler service software, recurring backflow billing</div>
       </article>

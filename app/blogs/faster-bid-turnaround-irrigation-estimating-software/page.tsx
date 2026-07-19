@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Send the bid before you leave the driveway &mdash; and win the job while it&apos;s still warm.</h3>
           <p>IrrigationBossPro builds part-loaded bids from a live price book and reusable templates, then turns approvals straight into scheduled, dispatched, card-on-file jobs.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

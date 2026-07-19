@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Keep every repair customer in the loop &mdash; automatically &mdash; with IrrigationBossPro</h3>
           <p>IrrigationBossPro sends confirmation, arrival, completion, and invoice texts straight from your schedule and job logs, with two-way texting and card-on-file payments built in.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

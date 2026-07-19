@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every irrigation crew from one dispatch board</h3>
           <p>IrrigationBossPro lets you build routes, assign jobs from the Job Board, and track installs, repairs, winterizations, and start-ups for every crew on a single screen.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

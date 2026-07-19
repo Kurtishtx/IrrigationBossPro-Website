@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See what the right platform pays back across a full season.</h3>
           <p>IrrigationBossPro turns line-item estimates, parts, dispatch, card-on-file invoicing, and recurring seasonal service into one system that earns its cost back on every repair.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

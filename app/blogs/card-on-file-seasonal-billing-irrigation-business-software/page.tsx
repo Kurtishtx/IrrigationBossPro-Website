@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Bill Every Blowout the Day You Run It</h3>
           <p>IrrigationBossPro stores a card on each customer profile and bills winterizations, start-ups, and repairs to it automatically on the day of service.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, card-on-file billing, winterization invoicing software, sprinkler blowout payments, recurring irrigation billing, same-day irrigation invoicing</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Trade the clipboard for accurate, material-loaded irrigation bids.</h3>
           <p>IrrigationBossPro builds line-item sprinkler estimates from your saved catalog and turns them into scheduled jobs, pull lists, invoices, and recurring seasonal service.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

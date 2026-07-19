@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Run a Faster Winterization Season With IrrigationBossPro</h3>
           <p>IrrigationBossPro builds per-zone winterization estimates, schedules dense blowout routes, and bills cards on file so your fall season runs itself.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, winterization estimates, sprinkler blowout pricing, seasonal irrigation scheduling, irrigation invoicing software, per-zone irrigation quotes</div>
       </article>

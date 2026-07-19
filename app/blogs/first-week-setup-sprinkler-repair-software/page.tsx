@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Get your irrigation business set up in a week, not a season</h3>
           <p>IrrigationBossPro gives sprinkler contractors line-item estimates, a parts library, scheduling and dispatch, invoicing with card-on-file, and recurring winterization and start-up service in one platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -88,6 +88,7 @@ export default function Page() {
           <h3>Price Every Part Right with IrrigationBossPro</h3>
           <p>IrrigationBossPro builds correct markup into every head, valve and pipe run &mdash; from line-item estimate to card-on-file invoice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation business software, sprinkler estimate software, irrigation materials markup, irrigation parts pricing, sprinkler invoicing software, irrigation contractor software</div>

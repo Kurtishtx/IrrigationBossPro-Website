@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Big Multi-Zone Systems With Confidence</h3>
           <p>IrrigationBossPro builds zone-by-zone, line-item commercial estimates with saved materials and labor, then schedules, dispatches, and bills the whole project in one platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, multi-zone irrigation estimates, commercial sprinkler bids, irrigation materials pricing, line-item irrigation quotes, large irrigation project estimating</div>
       </article>

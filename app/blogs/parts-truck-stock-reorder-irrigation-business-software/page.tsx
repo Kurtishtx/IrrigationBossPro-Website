@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop Losing Days to Missing Parts</h3>
           <p>IrrigationBossPro tracks truck stock, deducts parts off your jobs, and flags reorders automatically so your crews always roll out ready.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, irrigation parts inventory software, truck stock tracking, sprinkler repair scheduling software, irrigation materials management, irrigation crew dispatch software</div>
       </article>

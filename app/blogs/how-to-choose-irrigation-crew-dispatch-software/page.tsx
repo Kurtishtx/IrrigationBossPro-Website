@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run Your Irrigation Business on IrrigationBossPro</h3>
           <p>IrrigationBossPro brings estimates, materials, scheduling, crew dispatch, invoicing, and seasonal recurring service into one platform built for sprinkler contractors.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation crew &amp; dispatch software, sprinkler contractor software, irrigation scheduling software, irrigation invoicing software, winterization scheduling software, irrigation estimate software</div>

@@ -91,6 +91,7 @@ export default function Page() {
           <h3>Book Only What Your Trucks Can Finish</h3>
           <p>IrrigationBossPro sizes every job, caps each crew at real capacity, routes the day, and invoices on completion&mdash;so you stop overbooking and start finishing.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, crew capacity planning, sprinkler crew dispatch, irrigation route optimization, seasonal irrigation scheduling, sprinkler job board software</div>
       </article>

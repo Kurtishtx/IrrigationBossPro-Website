@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Price Every Repair in Seconds with IrrigationBossPro</h3>
           <p>IrrigationBossPro gives your crews a flat-rate price book, line-item estimates, parts tracking, scheduling, and card-on-file invoicing in one platform built for irrigation contractors.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: sprinkler repair software, flat-rate price book, irrigation repair estimates, line-item bids, irrigation parts and materials tracking, repair invoicing software</div>
       </article>

@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Fix Your Five Worst Scheduling Mistakes This Week</h3>
           <p>IrrigationBossPro builds honest, routed schedules, texts your customers automatically, keeps every repair return and seasonal rebook on the board, and carries estimates, materials, and payment through the whole job.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler service scheduling, irrigation crew dispatch, crew capacity planning, recurring seasonal service software, no-access trip reduction</div>
       </article>

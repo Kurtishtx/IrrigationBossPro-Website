@@ -102,6 +102,7 @@ export default function Page() {
           <h3>Run a Tighter Irrigation Crew with IrrigationBossPro</h3>
           <p>IrrigationBossPro gives you a live Job Board, smart routing, recurring seasonal service, line-item estimates, and same-day invoicing built for sprinkler and irrigation businesses.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler crew scheduling, irrigation job board, winterization route software, irrigation invoicing software, seasonal service scheduling</div>
       </article>

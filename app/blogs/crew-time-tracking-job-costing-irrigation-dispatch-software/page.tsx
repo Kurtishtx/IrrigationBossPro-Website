@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Know what every irrigation visit actually costs</h3>
           <p>IrrigationBossPro tracks crew time and parts on every dispatched install, repair, and seasonal stop, then turns it into a bid-versus-actual you can act on and an invoice you can collect.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation crew time tracking, sprinkler job costing software, irrigation dispatch software, irrigation job board, sprinkler crew management, irrigation invoicing software</div>
       </article>

@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Give your irrigation techs a dispatch app they&apos;ll actually open</h3>
           <p>IrrigationBossPro pushes mapped routes, property profiles, parts lists, and on-site invoicing straight to every technician&apos;s phone.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

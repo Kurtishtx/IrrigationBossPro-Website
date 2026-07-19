@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Invoice Every Job Right with IrrigationBossPro</h3>
           <p>IrrigationBossPro turns your estimates, parts, and seasonal service into accurate invoices that get paid fast &mdash; with card-on-file payments built in.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation invoicing software, sprinkler business billing, irrigation estimates and parts, seasonal service invoicing, card-on-file payments, winterization billing</div>

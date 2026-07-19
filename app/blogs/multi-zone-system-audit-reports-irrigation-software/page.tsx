@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run cleaner system audits and turn every zone-by-zone report into approved, scheduled repair work.</h3>
           <p>IrrigationBossPro captures zone-by-zone audits on the property profile, prices repairs as line-item estimates from your parts price book, and pushes approved work straight to the Job Board for dispatch and invoicing.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

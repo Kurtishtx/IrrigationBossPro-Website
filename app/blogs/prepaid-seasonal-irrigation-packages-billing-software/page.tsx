@@ -33,6 +33,7 @@ export default function Page() {
           <h3>Run Prepaid Seasonal Packages Without the Bookkeeping Mess</h3>
           <p>IrrigationBossPro sells, collects, schedules, and bills your start-up, mid-season, and blowout packages from one customer ledger &mdash; so every paid visit draws down the right balance automatically.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation billing software, prepaid seasonal package billing, winterization invoicing software, sprinkler start-up scheduling software, card on file irrigation payments, seasonal service billing</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Set Up With IrrigationBossPro This Week</h3>
           <p>IrrigationBossPro gives irrigation and sprinkler pros line-item estimates, a live parts list, job scheduling, dispatch, invoicing, and recurring seasonal service in one place.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, sprinkler bidding software, irrigation materials and parts list, irrigation job scheduling software, sprinkler invoicing software, seasonal irrigation service software</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bill Every Property the Right Way With IrrigationBossPro</h3>
           <p>IrrigationBossPro splits your irrigation invoices across every property-manager site with full line-item detail, recurring seasonal scheduling, and card-on-file payments &mdash; all from one account.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation invoicing software, split invoices property managers, multi-site irrigation billing, irrigation line-item estimates, card-on-file irrigation payments, seasonal irrigation service scheduling</div>
       </article>

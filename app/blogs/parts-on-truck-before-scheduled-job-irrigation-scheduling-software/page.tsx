@@ -55,6 +55,7 @@ export default function Page() {
           <h3>Stop the supply-house round trips with IrrigationBossPro</h3>
           <p>IrrigationBossPro ties heads, valves, and controllers to every estimate and scheduled job so your crews load right the first time and bill every part they use.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler parts and materials tracking, irrigation job scheduling, irrigation estimate software, crew dispatch software, seasonal irrigation service software</div>

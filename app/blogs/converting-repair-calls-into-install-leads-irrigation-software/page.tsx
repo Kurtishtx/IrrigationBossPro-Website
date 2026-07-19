@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn every repair call into your next install bid.</h3>
           <p>IrrigationBossPro captures field observations, builds line-item install estimates from your parts catalog, and follows up automatically so repair visits convert into new system jobs and seasonal service contracts.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

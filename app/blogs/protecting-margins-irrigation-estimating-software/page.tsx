@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Bid every install and repair from real parts and labor with IrrigationBossPro</h3>
           <p>IrrigationBossPro builds line-item estimates from your irrigation parts catalog, turns approved bids into scheduled jobs, and carries your pricing straight through to invoicing and card-on-file payment &mdash; so the margin you quote is the margin you keep.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

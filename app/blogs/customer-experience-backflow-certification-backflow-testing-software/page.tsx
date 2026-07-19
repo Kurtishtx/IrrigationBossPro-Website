@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Make Backflow Certification Effortless With IrrigationBossPro</h3>
           <p>IrrigationBossPro tracks every device, reminds your customers automatically, and delivers certificates and invoices in minutes so certification feels simple from start to finish.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, backflow certification reminders, irrigation customer experience software, backflow certificate delivery, irrigation scheduling software, card-on-file payments for irrigation</div>
       </article>

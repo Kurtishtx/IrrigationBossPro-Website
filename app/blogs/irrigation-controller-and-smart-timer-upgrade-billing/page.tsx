@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bid it, install it, bill it &mdash; and get paid the same day.</h3>
           <p>IrrigationBossPro turns controller and smart timer upgrades into clean line-item estimates, accurate parts-tracked invoices, and card-on-file payments without the office double work.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

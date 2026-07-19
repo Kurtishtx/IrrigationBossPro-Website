@@ -91,6 +91,7 @@ export default function Page() {
           <h3>Quote Controller Upgrades in Minutes With IrrigationBossPro</h3>
           <p>IrrigationBossPro builds line-item estimates from your parts catalog, sends bids customers approve on their phone, and turns them into scheduled, invoiced jobs.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, smart controller upgrade estimate, sprinkler parts and materials tracking, irrigation job scheduling, card-on-file invoicing, sprinkler bid software</div>
       </article>

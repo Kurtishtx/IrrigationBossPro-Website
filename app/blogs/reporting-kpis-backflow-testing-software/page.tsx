@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See Every Backflow KPI in One Dashboard</h3>
           <p>IrrigationBossPro tracks pass rates, tester productivity, certificate compliance, and revenue per test while it schedules, bills, and renews the work.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, backflow test KPIs, backflow reporting software, certificate compliance tracking, tester productivity reports, irrigation business software</div>
       </article>

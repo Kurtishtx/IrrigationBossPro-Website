@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop losing repair tickets in voicemails and sticky notes</h3>
           <p>IrrigationBossPro puts every sprinkler and valve repair on one Job Board you can quote, schedule, dispatch, and invoice without a single ticket slipping through the cracks.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

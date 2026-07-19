@@ -98,6 +98,7 @@ export default function Page() {
           <h3>Document Every Irrigation Job Automatically</h3>
           <p>IrrigationBossPro attaches before-and-after photos to every dispatched job, so your crews prove their work, your invoices stick, and your property history is always one tap away.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation crew dispatch software, before-and-after job photos, irrigation work order documentation, sprinkler repair proof of work, property profile photo history, irrigation invoicing software</div>
       </article>

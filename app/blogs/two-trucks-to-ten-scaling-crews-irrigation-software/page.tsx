@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Scale Your Irrigation Crews Without Losing Control</h3>
           <p>IrrigationBossPro gives growing sprinkler companies line-item bids, parts tracking, a shared Job Board, crew dispatch, and automated seasonal service in one system.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation software, sprinkler crew scheduling, irrigation job board, irrigation dispatch software, sprinkler estimating software, irrigation materials tracking</div>

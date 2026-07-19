@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build your price book once. Bid every irrigation job in minutes.</h3>
           <p>IrrigationBossPro stores your heads, valves, controllers, pipe, and labor as saved line items so every install, repair, and seasonal service bid is fast, consistent, and priced for profit.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

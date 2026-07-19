@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Put Your Seasonal Revenue on Autopilot</h3>
           <p>IrrigationBossPro builds seasonal service packages, attaches them as recurring quotes, and auto-schedules and bills your start-ups, backflow tests, and winterizations year after year.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation estimating software, seasonal service packages, recurring quotes, winterization scheduling software, backflow testing software, sprinkler service billing</div>
       </article>

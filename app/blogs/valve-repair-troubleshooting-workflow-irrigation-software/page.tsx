@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run valve and wiring repairs the easy way</h3>
           <p>IrrigationBossPro keeps property history, parts, line-item estimates, scheduling, and card-on-file invoicing in one place so every repair gets billed and every customer stays on the books.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation software, valve repair workflow, sprinkler repair estimates, irrigation parts tracking, irrigation job scheduling, card-on-file invoicing</div>
       </article>

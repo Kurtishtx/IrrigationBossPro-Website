@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop building every invoice twice.</h3>
           <p>IrrigationBossPro turns your approved sprinkler estimates into accurate, itemized invoices in one click &mdash; every head, valve, controller, and foot of pipe carried straight across.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

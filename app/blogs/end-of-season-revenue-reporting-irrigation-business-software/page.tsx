@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Close Out Your Irrigation Season the Easy Way</h3>
           <p>IrrigationBossPro tracks every estimate, part, payment, and seasonal visit so end-of-season revenue and service reports are ready when you are.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, end-of-season revenue reporting, sprinkler service reports, irrigation materials tracking, winterization scheduling software, backflow certification tracking</div>
       </article>

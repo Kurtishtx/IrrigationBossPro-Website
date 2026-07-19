@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run your whole sprinkler repair business on one platform</h3>
           <p>IrrigationBossPro handles line-item estimates, a real irrigation parts catalog, scheduling and dispatch, invoicing with card-on-file payments, and recurring seasonal service &mdash; all in one place.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

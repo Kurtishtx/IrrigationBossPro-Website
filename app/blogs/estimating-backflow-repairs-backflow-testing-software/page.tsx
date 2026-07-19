@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn Failed Devices Into Profitable Repairs</h3>
           <p>IrrigationBossPro builds line-item rebuild estimates with saved parts and labor, then schedules, dispatches, and bills the repair in one connected platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: backflow testing software, backflow repair estimates, backflow rebuild kit pricing, backflow device replacement quotes, irrigation backflow certification, line-item backflow bids</div>
       </article>

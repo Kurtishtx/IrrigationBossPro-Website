@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See What IrrigationBossPro Saves Your Crew</h3>
           <p>IrrigationBossPro ties estimates, materials, dispatch, seasonal rebooking, and invoicing together so every truck runs full and every job gets billed.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation dispatch software, irrigation crew management software, sprinkler business software ROI, irrigation invoicing software, seasonal service scheduling, irrigation estimating software</div>
       </article>

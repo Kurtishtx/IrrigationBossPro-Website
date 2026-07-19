@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Set up the seasonal plan once and let it bill itself every start-up, test, and blowout.</h3>
           <p>IrrigationBossPro runs recurring seasonal service plans &mdash; up-front, installment, or per-visit &mdash; and auto-charges the card on file as each job is completed.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

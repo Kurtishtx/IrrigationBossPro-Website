@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn Repair History Into Fewer Free Callbacks</h3>
           <p>IrrigationBossPro logs every part, warranty term, and repair under each property profile, then dispatches, invoices, and bills the work in one connected platform.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: irrigation business software, warranty tracking for irrigation, sprinkler repair history software, reduce irrigation callbacks, property profiles for irrigation, irrigation service call invoicing</div>
       </article>

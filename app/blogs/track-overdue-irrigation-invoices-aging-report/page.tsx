@@ -50,6 +50,7 @@ export default function Page() {
           <h3>See Every Overdue Irrigation Invoice in One Place</h3>
           <p>IrrigationBossPro gives sprinkler and irrigation businesses a live aging report, card-on-file payments, and one-tap reminders so no invoice goes unpaid.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: irrigation invoicing software, irrigation aging report, overdue sprinkler invoices, irrigation billing software, card-on-file payments, irrigation accounts receivable</div>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn every start-up and blowout into booked, recurring revenue.</h3>
           <p>IrrigationBossPro enrolls customers into seasonal programs, schedules and dispatches the rush, captures repairs, and bills it all on completion.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

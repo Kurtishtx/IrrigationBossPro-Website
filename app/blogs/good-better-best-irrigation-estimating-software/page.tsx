@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Win more sprinkler installs with good-better-best bids.</h3>
           <p>IrrigationBossPro builds tiered, line-item install estimates from your saved materials catalog and converts the chosen package straight into a scheduled job, deposit, and itemized invoice.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">
