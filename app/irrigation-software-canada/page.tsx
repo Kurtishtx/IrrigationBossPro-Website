@@ -486,7 +486,7 @@ export default function IrrigationSoftwareCanada() {
               <li>Customer App with CA$ Invoices</li>
               <li>Backflow Device &amp; Test Records</li>
               <li>Stripe Card-on-File Through Your Own Account</li>
-              <li>500 Outbound SMS/month included, +$15 per additional 500</li>
+              <li>500 texts/month included (sent + received), +additional5 per additional 500</li>
             </ul>
             <button onClick={(e) => openTrial(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
           </div>
