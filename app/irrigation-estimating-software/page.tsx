@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -225,11 +225,11 @@ export default function IrrigationEstimatingSoftware() {
         <p>Most field service software wasn&apos;t built to price a sprinkler system. IrrigationBossPro is built from the ground up for irrigation contractors &mdash; the way you bid line-item installs, count heads and valves, schedule repairs, and run seasonal winterizations is completely different, and your estimating software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Line-Item</div><div className="hero-stat-lbl">Bids With Parts &amp; Labor</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Alerts Included Monthly</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
@@ -251,7 +251,7 @@ export default function IrrigationEstimatingSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Irrigation Software.</span></h2>
-        <p>$129/month sounds modest. But what you&apos;re getting isn&apos;t modest at all. IrrigationBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for ourselves, and we don&apos;t have a sales team, investor overhead, or a $500/month add-on for every feature you actually need to bid and run a sprinkler business.</p>
+        <p>from $59/month sounds modest. But what you&apos;re getting isn&apos;t modest at all. IrrigationBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for ourselves, and we don&apos;t have a sales team, investor overhead, or a $500/month add-on for every feature you actually need to bid and run a sprinkler business.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimating</h4><p>Build a full sprinkler bid in minutes &mdash; zones, heads, valves, controllers, pipe, fittings, and backflow devices &mdash; each line with its own quantity, part cost, markup, and labor. The total tallies itself as you build it.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Materials &amp; Parts Catalog</h4><p>Store your real prices for spray heads, rotors, valves, controllers, pipe, wire, and backflow assemblies. Drop a part onto an estimate and the cost, markup, and margin are already there &mdash; no more guessing on a notepad in the truck.</p></div>
@@ -385,7 +385,7 @@ export default function IrrigationEstimatingSoftware() {
             {icon:'⏱️', title:'Employee Hour Tracking', body:'Track employee hours per job and generate payroll-ready reports. Know exactly what an install cost you in labor before payday — without running a separate system.'},
             {icon:'📊', title:'Dashboard &amp; Reports', body:'Custom stat cards on your dashboard show today\'s revenue, jobs completed, properties served, money owed, and more — all at a glance the moment you log in.'},
             {icon:'🔔', title:'10+ Automated Alert Types', body:'Job scheduled, completed, rescheduled, estimate sent, estimate accepted, review request, payment declined, inbound text, seasonal service due — all automated, all customizable.'},
-            {icon:'👥', title:'Unlimited Users', body:'Add every employee, office staff member, and technician at no extra cost. No per-seat fees. Unlimited users are included in the flat $129/month rate.'},
+            {icon:'👥', title:'Unlimited Users', body:'Add every employee, office staff member, and technician at no extra cost. No per-seat fees. Unlimited users are included in the flat from $59/month rate.'},
             {icon:'🏢', title:'Unlimited Clients &amp; Properties', body:'No caps on clients, properties, or leads. Whether you have 50 accounts or 5,000 — IrrigationBossPro handles it all at the same flat price.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
@@ -541,7 +541,7 @@ export default function IrrigationEstimatingSoftware() {
             {q:'Does it track materials and parts pricing?', a:'Yes. Your materials and parts catalog stores your real prices for heads, valves, controllers, pipe, fittings, and backflow devices. Drop a part onto any estimate and its cost, markup, and margin come with it — no more guessing numbers on a notepad in the truck.'},
             {q:'How does scheduling work for installs, repairs, and backflow tests?', a:'Everything lives on the Job Board. New-system installs, valve and head repairs, backflow tests, and seasonal start-ups sit on one board. Drag a job onto a date, assign the crew and truck, and route the day\'s stops geographically to cut drive time.'},
             {q:'Does IrrigationBossPro handle seasonal winterizations and spring start-ups?', a:'Yes. Set winterizations and start-ups to recur every season and IrrigationBossPro flags every customer when their fall blowout or spring turn-on is due. The list builds itself from last year\'s accounts so you can batch-schedule an entire route to a date and crew.'},
-            {q:'How much does IrrigationBossPro cost?', a:'$129/month, all features included. No per-user fees, no add-ons for SMS or estimating tools, no setup fees. 14-day free trial with no credit card required.'},
+            {q:'How much does IrrigationBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or estimating tools, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -558,7 +558,7 @@ export default function IrrigationEstimatingSoftware() {
         <p>IrrigationBossPro is the only irrigation estimating software built by someone who has actually bid an install and turned a valve. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

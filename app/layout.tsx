@@ -6,12 +6,18 @@ import "./globals.css";
 import MetaPixel from './components/MetaPixel';
 
 export const metadata: Metadata = {
+  /* Every route resolves its own canonical against this base, so a page reached as www vs
+     non-www, with a trailing slash, or carrying ?fbclid=/?utm_source= all point at one URL
+     instead of competing with each other. */
+  metadataBase: new URL('https://www.irrigationbosspro.com'),
+  alternates: { canonical: './' },
+
   title: 'IrrigationBossPro | Irrigation & Sprinkler Business Software',
-  description: "IrrigationBossPro is irrigation and sprinkler business software — spring startups, repairs, winterizations, scheduling, system records, automated SMS, and invoicing. $129/month, everything included.",
+  description: "IrrigationBossPro is irrigation and sprinkler business software — spring startups, repairs, winterizations, scheduling, system records, automated SMS, and invoicing. from $59/month, everything included.",
 };
 
 
-const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://irrigationbosspro.com/#organization","name":"IrrigationBossPro","url":"https://irrigationbosspro.com","logo":"https://irrigationbosspro.com/icon.png","description":"Irrigation and sprinkler business software for spring startups, repairs, winterizations, scheduling, system records, and invoicing."},{"@type":"WebSite","@id":"https://irrigationbosspro.com/#website","url":"https://irrigationbosspro.com","name":"IrrigationBossPro","publisher":{"@id":"https://irrigationbosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"IrrigationBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Irrigation and sprinkler business software for spring startups, repairs, winterizations, scheduling, system records, and invoicing.","offers":{"@type":"Offer","price":"129","priceCurrency":"USD","description":"$129/month flat — everything included, 14-day free trial."},"publisher":{"@id":"https://irrigationbosspro.com/#organization"}}]};
+const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://irrigationbosspro.com/#organization","name":"IrrigationBossPro","url":"https://irrigationbosspro.com","logo":"https://irrigationbosspro.com/icon.png","description":"Irrigation and sprinkler business software for spring startups, repairs, winterizations, scheduling, system records, and invoicing."},{"@type":"WebSite","@id":"https://irrigationbosspro.com/#website","url":"https://irrigationbosspro.com","name":"IrrigationBossPro","publisher":{"@id":"https://irrigationbosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"IrrigationBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Irrigation and sprinkler business software for spring startups, repairs, winterizations, scheduling, system records, and invoicing.","offers":{"@type":"AggregateOffer","lowPrice":"59","highPrice":"199","offerCount":"3","priceCurrency":"USD","description":"from $59/month flat — everything included, 14-day free trial."},"publisher":{"@id":"https://irrigationbosspro.com/#organization"}}]};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

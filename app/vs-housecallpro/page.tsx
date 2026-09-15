@@ -131,24 +131,24 @@ export default function VsHousecallPro() {
 
       <div className="hero">
         <div className="hero-badge">Housecall Pro Alternative</div>
-        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>IrrigationBossPro Is Built for Irrigation.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
+        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>IrrigationBossPro Is Built for Irrigation.</span><br />$59 vs $149 — and No Comparison on Features.</h1>
         <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. IrrigationBossPro is built specifically for irrigation and sprinkler businesses — with the parts catalog for heads, valves and controllers, recurring seasonal service for winterizations and start-ups, crew dispatch and routing, and backflow tracking that HCP doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">1</div><div className="hero-stat-lbl">User on HCP Basic ($59/mo)</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on IrrigationBossPro ($129/mo)</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on IrrigationBossPro (from $59/mo)</div></div>
           <div><div className="hero-stat-val">$149</div><div className="hero-stat-lbl">HCP Essentials — 5-User Cap</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">IrrigationBossPro — Unlimited Users</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">IrrigationBossPro — Unlimited Users</div></div>
         </div>
       </div>
 
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Housecall Pro Pricing Reality</span>
-          <h2 className="section-title">HCP Charges More Per Tier. IrrigationBossPro Is $129 — Unlimited.</h2>
-          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. IrrigationBossPro doesn&apos;t have user tiers — your whole team is included at $129/month.</p>
+          <h2 className="section-title">HCP Charges More Per Tier. IrrigationBossPro Is $59 — Unlimited.</h2>
+          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. IrrigationBossPro doesn&apos;t have user tiers — your whole team is included at from $59/month.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -180,7 +180,7 @@ export default function VsHousecallPro() {
                 </div>
               </div>
               <div className="sbp-contrast">
-                <div className="sbp-contrast-label">IrrigationBossPro — $129/month</div>
+                <div className="sbp-contrast-label">IrrigationBossPro — from $59/month</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users</span><span className="sbp-contrast-row-val">Unlimited — no caps</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Parts &amp; Materials Catalog</span><span className="sbp-contrast-row-val">✓ Included</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Recurring Seasonal Service</span><span className="sbp-contrast-row-val">✓ Included</span></div>
@@ -189,13 +189,13 @@ export default function VsHousecallPro() {
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Math</span>
               <h2>At a Lower Price Than HCP Essentials, IrrigationBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
-              <p>HCP Essentials is $149/month and covers up to 5 users. IrrigationBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a parts catalog built for heads, valves and controllers, crew dispatch and routing, or recurring seasonal service for winterizations and start-ups. These aren&apos;t premium add-ons in IrrigationBossPro — they&apos;re in the base price.</p>
+              <p>HCP Essentials is $149/month and covers up to 5 users. IrrigationBossPro is from $59/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a parts catalog built for heads, valves and controllers, crew dispatch and routing, or recurring seasonal service for winterizations and start-ups. These aren&apos;t premium add-ons in IrrigationBossPro — they&apos;re in the base price.</p>
               <ul className="check-list">
                 <li>Parts &amp; materials catalog for heads, valves &amp; controllers — doesn&apos;t exist in HCP</li>
                 <li>Crew dispatch &amp; route map — built for irrigation, not in HCP</li>
                 <li>Recurring seasonal service for winterizations &amp; start-ups — doesn&apos;t exist in HCP</li>
                 <li>Backflow testing &amp; certification tracking — doesn&apos;t exist in HCP</li>
-                <li>Unlimited users at $129 — HCP needs MAX ($299) for 8 users</li>
+                <li>Unlimited users at $59 — HCP needs MAX ($299) for 8 users</li>
               </ul>
             </div>
           </div>
@@ -209,9 +209,9 @@ export default function VsHousecallPro() {
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Line-Item Estimates</h4><p>Build detailed estimates for new system installs and repairs — zones, heads, valves, controllers, trenching, labor. Customers approve online and the job converts straight to scheduling. HCP has estimates, but not built around the way irrigation jobs are quoted.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Parts &amp; Materials Catalog</h4><p>Track heads, valves, controllers, pipe, and backflow devices with your pricing built in. Drop parts onto any estimate or invoice in seconds. HCP doesn&apos;t carry an irrigation parts catalog out of the box.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Crew Dispatch &amp; Routing</h4><p>Assign jobs to crews, build efficient routes across the day, and dispatch from the Job Board. Stops, addresses, and job type all shown before you send the truck. HCP has job scheduling — IrrigationBossPro routes irrigation crews the way the work actually flows.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. IrrigationBossPro covers your entire team at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $59</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. IrrigationBossPro covers your entire team at $59 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Seasonal Service</h4><p>IrrigationBossPro is built around recurring seasonal programs — fall winterizations and blowouts, spring start-ups, backflow re-tests, due-date flags. HCP handles recurring jobs for general trades. The seasonal irrigation workflow is different, and HCP wasn&apos;t built for it.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $59, not locked behind a premium tier.</p></div>
         </div>
       </div>
 
@@ -244,7 +244,7 @@ export default function VsHousecallPro() {
               <tr><td className="feature-name">Mobile App for Techs &amp; Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
-              <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
+              <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
             </tbody>
           </table>
         </div>
@@ -260,7 +260,7 @@ export default function VsHousecallPro() {
           <div className="simple-card"><div className="simple-num">01</div><h3>Parts Are the Detail That Matters</h3><p>IrrigationBossPro tracks heads, valves, controllers, pipe, and backflow devices with your pricing built in — on every estimate and invoice. Irrigation jobs live and die on parts and materials. Your software should know them. HCP tracks job duration and billing, not an irrigation parts catalog.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>The Seasonal Service Model Is Different</h3><p>Irrigation businesses run recurring seasonal programs across hundreds of properties — winterizations, blowouts, spring start-ups, backflow re-tests. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. IrrigationBossPro was built around the seasonal model from day one.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Backflow &amp; Certification Tracking</h3><p>Irrigation systems need backflow testing and certification on a schedule. Test dates, device records, due-date flags — these need to be built into the software. HCP has job notes. IrrigationBossPro tracks backflow tests and seasonal service automatically.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>IrrigationBossPro is $129/month with unlimited users, unlimited routes, a full parts catalog, crew dispatch, recurring seasonal service, and SMS. HCP Essentials is $149 with a 5-user cap and none of those irrigation-specific features. Less money. More irrigation.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>IrrigationBossPro is from $59/month with unlimited users, unlimited routes, a full parts catalog, crew dispatch, recurring seasonal service, and SMS. HCP Essentials is $149 with a 5-user cap and none of those irrigation-specific features. Less money. More irrigation.</p></div>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Less Than HCP Essentials — More Irrigation Features</h2>
-          <p className="section-sub">$129/month. Unlimited users. Every irrigation-specific feature included.</p>
+          <p className="section-sub">from $59/month. Unlimited users. Every irrigation-specific feature included.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -309,7 +309,7 @@ export default function VsHousecallPro() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #84cc16', boxShadow:'0 0 0 4px rgba(132,204,22,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#0f1720,#263445)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -326,7 +326,7 @@ export default function VsHousecallPro() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -225,11 +225,11 @@ export default function SprinklerRepairSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. IrrigationBossPro is built from the ground up for irrigation and sprinkler companies &mdash; new system installs, valve and head repairs, backflow testing, fall winterizations, and spring start-ups. Your work is project-heavy, parts-heavy, and seasonal, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Bids</div><div className="hero-stat-lbl">Line-Item Estimates in Minutes</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Alerts Included Monthly</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
@@ -251,7 +251,7 @@ export default function SprinklerRepairSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Sprinkler Repair Software.</span></h2>
-        <p>$129/month sounds modest. But what you&apos;re getting isn&apos;t modest at all. IrrigationBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for ourselves, and we don&apos;t have a sales team, investor overhead, or a $500/month add-on for every feature you actually need.</p>
+        <p>from $59/month sounds modest. But what you&apos;re getting isn&apos;t modest at all. IrrigationBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for ourselves, and we don&apos;t have a sales team, investor overhead, or a $500/month add-on for every feature you actually need.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimates</h4><p>Build a sprinkler repair or full install bid with parts and labor on separate lines &mdash; heads, valves, controllers, pipe, and backflow devices priced individually. Email it, let the customer approve with one click, and convert it straight to an invoice.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Materials &amp; Parts Tracking</h4><p>Keep a full catalog of rotors, spray heads, valves, controllers, pipe, fittings, and backflow assemblies with your cost and price. Pull parts onto any estimate or work order and know your real margin on every job.</p></div>
@@ -381,7 +381,7 @@ export default function SprinklerRepairSoftware() {
             {icon:'⏱️', title:'Employee Hour Tracking', body:'Track tech hours per job and generate payroll-ready reports. Know exactly what you owe before payday without running a separate system.'},
             {icon:'📊', title:'Dashboard & Reports', body:'Custom stat cards show today\'s revenue, jobs completed, properties served, money owed, and more — all at a glance the moment you log in.'},
             {icon:'🔔', title:'10+ Automated Alert Types', body:'Job scheduled, completed, skipped, rescheduled, estimate sent, estimate accepted, review request, payment declined, inbound text — all automated, all customizable.'},
-            {icon:'👥', title:'Unlimited Users', body:'Add every office staffer, install crew, and repair tech at no extra cost. No per-seat fees. Unlimited users are included in the flat $129/month rate.'},
+            {icon:'👥', title:'Unlimited Users', body:'Add every office staffer, install crew, and repair tech at no extra cost. No per-seat fees. Unlimited users are included in the flat from $59/month rate.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
               <span className="feature-icon">{icon}</span>
@@ -535,7 +535,7 @@ export default function SprinklerRepairSoftware() {
             {q:'How does scheduling work for installs, repairs, and blowouts?', a:'Everything lands on the Job Board. Multi-day installs, single-stop repairs, backflow tests, and seasonal blowouts all share one schedule. You assign each job a date, a crew, and a truck, order the day to cut drive time, and dispatch the whole route from one screen.'},
             {q:'Does IrrigationBossPro handle seasonal winterizations and start-ups?', a:'Yes. Tag a customer for fall winterization or spring start-up and IrrigationBossPro tracks who is due each season, builds the list, and queues it on the Job Board. You batch-schedule a whole blowout route to a crew, auto-text customers their date, and bill with card-on-file.'},
             {q:'Can it store backflow test records?', a:'Yes. Log backflow test results, device details, and certification dates on each property record, so when a customer or the city asks who tested the device and when, the answer is one click away.'},
-            {q:'How much does IrrigationBossPro cost?', a:'$129/month, all features included. No per-user fees, no add-ons for SMS or scheduling tools, no setup fees. 14-day free trial with no credit card required.'},
+            {q:'How much does IrrigationBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or scheduling tools, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -552,7 +552,7 @@ export default function SprinklerRepairSoftware() {
         <p>IrrigationBossPro is the only sprinkler repair software built by someone who has actually run installs, repairs, and blowout routes. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

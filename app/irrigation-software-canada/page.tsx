@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'Is the subscription itself billed in Canadian dollars?',
-    a: 'No — the IrrigationBossPro subscription is $129 USD per month, and your bank converts it at its exchange rate on your card statement. Your customer-facing side is fully CAD; the one thing priced in US dollars is our subscription.',
+    a: 'No — the IrrigationBossPro subscription is $59 USD per month, and your bank converts it at its exchange rate on your card statement. Your customer-facing side is fully CAD; the one thing priced in US dollars is our subscription.',
   },
   {
     q: 'Does automated customer texting work in Canada?',
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'Is winterization and spring start-up scheduling an extra module?',
-    a: 'No. IrrigationBossPro is one flat price — $129/month with every feature included. Recurring seasonal service, the Job Board, the route map, line-item estimates, invoicing and card-on-file, the crew app, the customer app, and backflow test records are all part of the same plan. No tiers, no per-user fees, no locked features.',
+    a: 'No. IrrigationBossPro is one flat price — from $59/month with every feature included. Recurring seasonal service, the Job Board, the route map, line-item estimates, invoicing and card-on-file, the crew app, the customer app, and backflow test records are all part of the same plan. No tiers, no per-user fees, no locked features.',
   },
   {
     q: 'Is there a free trial?',
@@ -192,7 +192,7 @@ export default function IrrigationSoftwareCanada() {
       <div style={{background:'linear-gradient(135deg, #0f1720 0%, #1f2937 60%, #263445 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$129<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime &middot; Bill your customers in Canadian dollars</div>
@@ -208,7 +208,7 @@ export default function IrrigationSoftwareCanada() {
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openTrial(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <a href="https://my.irrigationbosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">CA$</div><div className="hero-stat-lbl">Customer Billing, Native</div></div>
@@ -245,7 +245,7 @@ export default function IrrigationSoftwareCanada() {
             <tbody>
               <tr><td>Seeing the software</td><td className="us">Live demo on this page &mdash; no call, no form</td><td className="them">Book a demo call with a sales rep</td></tr>
               <tr><td>Trying it yourself</td><td className="us">14-day free trial, no credit card</td><td className="them">Trial after the call, if at all</td></tr>
-              <tr><td>Pricing</td><td className="us">$129/month flat &mdash; every feature, unlimited users</td><td className="them">Per-user tiers, add-ons, and upgrade calls</td></tr>
+              <tr><td>Pricing</td><td className="us">from $59/month flat &mdash; every feature, unlimited users</td><td className="them">Per-user tiers, add-ons, and upgrade calls</td></tr>
               <tr><td>Billing your customers in CAD</td><td className="us">Native &mdash; set Country to Canada once, done</td><td className="them">Depends &mdash; you get to find out on the sales call</td></tr>
               <tr><td>Seasonal scheduling</td><td className="us">Whole-book start-up &amp; winterization rollover, built in</td><td className="them">Generic recurring jobs you bend into shape</td></tr>
               <tr><td>Contracts</td><td className="us">None &mdash; cancel anytime</td><td className="them">Annual agreements are common</td></tr>
@@ -517,7 +517,7 @@ export default function IrrigationSoftwareCanada() {
         <p>Get the whole book scheduled both ways, the blowout weeks routed tight, and every stop billed in Canadian dollars the day it&apos;s done. Try the full platform free for 14 days &mdash; no credit card, no sales call.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openTrial(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 
