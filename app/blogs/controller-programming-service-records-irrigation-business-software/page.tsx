@@ -69,7 +69,7 @@ export default function Page() {
         <p>
           When every controller is on file, dispatch gets smarter. The office can route a fall winterization run knowing exactly
           how many zones each stop has, so the schedule reflects real job length instead of a flat guess. Bigger systems get more
-          time on the calendar; simple six-zone setups get grouped tighter. The Job Board shows what&apos;s on deck, crews see the
+          time on the calendar; simple six-zone setups get grouped tighter. The Pending Jobs board shows what&apos;s on deck, crews see the
           controller details before they leave the shop, and you can text the customer a heads-up that you&apos;re coming to shut the
           system down. Spring start-ups work the same way in reverse. Recurring seasonal service stops being a scramble and starts
           running like a route, because the software already holds the knowledge each stop needs.

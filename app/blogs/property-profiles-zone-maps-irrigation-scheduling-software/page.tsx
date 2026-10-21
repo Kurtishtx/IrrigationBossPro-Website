@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Faster Visits Mean Tighter Scheduling</h2>
         <p>
-          When visits are predictable, your calendar gets honest. If the software and the crew both know a property has eight zones, a single controller, and a backflow device that needs testing, the office can block the right amount of time instead of padding every stop. That precision is what makes a packed seasonal route possible. Good <a href="/irrigation-scheduling-software">irrigation scheduling software</a> uses the property profile to estimate job length, so the Job Board fills with realistic stops and dispatch routes that actually hold up in the field. Fewer surprises means fewer callbacks and fewer apologetic texts to the next customer about why you are running late.
+          When visits are predictable, your calendar gets honest. If the software and the crew both know a property has eight zones, a single controller, and a backflow device that needs testing, the office can block the right amount of time instead of padding every stop. That precision is what makes a packed seasonal route possible. Good <a href="/irrigation-scheduling-software">irrigation scheduling software</a> uses the property profile to estimate job length, so the Pending Jobs board fills with realistic stops and dispatch routes that actually hold up in the field. Fewer surprises means fewer callbacks and fewer apologetic texts to the next customer about why you are running late.
         </p>
 
         <h2>The Profile Drives Estimates and Materials</h2>

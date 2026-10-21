@@ -39,7 +39,7 @@ export default function Page() {
           The follow-up text is only valuable if a &quot;yes&quot; flows straight into work that gets done and money that gets collected. In IrrigationBossPro, an accepted estimate becomes a real job in a couple of taps. The parts you priced &mdash; the controller, the valves, the run of pipe &mdash; carry over so your crew knows exactly what to load. You drop the job onto the schedule, dispatch and route the crew, and the customer gets a confirmation text with the date. When the install or repair wraps, you invoice from the same record and take payment with a card on file. No re-keying, no separate quoting app, no lost details between the bid and the truck.
         </p>
         <p>
-          That clean handoff matters because a fast follow-up means nothing if the customer says yes and then waits a week to hear from you. Tying estimates, scheduling, the Job Board, and invoicing together keeps the momentum from the text all the way through to a paid invoice.
+          That clean handoff matters because a fast follow-up means nothing if the customer says yes and then waits a week to hear from you. Tying estimates, scheduling, the Pending Jobs board, and invoicing together keeps the momentum from the text all the way through to a paid invoice.
         </p>
 
         <h2>Follow-Up Pays Off on Seasonal Work Too</h2>

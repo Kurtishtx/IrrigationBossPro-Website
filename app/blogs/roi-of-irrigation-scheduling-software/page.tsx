@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>More Jobs Per Day From Smarter Dispatch and Routing</h2>
         <p>
-          The fastest ROI in irrigation comes from fitting more billable work into the same eight hours. When IrrigationBossPro plots your day on a map and groups jobs by location, your crews stop crisscrossing town between a head replacement on the north side and a start-up on the south side. Tighten the route and you claw back drive time &mdash; often enough for one or two extra service calls a day. If a tech bills even one additional sprinkler repair daily at your normal rate, the software pays for itself many times over before the season is half done. The Job Board makes that even cleaner: open work sits in one place, and you dispatch the closest available crew with a couple of taps instead of a flurry of phone calls.
+          The fastest ROI in irrigation comes from fitting more billable work into the same eight hours. When IrrigationBossPro plots your day on a map and groups jobs by location, your crews stop crisscrossing town between a head replacement on the north side and a start-up on the south side. Tighten the route and you claw back drive time &mdash; often enough for one or two extra service calls a day. If a tech bills even one additional sprinkler repair daily at your normal rate, the software pays for itself many times over before the season is half done. The Pending Jobs board makes that even cleaner: open work sits in one place, and you dispatch the closest available crew with a couple of taps instead of a flurry of phone calls.
         </p>
 
         <h2>Recurring Seasonal Work That Never Falls Through</h2>

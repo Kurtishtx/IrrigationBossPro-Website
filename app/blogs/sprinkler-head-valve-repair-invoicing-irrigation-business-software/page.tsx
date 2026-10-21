@@ -92,7 +92,7 @@ export default function Page() {
         <h2>One System for Estimates, Repairs, and Seasonal Work</h2>
         <p>
           Line-item repair invoicing isn&apos;t a standalone feature &mdash; it works because it sits inside one
-          connected platform. The job board feeds dispatch, dispatch routes the crew, the property
+          connected platform. The Pending Jobs board feeds dispatch, dispatch routes the crew, the property
           profile carries the controller and zone history, the catalog prices the parts, and the
           invoice charges the card. Every piece you need to run that flow lives under one roof in{' '}
           <a href="/irrigation-business-software">irrigation business software</a>, so your office

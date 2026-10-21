@@ -83,7 +83,7 @@ export default function Page() {
         <p>
           The biggest time saver is what happens after the signature. An approved, deposit-paid
           estimate does not sit in a pile waiting for someone to type it into a calendar. In
-          IrrigationBossPro the accepted job drops onto the Job Board ready to schedule, with the
+          IrrigationBossPro the accepted job drops onto the Pending Jobs board ready to schedule, with the
           full line-item scope, the parts list, and the property details attached. You assign it to
           an install crew, slot it into a route, and dispatch it without re-entering a thing. Because
           the materials are already itemized on the estimate, your crew rolls out knowing exactly how

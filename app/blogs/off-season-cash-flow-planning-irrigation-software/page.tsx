@@ -42,7 +42,7 @@ export default function Page() {
 
         <h2>Right-Size Your Crews and Materials</h2>
         <p>
-          Cash flow is not only about money coming in; it is about money going out at the right time. The job board and scheduling tools show you how much winterization and start-up work is actually booked, so you can size your crews to the real workload instead of carrying idle labor through slow weeks. Dispatch and routing keep blowout days tight, packing more properties into each route so you bill more revenue per truck per day during the short fall window.
+          Cash flow is not only about money coming in; it is about money going out at the right time. The Pending Jobs board and scheduling tools show you how much winterization and start-up work is actually booked, so you can size your crews to the real workload instead of carrying idle labor through slow weeks. Dispatch and routing keep blowout days tight, packing more properties into each route so you bill more revenue per truck per day during the short fall window.
         </p>
         <p>
           The materials side matters just as much. Pre-buying controllers, valves, and backflow devices for spring installs is a great way to lock in pricing, but only if you buy what the booked jobs require. Pull the parts lists straight from your accepted estimates so your off-season purchasing matches committed work. For a deeper look at managing parts across the season, see <a href="/blogs/truck-stock-parts-replenishment-irrigation-software">Keeping Trucks Stocked: Parts Replenishment Driven by Irrigation Software</a>, which covers how to keep heads, fittings, and repair parts flowing without over-buying.

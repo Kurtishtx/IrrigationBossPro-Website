@@ -1,8 +1,8 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Running the Day From the Dispatch Board and Job Board in Irrigation Scheduling Software | IrrigationBossPro',
-  description: 'See how the dispatch board and Job Board in irrigation scheduling software let you assign crews, route jobs, and run a full day of sprinkler work at a glance.',
+  title: 'Running the Day From the Dispatch Board and Pending Jobs Board in Irrigation Scheduling Software | IrrigationBossPro',
+  description: 'See how the dispatch board and Pending Jobs Board in irrigation scheduling software let you assign crews, route jobs, and run a full day of sprinkler work at a glance.',
 };
 
 export default function Page() {
@@ -11,12 +11,12 @@ export default function Page() {
       <article className="blog-article">
         <p className="blog-meta">IrrigationBossPro Blog &mdash; Irrigation Scheduling Software</p>
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/irrigation-scheduling-software" style={{display:"inline-block",background:"#eef7da",color:"#3f6212",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #d4e8a8"}}>&#128167; More Irrigation Scheduling Software guides &rarr;</a></p>
-        <h1>Running the Day From the Dispatch Board and Job Board in Irrigation Scheduling Software</h1>
+        <h1>Running the Day From the Dispatch Board and Pending Jobs Board in Irrigation Scheduling Software</h1>
         <p>
           Every irrigation business lives or dies by how the day actually runs. You can sell a flawless install, write a
           clean estimate, and stock every truck perfectly&mdash;but if your crews are double-booked, driving across town
           twice, or showing up at a backflow test without the device size, the day falls apart anyway. The dispatch board
-          and Job Board are where irrigation scheduling software turns a pile of bookings into a sequence of jobs your
+          and Pending Jobs Board are where irrigation scheduling software turns a pile of bookings into a sequence of jobs your
           crews can actually execute. Done right, you run the whole day from one screen instead of a clipboard, a group
           text, and a string of phone calls.
         </p>
@@ -43,9 +43,9 @@ export default function Page() {
           instant you assign it. No re-explaining the site over the radio.
         </p>
 
-        <h2>The Job Board Is What the Crew Sees</h2>
+        <h2>The Pending Jobs board Is What the Crew Sees</h2>
         <p>
-          The dispatch board is the office view; the Job Board is what each tech sees in the truck. Once you assign and
+          The dispatch board is the office view; the Pending Jobs board is what each tech sees in the truck. Once you assign and
           sequence the day, every crew opens their phone to a clean, ordered list of their stops&mdash;first job to last,
           in driving order, with the address mapped, the customer&apos;s gate code in the notes, and the line items for
           what was sold. A tech tapping into a sprinkler repair sees the heads and valves on the estimate, the property
@@ -57,7 +57,7 @@ export default function Page() {
         <h2>Routing the Day So Trucks Stop Crisscrossing Town</h2>
         <p>
           A board full of jobs is only half the battle&mdash;the order matters as much as the assignment. The software
-          sequences each crew&apos;s Job Board geographically, so a team running ten winterizations hits them in a tight
+          sequences each crew&apos;s Pending Jobs Board geographically, so a team running ten winterizations hits them in a tight
           loop instead of bouncing from the north side to the south side and back. That routing is where the real money
           hides: shave fifteen minutes of windshield time off every stop and you have bought yourself an extra job or two
           per crew per day, the entire season. When a same-day emergency comes in&mdash;a stuck valve flooding a yard&mdash;you
@@ -68,7 +68,7 @@ export default function Page() {
 
         <h2>Closing Jobs, Invoicing, and Collecting on the Spot</h2>
         <p>
-          The day is not done when the truck leaves the driveway&mdash;it is done when you get paid. Because the Job Board
+          The day is not done when the truck leaves the driveway&mdash;it is done when you get paid. Because the Pending Jobs board
           carries each job&apos;s line items, a crew that adds a cracked head or a new controller during a start-up logs
           the part right on the property, and the customer approves the add-on from their phone. When the tech marks the
           job complete on the board, the invoice generates automatically from those line items, and with a card on file
@@ -79,7 +79,7 @@ export default function Page() {
 
         <h2>One Screen That Runs the Whole Operation</h2>
         <p>
-          The point of running the day from the dispatch board and Job Board is that nothing lives in someone&apos;s head
+          The point of running the day from the dispatch board and Pending Jobs Board is that nothing lives in someone&apos;s head
           anymore. The owner can glance at the board from anywhere and read the entire operation&mdash;which crews are
           loaded, which jobs are done, which customers are confirmed, and what is still open for a same-day call. The
           office assigns and reroutes without a single phone call to the field. The crews drive a tight, ordered route and
@@ -91,11 +91,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run Your Whole Day From One Board</h3>
-          <p>IrrigationBossPro puts every install, repair, winterization, and backflow test on a dispatch board and Job Board that assigns crews, routes the day, and invoices the work for you.</p>
+          <p>IrrigationBossPro puts every install, repair, winterization, and backflow test on a dispatch board and Pending Jobs Board that assigns crews, routes the day, and invoices the work for you.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, dispatch board software, sprinkler job board, irrigation crew dispatch, irrigation routing software, sprinkler service scheduling software</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, dispatch board software, sprinkler Pending Jobs board, irrigation crew dispatch, irrigation routing software, sprinkler service scheduling software</div>
       </article>
     </BlogShell>
   );

@@ -49,7 +49,7 @@ export default function Page() {
           a controller, and the priced estimate appears in seconds with margin already baked in. You can still adjust on the
           fly for a competitive bid, but you&apos;re adjusting from a correct number instead of an invented one. This is exactly
           the discipline that makes a clean, profitable proposal possible; if you want to go deeper on assembling those bids,
-          see <a href="/blogs/new-system-install-bids-irrigation-business-software">Building Accurate New System Install Bids in Irrigation Business Software</a>.
+          see <a href="/blogs/line-item-bids-installs-irrigation-software">Building Accurate New System Install Bids in Irrigation Business Software</a>.
           The point is that markup stops being a separate step you might forget &mdash; it&apos;s built into the estimate itself.
         </p>
 
@@ -67,7 +67,7 @@ export default function Page() {
         <p>
           The markup you set has to survive the trip from estimate to scheduled job to invoice, and that&apos;s where a lot of
           paper systems fall apart. With irrigation business software, the approved estimate flows straight onto the job, the
-          crew sees the same parts list on the job board and during dispatch, and any add-ons they install &mdash; an extra
+          crew sees the same parts list on the Pending Jobs board and during dispatch, and any add-ons they install &mdash; an extra
           head, a replacement valve found mid-dig &mdash; get added at the correct catalog price right there in the field. When
           the work is done, the invoice is generated from those line items, marked up properly, ready to text to the customer
           with card-on-file payment. No re-keying, no &quot;what did we charge for that valve again,&quot; no margin lost in

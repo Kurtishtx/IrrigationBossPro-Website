@@ -56,10 +56,10 @@ export default function Page() {
           , and it is what keeps a fully booked day from collapsing under a missing part.
         </p>
 
-        <h2>The Job Board Shows Reality, Not Wishful Thinking</h2>
+        <h2>The Pending Jobs board Shows Reality, Not Wishful Thinking</h2>
         <p>
           The most dangerous thing about a spreadsheet is how confident it looks. Neat columns, clean rows&mdash;it
-          reads like a plan even when it is a wreck underneath. A live Job Board does the opposite. It shows every
+          reads like a plan even when it is a wreck underneath. A live Pending Jobs Board does the opposite. It shows every
           crew&apos;s day as filled or open at a glance, color-coded by load, with unassigned work waiting in a queue
           you can drag onto whoever actually has room. When a backflow certification runs long or a start-up turns into a
           repair, you reassign the next stop in seconds and everyone sees the change. There is no second hidden copy of
@@ -96,7 +96,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler crew scheduling, irrigation dispatch software, irrigation job board, winterization scheduling, irrigation business software</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler crew scheduling, irrigation dispatch software, irrigation Pending Jobs board, winterization scheduling, irrigation business software</div>
       </article>
     </BlogShell>
   );

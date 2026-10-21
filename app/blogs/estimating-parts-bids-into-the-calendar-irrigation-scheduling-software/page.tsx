@@ -46,7 +46,7 @@ export default function Page() {
         <p>
           The biggest difference a line-item bid makes shows up at the truck. Every part on the estimate&mdash;each head
           model, valve, fitting, length of pipe, and the specific backflow device&mdash;stays attached to the job on the
-          Job Board, so the crew sees the exact pull list before they leave the yard. There is no second trip back to the
+          Pending Jobs Board, so the crew sees the exact pull list before they leave the yard. There is no second trip back to the
           supply house because someone forgot the controller, and no guessing which valve box the property uses. The same
           detail that justified your price to the customer is the detail that loads the truck correctly. When a tech
           opens the job on their phone, the materials are right there next to the property profile, so the bid the office
@@ -56,7 +56,7 @@ export default function Page() {
         <h2>Dispatch and Routing the Scheduled Bids</h2>
         <p>
           Once approved bids are on the calendar, they flow into the same dispatch and routing as the rest of your work.
-          You group jobs by neighborhood, assign clusters to each crew, and push tight routes to the Job Board so your
+          You group jobs by neighborhood, assign clusters to each crew, and push tight routes to the Pending Jobs board so your
           trucks are not crisscrossing town between a winterization on one side and an install on the other. Because each
           slot is already sized from its line items, your day actually fits&mdash;you are not stacking four full installs
           onto one crew and wondering why they ran two hours late. Getting that first dispatch out the door cleanly is

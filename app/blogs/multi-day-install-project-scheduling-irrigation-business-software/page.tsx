@@ -59,9 +59,9 @@ export default function Page() {
           middle of a job means more billable hours stay on the job.
         </p>
 
-        <h2>Use the Job Board and Dispatch to Keep Crews Moving</h2>
+        <h2>Use the Pending Jobs board and Dispatch to Keep Crews Moving</h2>
         <p>
-          The Job Board is where a multi-day install lives day to day. Each morning your crew opens
+          The Pending Jobs board is where a multi-day install lives day to day. Each morning your crew opens
           their assigned jobs, sees the current phase, the property profile, gate codes, and any
           notes from yesterday&apos;s work. Dispatch and routing handle the in-between: if your
           install crew finishes a phase by early afternoon, the office can route them to a quick
@@ -104,7 +104,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation business software, sprinkler install scheduling software, multi-day project scheduling, irrigation crew dispatch, sprinkler estimating software, irrigation job board</div>
+        <div className="blog-keywords">Keywords: irrigation business software, sprinkler install scheduling software, multi-day project scheduling, irrigation crew dispatch, sprinkler estimating software, irrigation Pending Jobs board</div>
       </article>
     </BlogShell>
   );

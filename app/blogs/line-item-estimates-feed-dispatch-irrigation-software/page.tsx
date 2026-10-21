@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Scheduling the job onto the board</h2>
         <p>
-          Once the job exists, it lands where your schedulers actually work: the Job Board. An install that needs a full
+          Once the job exists, it lands where your schedulers actually work: the Pending Jobs board. An install that needs a full
           day of trenching gets blocked out accordingly, while a quick valve swap drops into a gap between bigger stops.
           Because the estimate carries the labor lines, the board already has a realistic time estimate instead of a
           blind guess, so you stop stacking three all-day installs onto one crew by accident. You can see the whole

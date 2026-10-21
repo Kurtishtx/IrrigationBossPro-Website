@@ -52,7 +52,7 @@ export default function Page() {
 
         <h2>Crews Close Each Stop, the Office Bills the Batch</h2>
         <p>
-          The route gets built upstream on the Job Board, where you batch your seasonal customer list
+          The route gets built upstream on the Pending Jobs board, where you batch your seasonal customer list
           and auto-schedule the blowouts into tight geographic order. Out in the field, the crew owns
           the first half of the billing. At each stop they open the job on their phone, confirm the
           line items, add anything extra &mdash; an additional zone they found, a backflow they had to

@@ -36,7 +36,7 @@ export default function Page() {
         <p>
           The card gets attached to the customer&apos;s profile, not buried in a one-off invoice. In IrrigationBossPro,
           each client and property record holds their saved payment method right alongside their device list, test
-          history, and gauge serial numbers. When you book the test through the irrigation scheduling and Job Board, the
+          history, and gauge serial numbers. When you book the test through the irrigation scheduling and Pending Jobs Board, the
           card travels with the appointment. Your tech never handles card numbers in the field&mdash;the customer entered
           the card themselves through a secure link, or your office added it during booking. By the time the truck rolls
           up, payment is already authorized. The tech tests the device, photographs the certification, and closes the

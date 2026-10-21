@@ -208,7 +208,7 @@ export default function VsHousecallPro() {
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Line-Item Estimates</h4><p>Build detailed estimates for new system installs and repairs — zones, heads, valves, controllers, trenching, labor. Customers approve online and the job converts straight to scheduling. HCP has estimates, but not built around the way irrigation jobs are quoted.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Parts &amp; Materials Catalog</h4><p>Track heads, valves, controllers, pipe, and backflow devices with your pricing built in. Drop parts onto any estimate or invoice in seconds. HCP doesn&apos;t carry an irrigation parts catalog out of the box.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Crew Dispatch &amp; Routing</h4><p>Assign jobs to crews, build efficient routes across the day, and dispatch from the Job Board. Stops, addresses, and job type all shown before you send the truck. HCP has job scheduling — IrrigationBossPro routes irrigation crews the way the work actually flows.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Crew Dispatch &amp; Routing</h4><p>Assign jobs to crews, build efficient routes across the day, and dispatch from the Pending Jobs board. Stops, addresses, and job type all shown before you send the truck. HCP has job scheduling — IrrigationBossPro routes irrigation crews the way the work actually flows.</p></div>
           <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $59</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. IrrigationBossPro covers your entire team at $59 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Seasonal Service</h4><p>IrrigationBossPro is built around recurring seasonal programs — fall winterizations and blowouts, spring start-ups, backflow re-tests, due-date flags. HCP handles recurring jobs for general trades. The seasonal irrigation workflow is different, and HCP wasn&apos;t built for it.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $59, not locked behind a premium tier.</p></div>
@@ -236,8 +236,8 @@ export default function VsHousecallPro() {
               <tr><td className="feature-name">Crew Dispatch &amp; Route Map</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
               <tr><td className="feature-name">Backflow Testing &amp; Certification Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Recurring Seasonal Service (Winterization/Start-Up)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">Job Board for Installs &amp; Repairs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Schedules &amp; Extensions</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Pending Jobs Board for Installs &amp; Repairs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Essentials+</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
@@ -274,7 +274,7 @@ export default function VsHousecallPro() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Less Than HCP Essentials — More Irrigation Features</div>
             <div className="price-tier">One Plan. Built for Irrigation. Start Today.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
@@ -285,7 +285,7 @@ export default function VsHousecallPro() {
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
+              <li>Recurring Schedules &amp; Extensions</li>
               <li>Mobile App for Techs &amp; Crews</li>
               <li>500 texts/month included (sent + received, US &amp; Canada)</li>
               <li>14-day free trial — no credit card required</li>

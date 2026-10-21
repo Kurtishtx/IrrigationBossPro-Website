@@ -70,7 +70,7 @@ export default function Page() {
         <h2>Add-Ons Found in the Field Still Get Captured</h2>
         <p>
           Even a perfectly loaded truck meets surprises. A tech doing a start-up finds a cracked head two zones over, or
-          a repair turns up a controller that will not hold a program. With the job already open on the Job Board, the
+          a repair turns up a controller that will not hold a program. With the job already open on the Pending Jobs board, the
           tech adds those parts to the line items right on the property, the customer approves the add-on from their
           phone, and the invoice reflects the real work the second the job closes. With a card on file, you collect for
           the original service and the field-found repairs the same day. The parts that came off the truck are accounted

@@ -95,7 +95,7 @@ export default function Page() {
         <h2>Make Full Capture the Crew&apos;s Default</h2>
         <p>
           Capturing every part only sticks when it&apos;s the last step of the job, not a chore for later.
-          Tie the job board to dispatch so each crew sees its stops, routes between them, and closes out
+          Tie the Pending Jobs board to dispatch so each crew sees its stops, routes between them, and closes out
           one job &mdash; parts logged, photos snapped, payment taken or invoice sent &mdash; before driving
           to the next. When adding materials is built into how the crew already works, &quot;misc
           fittings&quot; stops appearing on your invoices because every coupling, splice, and length of

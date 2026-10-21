@@ -186,7 +186,7 @@ export default function VsServiceAutopilot() {
               <tr><td className="feature-name">Two-Way SMS Texting</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Elite tier — call for pricing</span></td></tr>
               <tr><td className="feature-name">No Sign-Up Fee</td><td className="sbp-col"><span className="chk">✓ $0</span></td><td><span className="crs">✗ Sign-up fee required</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Per-user pricing applies</span></td></tr>
-              <tr><td className="feature-name">Job Board &amp; Crew Routing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Routing locked to Pro tier</span></td></tr>
+              <tr><td className="feature-name">Pending Jobs Board &amp; Crew Routing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Routing locked to Pro tier</span></td></tr>
               <tr><td className="feature-name">Backflow Testing &amp; Certification Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Client &amp; Property Profiles</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
@@ -204,11 +204,11 @@ export default function VsServiceAutopilot() {
       <section id="lasso" className="dark-section">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Job Board — Dispatch by Crew</span>
+            <span className="section-label">Pending Jobs Board — Dispatch by Crew</span>
             <h2 style={{color:'#fff'}}>Service Autopilot Locks Routing Behind a Tier.<br />IrrigationBossPro Dispatches Crews on Day One.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Service Autopilot makes you climb to the $199 Pro tier before you can optimize routes. IrrigationBossPro gives you a live Job Board and crew dispatch &amp; routing at from $59/month — pull repairs, installs, backflow tests, and seasonal blowouts onto the right truck and route the day in minutes. No tier-climbing required.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Service Autopilot makes you climb to the $199 Pro tier before you can optimize routes. IrrigationBossPro gives you a live Pending Jobs Board and crew dispatch &amp; routing at from $59/month — pull repairs, installs, backflow tests, and seasonal blowouts onto the right truck and route the day in minutes. No tier-climbing required.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Live Job Board — see every repair, install &amp; service waiting to be assigned</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Live Pending Jobs Board — see every repair, install &amp; service waiting to be assigned</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Dispatch &amp; route crews by area — fewer windshield hours per day</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Backflow tests and seasonal jobs flagged separately from repairs</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Property profiles travel with every job — zone counts, controller, history</li>
@@ -216,7 +216,7 @@ export default function VsServiceAutopilot() {
             </ul>
           </div>
           <div className="highlight-visual-dark">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Job Board — Crew Dispatch Snapshot</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Pending Jobs Board — Crew Dispatch Snapshot</div>
             <div className="lasso-map">
               <div className="lasso-ring"></div>
               <div className="lasso-pins">
@@ -231,7 +231,7 @@ export default function VsServiceAutopilot() {
               <div className="stat-cell"><div className="stat-val">from $59/mo</div><div className="stat-lbl">IBP — dispatch &amp; routing included</div></div>
               <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops on the Route</div></div>
               <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Jobs on the Board</div></div>
-              <div className="stat-cell full"><div className="stat-val">Repairs · 8 &nbsp;|&nbsp; Backflow · 6 &nbsp;|&nbsp; Winterizations · 5</div><div className="stat-lbl">IBP Job Board — Work Grouped by Type</div></div>
+              <div className="stat-cell full"><div className="stat-val">Repairs · 8 &nbsp;|&nbsp; Backflow · 6 &nbsp;|&nbsp; Winterizations · 5</div><div className="stat-lbl">IBP Pending Jobs Board — Work Grouped by Type</div></div>
             </div>
           </div>
         </div>
@@ -330,7 +330,7 @@ export default function VsServiceAutopilot() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included — No Tiers</div>
             <div className="price-tier">One Plan. One Price. No Sign-Up Fee.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month — cancel anytime, no sign-up fee</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>

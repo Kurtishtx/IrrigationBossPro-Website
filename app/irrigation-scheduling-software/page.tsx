@@ -243,7 +243,7 @@ export default function IrrigationSchedulingSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="IrrigationBossPro irrigation scheduling software dashboard on laptop showing the job board and seasonal service list, with mobile app on phone"
+          alt="IrrigationBossPro irrigation scheduling software dashboard on laptop showing the Pending Jobs board and seasonal service list, with mobile app on phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -262,13 +262,13 @@ export default function IrrigationSchedulingSoftware() {
         </div>
       </div>
 
-      {/* JOB BOARD */}
+      {/* PENDING JOBS BOARD */}
       <section className="dark-section">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">The Job Board &mdash; Your Daily Hub</span>
+            <span className="section-label">The Pending Jobs board &mdash; Your Daily Hub</span>
             <h2 style={{color:'#fff'}}>Every Install, Repair, and Service Due &mdash; on One Board.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Irrigation work isn&apos;t one type of job. You&apos;re juggling multi-day system installs, quick valve repairs, backflow tests, and a wave of seasonal start-ups and blowouts. The Job Board puts every open job in one place, grouped by type, so you can see exactly what&apos;s waiting and assign it to the right crew and day before a single truck rolls.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Irrigation work isn&apos;t one type of job. You&apos;re juggling multi-day system installs, quick valve repairs, backflow tests, and a wave of seasonal start-ups and blowouts. The Pending Jobs board puts every open job in one place, grouped by type, so you can see exactly what&apos;s waiting and assign it to the right crew and day before a single truck rolls.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
               <li style={{color:'rgba(255,255,255,.75)'}}>Installs, repairs, backflow tests, winterizations, and start-ups in one view</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>See estimated hours and materials needed before you schedule</li>
@@ -281,7 +281,7 @@ export default function IrrigationSchedulingSoftware() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Job Board &mdash; By Type</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Pending Jobs Board &mdash; By Type</div>
             <div style={{background:'rgba(255,255,255,.04)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'10px', padding:'20px', marginBottom:'14px', position:'relative', minHeight:'130px', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden'}}>
               <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #84cc16', borderRadius:'10px', opacity:.7}}></div>
               <div style={{display:'flex', gap:'12px', flexWrap:'wrap', justifyContent:'center', position:'relative', zIndex:1}}>
@@ -326,7 +326,7 @@ export default function IrrigationSchedulingSoftware() {
         <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
           {[
             {n:'01', title:'Set Up in One Afternoon', body:'Add your services and parts catalog, import your clients and properties, set up your automated alerts, and connect Stripe — most owners are fully operational the same day they sign up. No implementation consultant, no onboarding call, no 90-day setup timeline.'},
-            {n:'02', title:'One Screen Does Everything', body:'Estimating, scheduling, dispatch, the Job Board, and materials are all connected. You\'re not jumping between five different modules or browser tabs. Pull up the Job Board and everything you need for the day is right there in a single view.'},
+            {n:'02', title:'One Screen Does Everything', body:'Estimating, scheduling, dispatch, the Pending Jobs board, and materials are all connected. You\'re not jumping between five different modules or browser tabs. Pull up the Pending Jobs board and everything you need for the day is right there in a single view.'},
             {n:'03', title:'Your Techs Learn It in Minutes', body:'The mobile app your technicians use shows them exactly what they need and nothing they don\'t. Their jobs for the day, the property info, the zone notes, the parts used, and the complete button. No training videos, no IT ticket, no frustrated crew members.'},
             {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, and seasonal service reminders once. After that, IrrigationBossPro handles every notification, every follow-up, and every winterization reminder automatically — whether you\'re in a trench, at home, or off the clock.'},
           ].map(({n, title, body}) => (
@@ -367,8 +367,8 @@ export default function IrrigationSchedulingSoftware() {
             {icon:'📐', title:'Line-Item Estimates & Bids', body:'Build install and repair bids line by line — zones, heads, valves, controllers, pipe, wire, and labor. Quantities and pricing roll straight into the job. Email a professional proposal clients accept with one click.'},
             {icon:'📦', title:'Materials & Parts Catalog', body:'Keep every head, valve, controller, backflow device, pipe size, and fitting in one catalog with your cost and markup. Pull parts onto any estimate or job in seconds and know your true cost per install.'},
             {icon:'🗓️', title:'Job & Project Scheduling', body:'Schedule one-day repairs and multi-day system installs on the same calendar. Assign crews, set start dates, and keep track of every job from booked to completed without a whiteboard.'},
-            {icon:'📋', title:'The Job Board', body:'Every open job — installs, repairs, backflow tests, start-ups, and winterizations — grouped by type in one place. See what\'s waiting and assign it to a date, tech, and truck before the day begins.'},
-            {icon:'🔁', title:'Recurring Seasonal Service', body:'Flag customers for fall winterization and spring start-up so they roll onto your Job Board automatically every season. Never lose a blowout customer because they slipped off a list.'},
+            {icon:'📋', title:'The Pending Jobs board', body:'Every open job — installs, repairs, backflow tests, start-ups, and winterizations — grouped by type in one place. See what\'s waiting and assign it to a date, tech, and truck before the day begins.'},
+            {icon:'🔁', title:'Recurring Seasonal Service', body:'Flag customers for fall winterization and spring start-up so they roll onto your Pending Jobs Board automatically every season. Never lose a blowout customer because they slipped off a list.'},
             {icon:'🚚', title:'Crew Dispatch & Routing', body:'Send each crew their jobs for the day in geographic order so blowouts and start-ups in the same neighborhood get grouped — less windshield time, more billable work.'},
             {icon:'💬', title:'Automated Service Alerts', body:'Automatically text customers when a job is scheduled, when your tech is on the way, and when the work is done. Set it once — IrrigationBossPro handles the communication for every job.'},
             {icon:'💳', title:'Card-on-File Payments', body:'Store cards on file via Stripe. Take a deposit on an install, charge after a repair, send invoices, and collect without chasing anyone. Every dollar tracked in one place.'},
@@ -404,9 +404,9 @@ export default function IrrigationSchedulingSoftware() {
           <div className="highlight-text">
             <span className="section-label">Seasonal Scheduling</span>
             <h2>Book Hundreds of Spring Start-Ups Without Losing Your Mind</h2>
-            <p>This is where irrigation software earns its keep. Twice a year the phone won&apos;t stop &mdash; everyone wants their system fired up in spring and blown out before the first freeze. IrrigationBossPro lets you flag every seasonal customer, watch them roll onto the Job Board automatically, and batch-schedule a whole neighborhood to a crew in one pass. For a step-by-step look at how to clear that spring rush fast, read <a href="/blogs/batch-scheduling-spring-startups-irrigation-scheduling-software" style={{color:'var(--orange)', fontWeight:600}}>Batch Scheduling Hundreds of Spring Startups With Irrigation Scheduling Software</a>.</p>
+            <p>This is where irrigation software earns its keep. Twice a year the phone won&apos;t stop &mdash; everyone wants their system fired up in spring and blown out before the first freeze. IrrigationBossPro lets you flag every seasonal customer, watch them roll onto the Pending Jobs board automatically, and batch-schedule a whole neighborhood to a crew in one pass. For a step-by-step look at how to clear that spring rush fast, read <a href="/blogs/batch-scheduling-spring-startups-irrigation-scheduling-software" style={{color:'var(--orange)', fontWeight:600}}>Batch Scheduling Hundreds of Spring Startups With Irrigation Scheduling Software</a>.</p>
             <ul className="check-list">
-              <li>Job Board grouped by job type with counts and revenue</li>
+              <li>Pending Jobs Board grouped by job type with counts and revenue</li>
               <li>Flag customers for recurring winterization and start-up</li>
               <li>Batch-schedule whole neighborhoods to a date and crew</li>
               <li>Assign date, technician, and truck at scheduling time</li>
@@ -417,7 +417,7 @@ export default function IrrigationSchedulingSoftware() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Job Board &mdash; By Service Type</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Pending Jobs Board &mdash; By Service Type</div>
             <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
               <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#22c55e', flexShrink:0}}></div>
               <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Spring Start-Ups</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>184 properties waiting</div></div>
@@ -508,15 +508,15 @@ export default function IrrigationSchedulingSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>59</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Line-Item Estimates &amp; Bids</li>
               <li>Materials &amp; Parts Catalog</li>
-              <li>Job Board, Scheduling &amp; Dispatch</li>
+              <li>Pending Jobs Board, Scheduling &amp; Dispatch</li>
               <li>Recurring Winterization &amp; Start-Up</li>
               <li>Estimates, Invoices &amp; Stripe Payments</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>
@@ -537,9 +537,9 @@ export default function IrrigationSchedulingSoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Irrigation Scheduling Software &mdash; Common Questions</h2>
           {[
-            {q:'Is IrrigationBossPro built for sprinkler and irrigation businesses?', a:'Yes. IrrigationBossPro handles the full irrigation operation: line-item install bids, parts and materials tracking, job and project scheduling, the Job Board, crew dispatch, recurring seasonal start-ups and winterizations, backflow test tracking, automated customer SMS, and card-on-file payments. It\'s designed for contractors who install and service sprinkler systems, not general service businesses.'},
-            {q:'Can I manage installs, repairs, and seasonal service all in one platform?', a:'Yes. IrrigationBossPro supports every job type from one account — multi-day system installs, valve and head repairs, backflow tests, spring start-ups, and fall winterizations — each grouped on the Job Board so a wave of blowouts never buries your repair work. You schedule, dispatch, and invoice all of it from one place.'},
-            {q:'How does scheduling work for hundreds of seasonal start-ups?', a:'You flag customers for recurring start-up or winterization and they roll onto the Job Board automatically each season. From there you batch-schedule a whole neighborhood to a date and crew in one pass, in geographic order, so a crew is not driving back and forth across town. What used to take a day of phone tag takes an afternoon.'},
+            {q:'Is IrrigationBossPro built for sprinkler and irrigation businesses?', a:'Yes. IrrigationBossPro handles the full irrigation operation: line-item install bids, parts and materials tracking, job and project scheduling, the Pending Jobs board, crew dispatch, recurring seasonal start-ups and winterizations, backflow test tracking, automated customer SMS, and card-on-file payments. It\'s designed for contractors who install and service sprinkler systems, not general service businesses.'},
+            {q:'Can I manage installs, repairs, and seasonal service all in one platform?', a:'Yes. IrrigationBossPro supports every job type from one account — multi-day system installs, valve and head repairs, backflow tests, spring start-ups, and fall winterizations — each grouped on the Pending Jobs board so a wave of blowouts never buries your repair work. You schedule, dispatch, and invoice all of it from one place.'},
+            {q:'How does scheduling work for hundreds of seasonal start-ups?', a:'You flag customers for recurring start-up or winterization and they roll onto the Pending Jobs board automatically each season. From there you batch-schedule a whole neighborhood to a date and crew in one pass, in geographic order, so a crew is not driving back and forth across town. What used to take a day of phone tag takes an afternoon.'},
             {q:'Can I build line-item install bids and track materials?', a:'Yes. Build estimates line by line from your own catalog of heads, valves, controllers, backflow devices, pipe, and wire — each with your cost and markup. Accepted bids convert to a job and invoice in one click, and the parts pulled on each job are logged so you always know your true material cost.'},
             {q:'Does it replace spreadsheets and paper bid pads?', a:'Yes. IrrigationBossPro replaces spreadsheet scheduling, paper estimates, job tracking, customer records, and SMS tools in one platform. Most owners are fully operational the same day they sign up — no onboarding consultant, no implementation timeline.'},
             {q:'How much does IrrigationBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or scheduling tools, no setup fees. 14-day free trial with no credit card required.'},

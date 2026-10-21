@@ -43,12 +43,12 @@ export default function Page() {
           getting the two-zone basic unit or the sixteen-zone Wi-Fi controller without calling the shop to confirm.
         </p>
 
-        <h2>Putting Upgrades on the Calendar and the Job Board</h2>
+        <h2>Putting Upgrades on the Calendar and the Pending Jobs board</h2>
         <p>
           Once the customer approves the estimate, the upgrade drops onto the schedule as a real job, not a sticky note on
           the dispatcher&apos;s monitor. You slot it by length&mdash;a basic timer swap might be a thirty-minute add-on to
           an existing service stop, while a full smart controller with a flow sensor and app setup is its own appointment.
-          The job lands on the Job Board with the property profile attached, so the assigned crew sees the address, the
+          The job lands on the Pending Jobs board with the property profile attached, so the assigned crew sees the address, the
           controller model, the existing zone count, and the notes from any prior visit. Schedule the quick swaps as
           fill-in work between bigger projects and your route stays tight instead of leaving a truck idle between two
           distant calls.
@@ -70,7 +70,7 @@ export default function Page() {
           Controller upgrades almost always need the homeowner present, at least for the app walkthrough and the Wi-Fi
           password. Automated customer texts handle the coordination&mdash;a confirmation when the job is booked, a
           heads-up the morning of with the arrival window, and a message when the tech is on the way. If a customer needs
-          to move the appointment, they reply and the change flows back to the Job Board without anyone playing phone tag.
+          to move the appointment, they reply and the change flows back to the Pending Jobs board without anyone playing phone tag.
           That same thread is where the tech can confirm which smart controller features the customer actually wants
           turned on, so the programming is set up right the first time instead of generating a callback a week later.
         </p>

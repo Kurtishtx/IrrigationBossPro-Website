@@ -41,7 +41,7 @@ export default function Page() {
           A callback is not a normal service request, and your software should
           treat it differently. With IrrigationBossPro you can mark a new job as
           a warranty visit and link it back to the original install. That tag
-          flows through scheduling, the Job Board, and reporting so a tech
+          flows through scheduling, the Pending Jobs board, and reporting so a tech
           dispatched to a warranty call knows it&apos;s a no-charge fix before
           they ever knock on the door. Meanwhile, anything outside the covered
           scope &mdash; a customer-damaged head, a zone they want added &mdash;

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import PlanCompare from './components/PlanCompare';
 import Navbar from './components/Navbar';
 import HeroDemo from './components/HeroDemo';
 
@@ -258,11 +259,11 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean irrigation bid or keep your part counts straight. IrrigationBossPro does everything the enterprise platforms do &mdash; line-item estimates, materials &amp; parts tracking, the Job Board, crew dispatch and routing, Stripe payments, role-based access, and a full mobile app &mdash; built specifically for sprinkler and irrigation contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean irrigation bid or keep your part counts straight. IrrigationBossPro does everything the enterprise platforms do &mdash; line-item estimates, materials &amp; parts tracking, the Pending Jobs board, crew dispatch and routing, Stripe payments, role-based access, and a full mobile app &mdash; built specifically for sprinkler and irrigation contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimates &amp; Bids</h4><p>Build detailed install and repair bids with zones, heads, valves, controllers, pipe, and backflow devices as line items. Save your catalog once and turn a walkthrough into a priced proposal in minutes &mdash; included at every plan level.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Materials &amp; Parts Tracking</h4><p>Keep a full parts catalog &mdash; rotor and spray heads, valves, controllers, wire, fittings, and backflow assemblies. Pull materials straight onto estimates and work orders so every job is priced and stocked right before the truck rolls.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📅</div><h4>Job Board &amp; Scheduling</h4><p>Every install, repair, backflow test, winterization, and start-up lives on one Job Board. Drag jobs onto the calendar, assign crews, and see your whole week at a glance &mdash; no extra charge.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📅</div><h4>Pending Jobs Board &amp; Scheduling</h4><p>Every install, repair, backflow test, winterization, and start-up lives on one Pending Jobs Board. Drag jobs onto the calendar, assign crews, and see your whole week at a glance &mdash; no extra charge.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Invoicing &amp; Card-on-File</h4><p>Convert an accepted bid to an invoice, store a card on file, collect deposits, and take post-service payments through Stripe. The same billing infrastructure the big guys use &mdash; included in your $59.</p></div>
           <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, and Field Tech roles &mdash; the same granular permission system as platforms charging 5× more. Your office staff sees bids and billing. Your techs see only their stops for the day.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Crews</h4><p>Your techs see their route, open work orders, log the parts used, mark complete, and add photos and notes from their phone &mdash; a mobile view purpose-built for someone working out of a service truck.</p></div>
@@ -275,11 +276,11 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Built for Irrigation Seasons</span>
             <h2>Winterizations and Start-Ups,<br />Scheduled Months Ahead.</h2>
-            <p>Irrigation is seasonal, recurring work &mdash; and IrrigationBossPro is built for it. Tag every property for fall blowouts and spring start-ups, then let the software roll the whole list onto your Job Board when the season turns. No spreadsheet, no scrambling, no customer falling through the cracks.</p>
+            <p>Irrigation is seasonal, recurring work &mdash; and IrrigationBossPro is built for it. Tag every property for fall blowouts and spring start-ups, then let the software roll the whole list onto your Pending Jobs Board when the season turns. No spreadsheet, no scrambling, no customer falling through the cracks.</p>
             <p style={{marginTop:'12px'}}>When blowout season hits, you already know exactly how many systems are on the list, how many zones each one has, and how many days of work that is for your crews. Batch-schedule the entire route, send the customer texts, and start dispatching &mdash; all from one screen.</p>
             <ul className="check-list">
               <li>Tag properties for recurring fall winterization and spring start-up</li>
-              <li>Roll the full seasonal list onto the Job Board in one click</li>
+              <li>Roll the full seasonal list onto the Pending Jobs board in one click</li>
               <li>Total zone counts so you know how many systems a crew can do per day</li>
               <li>Automatic customer texts when their seasonal service is booked</li>
               <li>Track which systems still need a blowout before the first freeze</li>
@@ -307,7 +308,7 @@ export default function Home() {
               <div className="stat-cell full"><div className="stat-val">Winterization · 38 &nbsp;|&nbsp; Backflow Test · 12 &nbsp;|&nbsp; Repair Add-On · 7</div><div className="stat-lbl">Breakdown by Service Type</div></div>
             </div>
             <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule All 38 Blowouts →</button>
-            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to the Job Board with a full route map</div>
+            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to the Pending Jobs board with a full route map</div>
           </div>
         </div>
       </section>
@@ -322,7 +323,7 @@ export default function Home() {
         <div className="hub-grid">
           <a href="/irrigation-software" className="hub-card"><span className="hub-icon">💧</span><h3>Irrigation Software</h3><p>The complete platform for sprinkler and irrigation contractors &mdash; estimates, scheduling, dispatch, parts, and billing in one place.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/sprinkler-repair-software" className="hub-card"><span className="hub-icon">🔧</span><h3>Sprinkler Repair Software</h3><p>Track service calls, log the heads and valves replaced, and turn every repair into a clean invoice on the spot.</p><span className="hub-arrow">Learn more →</span></a>
-          <a href="/irrigation-scheduling-software" className="hub-card"><span className="hub-icon">📅</span><h3>Irrigation Scheduling Software</h3><p>The Job Board and calendar for installs, repairs, start-ups, and blowouts &mdash; assign crews and fill every day.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-scheduling-software" className="hub-card"><span className="hub-icon">📅</span><h3>Irrigation Scheduling Software</h3><p>The Pending Jobs board and calendar for installs, repairs, start-ups, and blowouts &mdash; assign crews and fill every day.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/irrigation-estimating-software" className="hub-card"><span className="hub-icon">📝</span><h3>Irrigation Estimating Software</h3><p>Build line-item bids with zones, heads, valves, controllers, and pipe &mdash; priced and ready to send in minutes.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/backflow-testing-software" className="hub-card"><span className="hub-icon">🛡️</span><h3>Backflow Testing Software</h3><p>Track test due dates, log device readings, and keep certification records ready for any water authority report.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/irrigation-dispatch-software" className="hub-card"><span className="hub-icon">🚛</span><h3>Irrigation Crew &amp; Dispatch Software</h3><p>Route your trucks, dispatch crews to the right stops, and keep the field and office connected all day long.</p><span className="hub-arrow">Learn more →</span></a>
@@ -364,7 +365,7 @@ export default function Home() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, load your parts catalog, and set up your customer text templates. Most contractors are building bids and scheduling jobs the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The Job Board shows your unscheduled work, your booked installs and repairs, your route map, and your day summary all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The Pending Jobs board shows your unscheduled work, your booked installs and repairs, your route map, and your day summary all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Your Crews Learn It in Minutes</h3><p>The mobile field view is built for techs in service trucks, not office managers at desks. Big buttons, clear status, one tap to open a work order, log the parts used, mark complete, or add a photo. We&apos;ve had crews learn the system while sitting in the parking lot before their first stop.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Reminders Run Without You</h3><p>Set your text templates once &mdash; job scheduled, on the way, completed, bid follow-ups, and seasonal start-up and winterization reminders. After that, IrrigationBossPro keeps customers in the loop automatically on every job, without you having to think about it again.</p></div>
         </div>
@@ -380,12 +381,12 @@ export default function Home() {
         <div className="feature-grid">
           <div className="feature-card"><span className="feature-icon">📝</span><h3>Line-Item Estimates</h3><p>Build install and repair bids with every zone, head, valve, controller, run of pipe, and backflow device as its own line item. Save your catalog once and turn a site walkthrough into a priced, professional proposal in minutes.</p></div>
           <div className="feature-card"><span className="feature-icon">🔧</span><h3>Materials &amp; Parts</h3><p>Keep a full parts catalog &mdash; rotor and spray heads, valves, controllers, wire, fittings, and backflow assemblies. Pull parts onto estimates and work orders so every job is priced and stocked right.</p></div>
-          <div className="feature-card"><span className="feature-icon">📅</span><h3>Job Board &amp; Scheduling</h3><p>Every install, repair, backflow test, start-up, and winterization on one board. Drag jobs onto the calendar, assign crews, and see exactly how full each day is.</p></div>
+          <div className="feature-card"><span className="feature-icon">📅</span><h3>Pending Jobs Board &amp; Scheduling</h3><p>Every install, repair, backflow test, start-up, and winterization on one board. Drag jobs onto the calendar, assign crews, and see exactly how full each day is.</p></div>
           <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build tight routes, drag to reorder, and give every crew a clear path through the day.</p></div>
           <div className="feature-card"><span className="feature-icon">🚛</span><h3>Crew Dispatch</h3><p>Send the right crew to the right stops and keep the field and office in sync. Techs get their route and work orders on their phone in real time.</p></div>
           <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Stripe</h3><p>Convert an accepted bid to an invoice in one click, store a card on file, collect deposits, and take post-service payments &mdash; all in one place.</p></div>
           <div className="feature-card"><span className="feature-icon">🛡️</span><h3>Backflow Testing</h3><p>Track test due dates, log device readings and pass or fail results, and keep clean certification records ready for any water authority.</p></div>
-          <div className="feature-card"><span className="feature-icon">🔁</span><h3>Recurring Seasonal Service</h3><p>Tag properties for fall winterization and spring start-up, then roll the whole list onto the Job Board when the season turns.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔁</span><h3>Recurring Seasonal Service</h3><p>Tag properties for fall winterization and spring start-up, then roll the whole list onto the Pending Jobs board when the season turns.</p></div>
           <div className="feature-card"><span className="feature-icon">💬</span><h3>Customer Texts</h3><p>Send and receive texts from customers right inside the app. Full conversation history by contact &mdash; no more switching to your phone.</p></div>
           <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track bids, service history, properties, and notes all tied to each contact.</p></div>
           <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile &mdash; controller type, zone count, valve locations, system notes, and full job history.</p></div>
@@ -409,15 +410,15 @@ export default function Home() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Line-Item Estimates &amp; Bids</li>
               <li>Materials &amp; Parts Catalog</li>
-              <li>Job Board, Scheduling &amp; Route Map</li>
+              <li>Pending Jobs Board, Scheduling &amp; Route Map</li>
               <li>Crew Dispatch &amp; Mobile Field App</li>
               <li>Invoicing &amp; Stripe Card-on-File</li>
               <li>Backflow Testing &amp; Certification Records</li>
@@ -431,15 +432,17 @@ export default function Home() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
 
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
+
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Scheduling &amp; Dispatch</span>
-            <h2>From Job Board to Dispatched in Seconds</h2>
-            <p>IrrigationBossPro gives you a Job Board of every install, repair, and seasonal job not yet scheduled, a full calendar for booked work, and a live map so you can build tight, efficient routes every morning.</p>
+            <h2>From Pending Jobs Board to Dispatched in Seconds</h2>
+            <p>IrrigationBossPro gives you a Pending Jobs Board of every install, repair, and seasonal job not yet scheduled, a full calendar for booked work, and a live map so you can build tight, efficient routes every morning.</p>
             <ul className="check-list">
-              <li>Job Board with job type, zone count, and crew assignment</li>
+              <li>Pending Jobs Board with job type, zone count, and crew assignment</li>
               <li>One-click scheduling with date picker and crew assignment</li>
               <li>Drag-and-drop route ordering</li>
               <li>Interactive map showing all stops with job detail panel</li>
@@ -665,7 +668,7 @@ export default function Home() {
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;Winterization season used to be chaos. Now the whole blowout list rolls onto the Job Board in one click, the customers get texted automatically, and I know exactly how many systems my crew can hit per day.&rdquo;</p>
+            <p className="testimonial-body">&ldquo;Winterization season used to be chaos. Now the whole blowout list rolls onto the Pending Jobs board in one click, the customers get texted automatically, and I know exactly how many systems my crew can hit per day.&rdquo;</p>
             <div className="testimonial-author">Sprinkler Service Owner</div>
             <div className="testimonial-role">Phoenix, AZ</div>
           </div>

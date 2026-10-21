@@ -314,9 +314,9 @@ export default function VsJobber() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
-            <div className="price-period">per month — flat</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no per-seat fees, no locked features.</div>
+            <div className="price-amount"><sup>$</sup>59</div>
+            <div className="price-period">per month, starting</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>

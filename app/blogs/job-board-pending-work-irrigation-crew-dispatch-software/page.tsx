@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Working the Job Board: Turning Pending Requests Into Dispatched Crews | IrrigationBossPro',
+  title: 'Working the Pending Jobs board: Turning Pending Requests Into Dispatched Crews | IrrigationBossPro',
   description: 'See how irrigation crew & dispatch software turns pending repair, install, and seasonal requests into scheduled, routed, dispatched crews fast.',
 };
 
@@ -11,19 +11,19 @@ export default function Page() {
       <article className="blog-article">
         <p className="blog-meta">IrrigationBossPro Blog &mdash; Irrigation Crew &amp; Dispatch Software</p>
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/irrigation-dispatch-software" style={{display:"inline-block",background:"#eef7da",color:"#3f6212",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #d4e8a8"}}>&#128167; More Irrigation Crew &amp; Dispatch Software guides &rarr;</a></p>
-        <h1>Working the Job Board: Turning Pending Requests Into Dispatched Crews</h1>
+        <h1>Working the Pending Jobs board: Turning Pending Requests Into Dispatched Crews</h1>
         <p>
           Every irrigation business runs on a backlog. A homeowner calls about a zone that will not come on, a builder
           wants a bid on a new system, a commercial property is due for a backflow test, and three standing customers
           need their fall blowout. Each of those is a pending request&mdash;real work, real money, but none of it is on a
           truck yet. The question that decides whether your season is profitable or chaotic is simple: how fast can you
           turn that pile of pending requests into crews that are scheduled, stocked, and rolling? That is exactly the job
-          the Job Board does in irrigation crew &amp; dispatch software.
+          the Pending Jobs board does in irrigation crew &amp; dispatch software.
         </p>
 
         <h2>What Lands in the Pending Column</h2>
         <p>
-          Think of the Job Board as the single inbox for every piece of work that has not been dispatched yet. A service
+          Think of the Pending Jobs board as the single inbox for every piece of work that has not been dispatched yet. A service
           call from a customer text drops in. An online repair request from your website drops in. A new-install lead you
           entered after a site walk drops in. And the recurring seasonal jobs&mdash;winterizations, spring start-ups,
           backflow re-tests&mdash;generate into the same pending column when their season comes due. Instead of sticky
@@ -34,7 +34,7 @@ export default function Page() {
 
         <h2>Triage Before You Dispatch</h2>
         <p>
-          Not every pending request deserves the same treatment, and the Job Board is where you sort it out. A
+          Not every pending request deserves the same treatment, and the Pending Jobs board is where you sort it out. A
           no-water-pressure emergency for a customer with kids and a brown lawn gets bumped to the top of today&apos;s
           run. A new-system bid can wait until you have a site visit and a line-item estimate built. A routine valve
           repair clusters with other repairs in the same neighborhood. Working the board means glancing at the pending
@@ -45,7 +45,7 @@ export default function Page() {
 
         <h2>From Pending to Scheduled in a Few Taps</h2>
         <p>
-          Turning a pending request into a real job should not require re-keying anything. On the Job Board you open the
+          Turning a pending request into a real job should not require re-keying anything. On the Pending Jobs board you open the
           card, confirm or build the line-item estimate, pick the crew, and drop it on a date&mdash;and that single
           action moves the work out of pending and onto the schedule. For seasonal batches, you do this in bulk: filter
           the pending column to all the winterizations due this week, assign them to your blowout crew, and they all jump
@@ -63,7 +63,7 @@ export default function Page() {
           calling the office for the next address. When you want a live, moving picture of where every truck and job
           stands once the day is underway, that is a different view of the same data&mdash;walked through in{' '}
           <a href="/blogs/live-dispatch-board-irrigation-crew-software">The Live Dispatch Board: Seeing Every Crew and Job in Irrigation Software</a>.
-          The Job Board feeds it; the dispatch board runs it. Together they take a request from pending to paid without a
+          The Pending Jobs board feeds it; the dispatch board runs it. Together they take a request from pending to paid without a
           single piece of work getting lost on the way.
         </p>
 
@@ -81,7 +81,7 @@ export default function Page() {
 
         <h2>A Board That Empties Itself</h2>
         <p>
-          The goal of working the Job Board is to drive the pending column to zero every week. Each morning you triage
+          The goal of working the Pending Jobs board is to drive the pending column to zero every week. Each morning you triage
           what came in overnight, assign and route the day&apos;s work, and watch confirmed jobs flow out to your crews
           while new requests flow in to take their place. Nothing sits in a voicemail box for three days, no seasonal
           customer gets forgotten, and no bid goes cold because you never followed up. That steady rhythm&mdash;requests
@@ -93,11 +93,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Turn Your Backlog Into Dispatched Crews</h3>
-          <p>IrrigationBossPro puts every pending repair, install, and seasonal request on one Job Board, then schedules, routes, dispatches, and invoices the work for you.</p>
+          <p>IrrigationBossPro puts every pending repair, install, and seasonal request on one Pending Jobs Board, then schedules, routes, dispatches, and invoices the work for you.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation crew &amp; dispatch software, job board software for irrigation, sprinkler crew dispatch, irrigation scheduling and routing, irrigation service request management, dispatch pending jobs irrigation</div>
+        <div className="blog-keywords">Keywords: irrigation crew &amp; dispatch software, Pending Jobs board software for irrigation, sprinkler crew dispatch, irrigation scheduling and routing, irrigation service request management, dispatch pending jobs irrigation</div>
       </article>
     </BlogShell>
   );

@@ -21,7 +21,7 @@ export default function Page() {
 
         <h2>The Renewal That Slips Through</h2>
         <p>Backflow renewals are tied to dates, not seasons, and that&apos;s where a spreadsheet quietly fails. A device tested on March 14th last year is due again in March, but your spring start-up rush is also in March. The row is in the file, but nobody sorted it, nobody flagged it, and the customer&apos;s water authority sends them a delinquency notice before you ever scheduled the test. Now you&apos;re the irrigation company that &quot;forgot,&quot; even though the data was sitting right there in column F.</p>
-        <p>Purpose-built backflow testing software treats the test date as a trigger, not just a note. When a test is logged, the next year&apos;s renewal is created automatically. The job lands on a Job Board weeks ahead of the due date, so it&apos;s already in your queue before the customer &mdash; or their water district &mdash; starts asking questions.</p>
+        <p>Purpose-built backflow testing software treats the test date as a trigger, not just a note. When a test is logged, the next year&apos;s renewal is created automatically. The job lands on a Pending Jobs Board weeks ahead of the due date, so it&apos;s already in your queue before the customer &mdash; or their water district &mdash; starts asking questions.</p>
 
         <h2>Where Software Pulls Ahead</h2>
         <p>Once you move past 75 or 100 devices, the gap becomes obvious. Here is what software does that a spreadsheet simply can&apos;t, no matter how clever your formulas are:</p>

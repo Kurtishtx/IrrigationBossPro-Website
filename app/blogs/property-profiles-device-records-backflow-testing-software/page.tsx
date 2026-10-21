@@ -62,7 +62,7 @@ export default function Page() {
         <p>
           Most jurisdictions require annual certification, which means every device record carries a next-due
           date. IrrigationBossPro watches those dates so you do not have to. As assemblies come due, they surface
-          on the Job Board ready to be scheduled, and you can batch them by neighborhood or district to keep crew
+          on the Pending Jobs board ready to be scheduled, and you can batch them by neighborhood or district to keep crew
           routing tight. This turns one-time tests into predictable recurring work, the same way fall
           winterizations and spring start-ups do. Because the due date lives on the device &mdash; not just the
           customer &mdash; a property with three assemblies on three different cycles still gets each one tested

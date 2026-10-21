@@ -26,9 +26,9 @@ export default function Page() {
           Everything starts at the client and property profile. Inside IrrigationBossPro, each property carries its own service history, zone count, controller model, backflow device, gate codes, and notes. When you flag a property for recurring seasonal service, you tell the software what it gets and when: a spring start-up, a fall winterization, or both, along with the rough window each one should land in. You can attach the standard line items too &mdash; the blowout labor, any commonly replaced heads or valves, and the parts your techs usually pull from the truck &mdash; so the job arrives pre-built instead of empty. Because this lives on the property, it follows the customer forever. Sell the route or hand it to a new dispatcher, and the recurring visits are already defined, not trapped in a spreadsheet only one person can read.
         </p>
 
-        <h2>How Auto-Dispatch Builds the Season&apos;s Job Board</h2>
+        <h2>How Auto-Dispatch Builds the Season&apos;s Pending Jobs Board</h2>
         <p>
-          When a seasonal window opens, IrrigationBossPro generates the visits automatically and drops them onto the Job Board as unassigned jobs. You do not create 400 jobs one at a time; the software materializes them from the recurring rules you already set. From the Job Board you see the entire season at a glance &mdash; every winterization or start-up waiting to be scheduled, color-coded by status, with the property details and parts already attached. Assigning is a matter of dragging jobs onto crews and days, and the system keeps the ones you have not touched front and center so nothing falls through. This is the same surge mechanics covered in <a href="/blogs/spring-startup-dispatch-surge-irrigation-crew-software">Handling the Spring Start-Up Surge With Crew Dispatch Software</a>, just pointed at the recurring side: the jobs appear on their own, and your only real decision is who runs them and in what order.
+          When a seasonal window opens, IrrigationBossPro generates the visits automatically and drops them onto the Pending Jobs board as unassigned jobs. You do not create 400 jobs one at a time; the software materializes them from the recurring rules you already set. From the Pending Jobs board you see the entire season at a glance &mdash; every winterization or start-up waiting to be scheduled, color-coded by status, with the property details and parts already attached. Assigning is a matter of dragging jobs onto crews and days, and the system keeps the ones you have not touched front and center so nothing falls through. This is the same surge mechanics covered in <a href="/blogs/spring-startup-dispatch-surge-irrigation-crew-software">Handling the Spring Start-Up Surge With Crew Dispatch Software</a>, just pointed at the recurring side: the jobs appear on their own, and your only real decision is who runs them and in what order.
         </p>
 
         <h2>Routing and Crew Dispatch That Respects Geography</h2>
@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Turning Two Seasons Into a Year-Round System</h2>
         <p>
-          The real payoff is compounding. Once a property is set up for recurring seasonal service, it works for you every year with almost no touch: the visits generate, the routes cluster, the texts fire, and the invoices collect. Your job shifts from rebuilding the schedule to refining it &mdash; pruning customers who moved, adding the installs you sold over the summer, and tightening routes as the base grows. That is how a shop scales past the point where one person&apos;s memory is the schedule. If you want to see how the dispatch side fits the rest of the operation, our <a href="/irrigation-dispatch-software">irrigation crew & dispatch software</a> ties the Job Board, routing, and crew assignment into one place so the whole season runs from a single screen.
+          The real payoff is compounding. Once a property is set up for recurring seasonal service, it works for you every year with almost no touch: the visits generate, the routes cluster, the texts fire, and the invoices collect. Your job shifts from rebuilding the schedule to refining it &mdash; pruning customers who moved, adding the installs you sold over the summer, and tightening routes as the base grows. That is how a shop scales past the point where one person&apos;s memory is the schedule. If you want to see how the dispatch side fits the rest of the operation, our <a href="/irrigation-dispatch-software">irrigation crew & dispatch software</a> ties the Pending Jobs board, routing, and crew assignment into one place so the whole season runs from a single screen.
         </p>
 
         <div className="blog-cta-box">
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: recurring seasonal irrigation software, irrigation dispatch software, winterization scheduling software, sprinkler start-up scheduling, irrigation crew routing software, irrigation job board</div>
+        <div className="blog-keywords">Keywords: recurring seasonal irrigation software, irrigation dispatch software, winterization scheduling software, sprinkler start-up scheduling, irrigation crew routing software, irrigation Pending Jobs board</div>
       </article>
     </BlogShell>
   );

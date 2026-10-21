@@ -25,7 +25,7 @@ export default function Page() {
 
         <h2>Bundling Repairs Caught During the Blowout</h2>
         <p>Blowouts are also when problems surface &mdash; a head that will not seat, a cracked lateral, a controller that lost its program, a weeping valve. A tech standing at the controller is your best chance to sell the repair. With the software open in the field, the crew can build a quick line-item estimate on the spot: the parts (heads, nozzles, a replacement valve, fittings), the labor, and a total the customer can approve right there. Those materials come straight from your parts list so pricing stays consistent and nothing gets undercharged.</p>
-        <p>Approved repairs either get done on the same visit or drop onto the Job Board as a scheduled follow-up. Either way the work is captured instead of forgotten on a sticky note that never makes it back to the office.</p>
+        <p>Approved repairs either get done on the same visit or drop onto the Pending Jobs board as a scheduled follow-up. Either way the work is captured instead of forgotten on a sticky note that never makes it back to the office.</p>
 
         <h2>Billing Winterizations Without Chasing Checks</h2>
         <p>The financial trap of blowout season is volume billing. Hundreds of small invoices is a lot of paperwork, and small balances are the ones customers forget to pay. Card-on-file payments solve this directly: when the blowout is marked complete, the software invoices the property and charges the card already on file. No mailed statements, no waiting on checks, no awkward collection texts in December. For repairs found during the visit, the same card covers the approved estimate the moment the work is done.</p>

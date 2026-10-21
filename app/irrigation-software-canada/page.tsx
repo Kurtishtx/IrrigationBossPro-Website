@@ -25,11 +25,11 @@ const faqs = [
   },
   {
     q: 'Do scheduling, routing, and the crew app work for Canadian addresses?',
-    a: 'Yes — everything works in Canada today. Scheduling, the Job Board, the route map, estimates, customer records, invoicing, the crew mobile app, and the customer app all run on Canadian addresses and Canadian properties right now. This is not a “coming soon to Canada” page.',
+    a: 'Yes — everything works in Canada today. Scheduling, the Pending Jobs board, the route map, estimates, customer records, invoicing, the crew mobile app, and the customer app all run on Canadian addresses and Canadian properties right now. This is not a “coming soon to Canada” page.',
   },
   {
     q: 'Is winterization and spring start-up scheduling an extra module?',
-    a: 'No. IrrigationBossPro is one flat price — from $59/month with every feature included. Recurring seasonal service, the Job Board, the route map, line-item estimates, invoicing and card-on-file, the crew app, the customer app, and backflow test records are all part of the same plan. No tiers, no per-user fees, no locked features.',
+    a: 'No. IrrigationBossPro is one flat price — from $59/month with every feature included. Recurring seasonal service, the Pending Jobs board, the route map, line-item estimates, invoicing and card-on-file, the crew app, the customer app, and backflow test records are all part of the same plan. No tiers, no per-user fees, no locked features.',
   },
   {
     q: 'Is there a free trial?',
@@ -223,8 +223,8 @@ export default function IrrigationSoftwareCanada() {
         <h2>The Canadian Irrigation Year Is Short.<br /><span>Your Software Shouldn&apos;t Waste a Day of It.</span></h2>
         <p>In most of Canada the irrigation season opens in a rush and closes with a deadline. May hits and every customer wants their system on <em>this week</em>. Then September turns, and suddenly every system in your book has to be blown out before the first hard freeze &mdash; hundreds of short stops crammed into a handful of weeks, because a missed winterization isn&apos;t a small miss. It&apos;s a cracked backflow preventer, a split line under the frost, and an angry phone call in April when the water comes back on. In between the two rushes, it&apos;s repair calls: stuck valves, sheared heads, controllers fried by a summer storm. IrrigationBossPro was built around exactly that rhythm &mdash; whole-book seasonal scheduling on both ends of the year, tight routes when every stop is fifteen minutes, dispatch for the repair season in the middle, and invoicing in Canadian dollars the moment the job is done.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">🌱</div><h4>May: The Start-Up Rush</h4><p>Roll every property tagged for spring start-up onto the Job Board at once and work the list neighbourhood by neighbourhood &mdash; instead of booking one phone call at a time while the backlog grows.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Summer: Repair Season</h4><p>Service calls, head and valve replacements, controller swaps. A Job Board of open tickets, a live route map, and crews dispatched from a phone &mdash; not from a group text.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🌱</div><h4>May: The Start-Up Rush</h4><p>Roll every property tagged for spring start-up onto the Pending Jobs board at once and work the list neighbourhood by neighbourhood &mdash; instead of booking one phone call at a time while the backlog grows.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Summer: Repair Season</h4><p>Service calls, head and valve replacements, controller swaps. A Pending Jobs Board of open tickets, a live route map, and crews dispatched from a phone &mdash; not from a group text.</p></div>
           <div className="premium-card"><div className="premium-card-icon">❄️</div><h4>Fall: The Blowout Race</h4><p>The whole book, blown out before freeze-up. See exactly who&apos;s left, batch the remaining stops into dense routes, and track the list down to zero before the frost gets there first.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💳</div><h4>All Year: Paid in CAD</h4><p>Every invoice, card charge, and payment link in Canadian dollars through your own Stripe account. Bill each stop the moment it&apos;s marked complete &mdash; not from the office in November.</p></div>
         </div>
@@ -261,10 +261,10 @@ export default function IrrigationSoftwareCanada() {
             <span className="section-label">Spring Start-Up Season</span>
             <h2>When May Hits, the Whole Book<br />Wants Water at Once.</h2>
             <p>The first warm week after the frost tables lift, your phone doesn&apos;t stop. Every customer wants their system pressurized, their heads checked, and their controller programmed before the lawn browns off. Booking that one call at a time is how spring gets away from you.</p>
-            <p>In IrrigationBossPro, every property that got a blowout last fall is already tagged for a spring start-up. When the season opens, roll the entire list onto the Job Board in one move, batch it into neighbourhood routes, and start working it top to bottom. Customers get notified their start-up is booked &mdash; before most of them even think to call.</p>
+            <p>In IrrigationBossPro, every property that got a blowout last fall is already tagged for a spring start-up. When the season opens, roll the entire list onto the Pending Jobs board in one move, batch it into neighbourhood routes, and start working it top to bottom. Customers get notified their start-up is booked &mdash; before most of them even think to call.</p>
             <ul className="check-list">
               <li>Every winterized property carries forward to the spring start-up list automatically</li>
-              <li>Roll the whole start-up book onto the Job Board in one click</li>
+              <li>Roll the whole start-up book onto the Pending Jobs board in one click</li>
               <li>Zone counts on every property, so you know how many systems a crew clears per day</li>
               <li>Notes carry over the winter &mdash; valve locations, controller model, the zone that always sticks</li>
               <li>Turn &ldquo;while you&apos;re here&rdquo; finds into line-item repair estimates on the spot</li>
@@ -294,7 +294,7 @@ export default function IrrigationSoftwareCanada() {
             <p style={{color:'rgba(255,255,255,.7)'}}>In Canada, winterization isn&apos;t a service you offer &mdash; it&apos;s a deadline the weather sets for you. Every system you maintain has to be purged before the first hard freeze, and each stop is short: hook the compressor to the blowout port, cycle the zones until the heads spit mist, shut it down, next driveway. Fifteen minutes a stop &mdash; if the route is tight. An hour of windshield time between stops, and the math stops working.</p>
             <p style={{color:'rgba(255,255,255,.7)'}}>That&apos;s why route density is the whole game in October. IrrigationBossPro shows every property still waiting for its blowout on one map, lets you batch a street or a subdivision into a single day, and counts the list down so nothing slips past freeze-up. Because the one you miss is the one that cracks a backflow preventer over the winter &mdash; and that customer isn&apos;t calling you in April to say thanks.</p>
             <ul className="check-list" style={{marginTop:'16px'}}>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Every property tagged for winterization rolls onto the Job Board when fall turns</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Every property tagged for winterization rolls onto the Pending Jobs board when fall turns</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Live map of every system still holding water &mdash; batch by street, not by phone call</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Drag-to-reorder routes built for hundreds of short stops in a few compressed weeks</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Zone counts per stop, so crews know the day&apos;s load before they roll</li>
@@ -321,7 +321,7 @@ export default function IrrigationSoftwareCanada() {
               <div className="stat-cell full"><div className="stat-val">Maple Grove &middot; 21 &nbsp;|&nbsp; Riverbend &middot; 18 &nbsp;|&nbsp; Acreages &middot; 18</div><div className="stat-lbl">Remaining Stops by Area</div></div>
             </div>
             <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule All 57 Blowouts →</button>
-            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to the Job Board with a full route map</div>
+            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to the Pending Jobs board with a full route map</div>
           </div>
         </div>
       </section>
@@ -333,9 +333,9 @@ export default function IrrigationSoftwareCanada() {
             <span className="section-label">Between the Peaks</span>
             <h2>Repair Season Is Where the<br />Margin Lives. Run It Like It.</h2>
             <p>June through August, the work changes shape: a stuck zone valve here, three heads sheared by a mower there, a controller that quit after a lightning storm. Repair work pays well &mdash; when the calls get logged, dispatched, and billed instead of living in your voicemail.</p>
-            <p>Every service call lands on the Job Board as a ticket with the property&apos;s full system history attached &mdash; what&apos;s been replaced, which zones act up, what the tech found last time. Dispatch it to whoever&apos;s closest on the map, and when the tech marks it done, the parts they used are already on the work order and the invoice is one click away.</p>
+            <p>Every service call lands on the Pending Jobs board as a ticket with the property&apos;s full system history attached &mdash; what&apos;s been replaced, which zones act up, what the tech found last time. Dispatch it to whoever&apos;s closest on the map, and when the tech marks it done, the parts they used are already on the work order and the invoice is one click away.</p>
             <ul className="check-list">
-              <li>Every repair call logged as a Job Board ticket &mdash; nothing lives in voicemail</li>
+              <li>Every repair call logged as a Pending Jobs Board ticket &mdash; nothing lives in voicemail</li>
               <li>Property profiles with zone counts, controller model, and full repair history</li>
               <li>Live route map &mdash; slot the emergency call into whoever&apos;s closest</li>
               <li>Techs log heads, valves, and pipe used right on the work order</li>
@@ -472,15 +472,15 @@ export default function IrrigationSoftwareCanada() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month (USD)</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Customer invoicing &amp; payments in Canadian dollars</li>
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Recurring Winterization &amp; Spring Start-Up Scheduling</li>
-              <li>Job Board, Calendar &amp; Route Map</li>
+              <li>Pending Jobs Board, Calendar &amp; Route Map</li>
               <li>Line-Item Estimates &amp; Parts Catalog</li>
               <li>Crew Dispatch &amp; Mobile Field App</li>
               <li>Customer App with CA$ Invoices</li>

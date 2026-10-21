@@ -66,7 +66,7 @@ export default function Page() {
         <p>
           Install billing falls apart when the schedule lives in one app, the parts list lives on paper,
           and the invoices live in a separate program. IrrigationBossPro keeps them together. The job
-          sits on the Job Board tied to the client and property profile; dispatch routes the crew to the
+          sits on the Pending Jobs board tied to the client and property profile; dispatch routes the crew to the
           site; the foreman closes out each day on a phone, marking the milestone complete and snapping
           photos of the trench, the manifold, and the finished heads. Those photos and notes attach
           straight to the job, so when a draw goes out the customer can see the work behind it. A short

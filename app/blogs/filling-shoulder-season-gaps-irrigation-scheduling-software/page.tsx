@@ -38,7 +38,7 @@ export default function Page() {
           that is not part of today&apos;s job, they log it right on the property profile&mdash;&quot;zone 4 head
           shattered, customer wants it done later,&quot; &quot;controller is a 15-year-old dinosaur, pitch the smart
           upgrade.&quot; Each note becomes a flagged opportunity tied to the client and the property, with the materials
-          and a rough line-item estimate already attached. When a slow week looms, you open the Job Board, filter to those
+          and a rough line-item estimate already attached. When a slow week looms, you open the Pending Jobs board, filter to those
           open opportunities, and you are looking at a ready-made list of work to book. The cracked head, the failing
           valve, the controller swap&mdash;all of it is sitting there waiting to be scheduled instead of evaporating.
         </p>
@@ -69,7 +69,7 @@ export default function Page() {
         <p>
           A slow week only pays off if the stops are drivable. Once you pull the open repairs, backflow tests, and upgrades
           onto the calendar, the software clusters them geographically so a crew works a tight neighborhood instead of
-          chasing one job across town. You assign the day, push it to the Job Board, and dispatch with routing already
+          chasing one job across town. You assign the day, push it to the Pending Jobs board, and dispatch with routing already
           sorted. That is what turns a scattering of small jobs into a profitable run: four backflow tests, a controller
           swap, and two head repairs within a few minutes of each other, all booked the week before. When the money side
           is handled the same way, the day closes itself out&mdash;which is exactly what we cover in{' '}
@@ -91,11 +91,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Keep Your Crews Booked Between the Rushes</h3>
-          <p>IrrigationBossPro surfaces flagged repairs, backflow tests, and upgrades, then routes, texts, and invoices them&mdash;so your slow weeks fill themselves from one job board.</p>
+          <p>IrrigationBossPro surfaces flagged repairs, backflow tests, and upgrades, then routes, texts, and invoices them&mdash;so your slow weeks fill themselves from one Pending Jobs board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, shoulder-season scheduling, fill irrigation calendar gaps, backflow testing scheduling, sprinkler repair job board, recurring seasonal service software</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, shoulder-season scheduling, fill irrigation calendar gaps, backflow testing scheduling, sprinkler repair Pending Jobs board, recurring seasonal service software</div>
       </article>
     </BlogShell>
   );

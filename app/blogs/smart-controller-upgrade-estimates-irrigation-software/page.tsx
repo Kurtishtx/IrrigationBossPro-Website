@@ -55,7 +55,7 @@ export default function Page() {
         <h2>Turn the Approved Quote Into a Scheduled Job</h2>
         <p>
           An approved estimate is useless if it sits in a folder. In IrrigationBossPro, the moment a customer accepts, you push
-          the bid straight onto the Job Board and the schedule. The controller upgrade becomes a real job with a date, the parts
+          the bid straight onto the Pending Jobs board and the schedule. The controller upgrade becomes a real job with a date, the parts
           list traveling with it, and the property profile attached so the tech knows the panel location and the zone count
           before they roll up. From the dispatch view you assign it to the crew already routed near that neighborhood, so a
           one-hour controller swap doesn&apos;t cost you a half day of windshield time. The parts you quoted are the parts the

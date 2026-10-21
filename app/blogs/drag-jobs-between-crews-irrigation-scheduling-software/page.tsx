@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Rebalancing the Day by Dragging Jobs Between Crews in Irrigation Scheduling Software | IrrigationBossPro',
-  description: 'Drag irrigation jobs between crews on the live Job Board to rebalance the day&mdash;reroute repairs, winterizations, and start-ups in seconds without phone calls.',
+  description: 'Drag irrigation jobs between crews on the live Pending Jobs Board to rebalance the day&mdash;reroute repairs, winterizations, and start-ups in seconds without phone calls.',
 };
 
 export default function Page() {
@@ -32,9 +32,9 @@ export default function Page() {
           trucks across town.
         </p>
 
-        <h2>Drag-and-Drop on a Live Job Board</h2>
+        <h2>Drag-and-Drop on a Live Pending Jobs Board</h2>
         <p>
-          IrrigationBossPro puts every truck&apos;s day side by side on the Job Board. You see each crew&apos;s column of
+          IrrigationBossPro puts every truck&apos;s day side by side on the Pending Jobs board. You see each crew&apos;s column of
           jobs in order, with the property name, the service type, and the line-item estimate attached. When one column
           is stacked and another is thin, you grab the job and drop it into the lighter crew&apos;s schedule. That is the
           whole move. The job carries everything with it&mdash;the customer profile, the zone count, the parts on the
@@ -75,7 +75,7 @@ export default function Page() {
         <h2>Nothing Falls Through the Cracks</h2>
         <p>
           The hidden risk in any reshuffle is that a job gets dropped and forgotten. Because every move happens on the
-          Job Board, the work never leaves the system&mdash;it just changes columns. A repair that gets bumped to
+          Pending Jobs Board, the work never leaves the system&mdash;it just changes columns. A repair that gets bumped to
           tomorrow stays flagged until it is closed. A winterization that needs a return trip for a part on order keeps
           its place in line. When the crew finishes, the invoice generates and, with a card on file, you collect the same
           day no matter which truck did the work. The customer&apos;s history stays clean under their property profile
@@ -87,11 +87,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Rebalance Any Day in Seconds, Not Phone Calls</h3>
-          <p>IrrigationBossPro lets you drag jobs between crews on a live Job Board&mdash;rerouting, re-texting customers, and invoicing on completion automatically.</p>
+          <p>IrrigationBossPro lets you drag jobs between crews on a live Pending Jobs Board&mdash;rerouting, re-texting customers, and invoicing on completion automatically.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, drag and drop crew scheduling, irrigation job board, sprinkler crew dispatch, reassign irrigation jobs, irrigation route rebalancing</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, drag and drop crew scheduling, irrigation Pending Jobs board, sprinkler crew dispatch, reassign irrigation jobs, irrigation route rebalancing</div>
       </article>
     </BlogShell>
   );

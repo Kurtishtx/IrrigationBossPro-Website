@@ -18,7 +18,7 @@ export default function Page() {
         <p>Irrigation work is project-heavy and material-heavy, which makes it fragile to disruption. A repair stop can balloon when a tech opens a valve box and finds three cracked laterals instead of one. A spring start-up turns into a parts run when a controller is fried. Winterization season stacks dozens of short blowout stops a day, so one slow site cascades into late arrivals across the whole route. When the plan lives only in your dispatcher&apos;s head or on a printed sheet, every change means a phone call, a guess about who&apos;s closest, and a customer left wondering where the crew is. Software that holds the whole day&mdash;jobs, crews, materials, and customer profiles&mdash;in one live view is what keeps a bad morning from becoming a lost day.</p>
 
         <h2>Reassign Jobs Without Rebuilding the Whole Route</h2>
-        <p>The core move in day-of dispatch is pulling a job off one crew and dropping it on another. In IrrigationBossPro you do that from the Job Board: drag the stop from the crew that&apos;s running behind onto the crew that wrapped early, and the schedule, the route order, and the assigned tech all update at once. Nobody re-keys an address. The job carries its full context with it&mdash;the line-item estimate, the parts list, the property profile, and the notes about which zone failed&mdash;so the receiving crew isn&apos;t starting blind. When a backflow test fails and becomes a repair, you don&apos;t cancel and recreate; you convert the visit and the materials needed (replacement assembly, fittings, test report) ride along.</p>
+        <p>The core move in day-of dispatch is pulling a job off one crew and dropping it on another. In IrrigationBossPro you do that from the Pending Jobs board: drag the stop from the crew that&apos;s running behind onto the crew that wrapped early, and the schedule, the route order, and the assigned tech all update at once. Nobody re-keys an address. The job carries its full context with it&mdash;the line-item estimate, the parts list, the property profile, and the notes about which zone failed&mdash;so the receiving crew isn&apos;t starting blind. When a backflow test fails and becomes a repair, you don&apos;t cancel and recreate; you convert the visit and the materials needed (replacement assembly, fittings, test report) ride along.</p>
 
         <h2>See Who&apos;s Actually Closest Before You Move It</h2>
         <p>Reassigning blind just trades one problem for another. The reason map-based dispatch matters is that &quot;who&apos;s free&quot; and &quot;who&apos;s close&quot; are rarely the same crew. When you see every active job plotted on the map with each crew&apos;s remaining stops, you can hand the emergency valve repair to the truck three blocks away instead of the one across town that happens to have an open slot. That single decision saves drive time, keeps fuel down, and gets the customer served faster. For winterization season, where you might run sixty blowouts in a day, that map view is the difference between finishing by 4 and chasing daylight until 7.</p>
@@ -34,11 +34,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run a calmer dispatch day with IrrigationBossPro</h3>
-          <p>IrrigationBossPro lets you reroute crews, swap jobs with parts and estimates attached, and text customers the moment plans change&mdash;all from one live Job Board.</p>
+          <p>IrrigationBossPro lets you reroute crews, swap jobs with parts and estimates attached, and text customers the moment plans change&mdash;all from one live Pending Jobs Board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation business software, irrigation crew dispatch software, sprinkler job scheduling, irrigation job board, irrigation route optimization, irrigation customer texts</div>
+        <div className="blog-keywords">Keywords: irrigation business software, irrigation crew dispatch software, sprinkler job scheduling, irrigation Pending Jobs board, irrigation route optimization, irrigation customer texts</div>
       </article>
     </BlogShell>
   );

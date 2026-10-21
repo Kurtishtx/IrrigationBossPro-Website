@@ -18,7 +18,7 @@ export default function Page() {
           handled&quot; and a hope that the customer agreed. Irrigation work is buried &mdash; underground pipe,
           heads tucked in beds, a backflow device against the foundation &mdash; so documentation matters more
           here than in almost any trade. IrrigationBossPro builds before-and-after photos straight into the
-          dispatch flow, so every job that leaves the Job Board comes back with a visual record attached to the
+          dispatch flow, so every job that leaves the Pending Jobs board comes back with a visual record attached to the
           customer&apos;s property profile.
         </p>
 
@@ -79,7 +79,7 @@ export default function Page() {
           company that shows its work, and showing it costs your crew about fifteen seconds per stop. All of
           this flows through the same{' '}
           <a href="/irrigation-dispatch-software">irrigation crew & dispatch software</a> your team already uses
-          to schedule jobs, route trucks, and pull up the Job Board each morning.
+          to schedule jobs, route trucks, and pull up the Pending Jobs board each morning.
         </p>
 
         <h2>Make Documentation a Habit, Not a Hassle</h2>

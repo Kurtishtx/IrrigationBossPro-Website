@@ -41,7 +41,7 @@ export default function Page() {
         </div>
 
         <div className="blog-keywords">
-          Keywords: irrigation dispatch software, reroute irrigation crews, irrigation crew scheduling software, sprinkler dispatch software, irrigation job board, real-time crew dispatch
+          Keywords: irrigation dispatch software, reroute irrigation crews, irrigation crew scheduling software, sprinkler dispatch software, irrigation Pending Jobs board, real-time crew dispatch
         </div>
       </article>
     </BlogShell>

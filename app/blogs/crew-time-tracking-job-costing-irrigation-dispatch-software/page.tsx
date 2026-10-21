@@ -76,7 +76,7 @@ export default function Page() {
           Job costing and dispatch are the same problem viewed from two angles. When a repair runs long, it is
           not just that one job bleeding labor &mdash; it is every stop behind it on the route arriving late.
           IrrigationBossPro keeps the live clock and the day&apos;s schedule connected, so when a visit blows
-          past its estimate, you see it on the Job Board immediately and can react instead of finding out at
+          past its estimate, you see it on the Pending Jobs board immediately and can react instead of finding out at
           5 p.m. We cover that exact scenario in{' '}
           <a href="/blogs/rerouting-crews-mid-day-irrigation-dispatch-software">Rerouting Crews Mid-Day When an Irrigation Job Runs Long</a>,
           where the same time data that feeds your job costing also tells you when to pull a crew off a problem
@@ -105,7 +105,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation crew time tracking, sprinkler job costing software, irrigation dispatch software, irrigation job board, sprinkler crew management, irrigation invoicing software</div>
+        <div className="blog-keywords">Keywords: irrigation crew time tracking, sprinkler job costing software, irrigation dispatch software, irrigation Pending Jobs board, sprinkler crew management, irrigation invoicing software</div>
       </article>
     </BlogShell>
   );

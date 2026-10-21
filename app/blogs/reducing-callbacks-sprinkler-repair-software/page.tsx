@@ -71,7 +71,7 @@ export default function Page() {
         <p>
           No shop hits zero callbacks. What separates a tight operation is how fast it responds. When a customer reports an
           issue, the office drops the return visit straight onto the schedule and dispatches it to the crew already routed in
-          that neighborhood, so a warranty fix does not blow up a full day of new repairs. The Job Board keeps unassigned
+          that neighborhood, so a warranty fix does not blow up a full day of new repairs. The Pending Jobs board keeps unassigned
           callbacks visible instead of buried in a voicemail box, and the tech gets the original work order on their phone &mdash;
           same zone, same parts, same notes &mdash; so they arrive prepared rather than starting over. A callback handled in
           a day, with full context, often turns a frustrated customer back into a loyal one.

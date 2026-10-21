@@ -68,7 +68,7 @@ export default function Page() {
           revenue, but only if you actually remember to schedule them. On a board, last year&apos;s
           blowout customers vanish the moment the season ends. With irrigation software, every
           seasonal client stays on file. When fall comes, you generate the winterization list in
-          seconds, batch the customer texts, and fill the calendar from a route-ready Job Board instead
+          seconds, batch the customer texts, and fill the calendar from a route-ready Pending Jobs Board instead
           of digging through old invoices. Spring start-ups work the same way. The recurring work
           schedules itself, and you stop leaving money on the table because a name got erased.
         </p>
@@ -108,7 +108,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler dispatch software, winterization scheduling, irrigation job board, seasonal service software, irrigation invoicing software</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler dispatch software, winterization scheduling, irrigation Pending Jobs board, seasonal service software, irrigation invoicing software</div>
       </article>
     </BlogShell>
   );

@@ -35,7 +35,7 @@ export default function Page() {
         <h2>One Click: Approved to Scheduled</h2>
         <p>
           The moment a customer approves the bid&mdash;by signing online or giving the go-ahead over the phone&mdash;you
-          hit one button to push it onto the Job Board. The software creates the job, carries over the full materials
+          hit one button to push it onto the Pending Jobs board. The software creates the job, carries over the full materials
           list, attaches the property profile, and drops the work into your scheduling queue. You are not starting from a
           blank calendar event. You are placing a job that already has its parts, its scope, and its dollar value
           attached. For a new system install that might mean a multi-day block; for a valve repair it might be a
@@ -55,7 +55,7 @@ export default function Page() {
 
         <h2>Dispatch and Routing Without the Phone Tag</h2>
         <p>
-          Once the job is on the Job Board, assigning it to a crew is drag-and-drop. The software shows you who is free,
+          Once the job is on the Pending Jobs board, assigning it to a crew is drag-and-drop. The software shows you who is free,
           where their other stops are, and how the new job fits the route. Because every job carries its property
           address, you can sequence a day so the install crew is not crisscrossing town between a backflow test on one
           side and a controller swap on the other. When you assign the job, the crew sees it on their device with the
@@ -110,7 +110,7 @@ export default function Page() {
 
         <div className="blog-keywords">
           Keywords: irrigation scheduling software, sprinkler estimate to job, irrigation dispatch software, irrigation
-          job board, irrigation crew scheduling, sprinkler invoicing software
+          Pending Jobs board, irrigation crew scheduling, sprinkler invoicing software
         </div>
       </article>
     </BlogShell>

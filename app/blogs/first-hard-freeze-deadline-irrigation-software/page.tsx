@@ -39,7 +39,7 @@ export default function Page() {
           fall route from scratch every year, IrrigationBossPro treats winterization as recurring seasonal service.
           Last season&apos;s blowout list rolls forward automatically, complete with the property details your crew needs:
           number of zones, controller location, where the blow-out port and shut-off valve are, and any notes about a
-          finicky backflow assembly or a buried valve box. When the season opens, your Job Board already shows the work
+          finicky backflow assembly or a buried valve box. When the season opens, your Pending Jobs Board already shows the work
           waiting to be scheduled &mdash; you&apos;re confirming and dispatching, not re-entering. That head start is what
           lets you beat the freeze instead of racing it.
         </p>

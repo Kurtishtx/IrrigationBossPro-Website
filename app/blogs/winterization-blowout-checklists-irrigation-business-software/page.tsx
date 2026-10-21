@@ -76,7 +76,7 @@ export default function Page() {
         <h2>One Source of Truth Across Every Truck</h2>
         <p>
           Standardizing the procedure only works because scheduling, dispatch, and the property record
-          all sit in one system. The route gets built on the Job Board and dispatched to whichever crew
+          all sit in one system. The route gets built on the Pending Jobs board and dispatched to whichever crew
           is closest, but the job that lands on their phone is identical no matter who gets it. Each stop
           pulls from a client and property profile &mdash; zone counts, controller location, the buried
           backflow box, last year&apos;s notes &mdash; so the checklist is tailored to that home while

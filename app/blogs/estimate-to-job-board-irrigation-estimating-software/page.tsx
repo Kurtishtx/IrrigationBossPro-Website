@@ -1,8 +1,8 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'From Estimate to the Job Board: Turning Bids Into Scheduled Work | IrrigationBossPro',
-  description: 'See how IrrigationBossPro turns a signed line-item irrigation bid into scheduled, dispatched crew work on the Job Board in a few clicks.',
+  title: 'From Estimate to the Pending Jobs board: Turning Bids Into Scheduled Work | IrrigationBossPro',
+  description: 'See how IrrigationBossPro turns a signed line-item irrigation bid into scheduled, dispatched crew work on the Pending Jobs board in a few clicks.',
 };
 
 export default function Page() {
@@ -11,14 +11,14 @@ export default function Page() {
       <article className="blog-article">
         <p className="blog-meta">IrrigationBossPro Blog &mdash; Irrigation Estimating Software</p>
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/irrigation-estimating-software" style={{display:"inline-block",background:"#eef7da",color:"#3f6212",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #d4e8a8"}}>&#128167; More Irrigation Estimating Software guides &rarr;</a></p>
-        <h1>From Estimate to the Job Board: Turning Bids Into Scheduled Work</h1>
+        <h1>From Estimate to the Pending Jobs board: Turning Bids Into Scheduled Work</h1>
         <p>
           You already know the painful gap in most irrigation shops. A homeowner approves a new
           system install or a valve repair bid, and then the estimate sits in an inbox while
           somebody re-types the address, re-counts the heads, and tries to remember which crew has
           an open afternoon. Every hand-off is a chance to drop a job. IrrigationBossPro closes that
           gap by treating the estimate as the start of the work, not a separate document. Once a bid
-          is approved, it flows straight onto the Job Board &mdash; same line items, same materials,
+          is approved, it flows straight onto the Pending Jobs board &mdash; same line items, same materials,
           same customer &mdash; ready to schedule and dispatch.
         </p>
 
@@ -48,9 +48,9 @@ export default function Page() {
           re-typing, double entry, and lost-paperwork problems disappear for good.
         </p>
 
-        <h2>The Job Board Is Your Whole Season at a Glance</h2>
+        <h2>The Pending Jobs board Is Your Whole Season at a Glance</h2>
         <p>
-          The Job Board is the command center for the shop. Installs, valve and head repairs,
+          The Pending Jobs board is the command center for the shop. Installs, valve and head repairs,
           backflow tests, and seasonal service all live on one calendar you can drag and shift as the
           week changes. When rain pushes a trenching day, you move the block and the crew is
           notified. You can see which jobs are bid, which are scheduled, and which are still waiting
@@ -88,7 +88,7 @@ export default function Page() {
           The best part of running irrigation on one system is recurring revenue. A fall
           winterization or blowout and a spring start-up are predictable, repeatable jobs, and
           IrrigationBossPro lets you set them up as recurring service tied to each property profile.
-          When the season turns, those jobs are ready to drop onto the Job Board in batches, routed
+          When the season turns, those jobs are ready to drop onto the Pending Jobs board in batches, routed
           by neighborhood, with a customer text confirming the visit. The estimate-to-board workflow
           that wins you a new install in spring becomes the engine that books that same customer for
           winterization in fall &mdash; year after year &mdash; without anyone digging through old
@@ -101,7 +101,7 @@ export default function Page() {
         <div className="blog-cta-box">
           <h3>Turn Your Next Bid Into Booked Work</h3>
           <p>
-            IrrigationBossPro carries your line-item estimates straight to the Job Board, then helps
+            IrrigationBossPro carries your line-item estimates straight to the Pending Jobs board, then helps
             you schedule, dispatch, invoice, and rebook seasonal service from one connected record.
           </p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
@@ -109,7 +109,7 @@ export default function Page() {
         </div>
 
         <div className="blog-keywords">
-          Keywords: irrigation estimating software, irrigation job board software, sprinkler
+          Keywords: irrigation estimating software, irrigation Pending Jobs board software, sprinkler
           scheduling software, irrigation crew dispatch software, irrigation invoicing software,
           recurring seasonal service software
         </div>

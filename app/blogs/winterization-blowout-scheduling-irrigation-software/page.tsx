@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Route the Crews So the Compressor Keeps Moving</h2>
         <p>
-          A blowout takes fifteen to thirty minutes. The drive between properties can take longer than the work itself, which is why routing is where winterization profits live or die. The Job Board shows every blowout that needs to happen, and crew dispatch lets you assign and sequence them so a truck works one neighborhood at a time instead of crisscrossing the county. Tight, map-based routing means a single compressor and crew can clear thirty or forty systems in a day instead of fifteen. Each tech opens the day&apos;s route on their phone, sees the next address, the zone count, and any notes&mdash;buried valve box, gate code, dog in the yard&mdash;before they pull in the driveway.
+          A blowout takes fifteen to thirty minutes. The drive between properties can take longer than the work itself, which is why routing is where winterization profits live or die. The Pending Jobs board shows every blowout that needs to happen, and crew dispatch lets you assign and sequence them so a truck works one neighborhood at a time instead of crisscrossing the county. Tight, map-based routing means a single compressor and crew can clear thirty or forty systems in a day instead of fifteen. Each tech opens the day&apos;s route on their phone, sees the next address, the zone count, and any notes&mdash;buried valve box, gate code, dog in the yard&mdash;before they pull in the driveway.
         </p>
 
         <h2>Estimates, Materials, and the Repairs You Find</h2>

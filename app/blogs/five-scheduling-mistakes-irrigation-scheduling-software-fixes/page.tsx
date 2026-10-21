@@ -59,7 +59,7 @@ export default function Page() {
           Irrigation work is full of jobs that cannot finish in one visit. A valve diagnosis needs a part that is on back
           order; a leak repair turns up a second zone that needs its own estimate; a customer wants the cracked rotor heads
           swapped but not today. On paper those follow-ups live in a tech&apos;s memory and a sticky note, and half of them
-          never get rebooked. With everything tied to the property profile and the Job Board, an open work order stays
+          never get rebooked. With everything tied to the property profile and the Pending Jobs board, an open work order stays
           visible until it is scheduled and closed&mdash;the materials it needs (heads, valves, controllers, swing joints,
           a backflow device) attach right to it, so when the part lands you pull the job straight back onto the calendar
           with the line items already priced. Nothing falls through because nothing leaves the system. Carrying that full

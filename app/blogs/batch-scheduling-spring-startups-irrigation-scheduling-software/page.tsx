@@ -47,7 +47,7 @@ export default function Page() {
           Creating the jobs is half the battle; the other half is making the days actually drivable. Once the batch is
           generated, the software groups jobs geographically and lays them onto the calendar so each crew works a tight
           cluster instead of bouncing across the service area. You assign a day&apos;s worth of start-ups to a crew, push
-          them to the Job Board, and dispatch with routing already optimized. That turns a 60-stop week into clean,
+          them to the Pending Jobs board, and dispatch with routing already optimized. That turns a 60-stop week into clean,
           back-to-back runs where the drive between properties is a few minutes, not a half hour. Getting that rhythm
           right early sets the tone for everything that follows, which is exactly what we cover in{' '}
           <a href="/blogs/year-round-schedule-rhythm-irrigation-scheduling-software">Building a Year-Round Scheduling Rhythm Around the Irrigation Seasons</a>.
@@ -76,7 +76,7 @@ export default function Page() {
 
         <h2>Visibility Across Hundreds of Jobs</h2>
         <p>
-          The real payoff of batching is that you can see the season at a glance. The Job Board shows what is booked,
+          The real payoff of batching is that you can see the season at a glance. The Pending Jobs board shows what is booked,
           what is completed, and which start-ups still need a slot, so you can fill cancellations from a waiting list
           instead of leaving crew-hours idle. Properties that need a return trip for a part on order stay flagged until
           they are closed out. When the bulk of your spring work is already scheduled, routed, and ready to invoice
@@ -87,7 +87,7 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Book Your Whole Spring Start-Up Season in One Sitting</h3>
-          <p>IrrigationBossPro batch-schedules recurring start-ups, routes your crews, texts your customers, and invoices on completion&mdash;all from one job board.</p>
+          <p>IrrigationBossPro batch-schedules recurring start-ups, routes your crews, texts your customers, and invoices on completion&mdash;all from one Pending Jobs board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>

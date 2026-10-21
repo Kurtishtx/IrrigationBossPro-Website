@@ -83,7 +83,7 @@ export default function Page() {
         <p>
           Start by writing down the eight or ten jobs you do most &mdash; the zone types, the common repairs, and the
           seasonal services &mdash; and build a template for each. Feed the materials and labor in once, set your margin,
-          and let the Job Board, dispatch, and invoicing tools carry it through to payment. From that point on, estimating
+          and let the Pending Jobs board, dispatch, and invoicing tools carry it through to payment. From that point on, estimating
           is assembly, not arithmetic. To see how the whole system fits together across installs, repairs, and seasonal
           routes, explore the full{' '}
           <a href="/irrigation-business-software">irrigation business software</a> and turn your pricing knowledge into a

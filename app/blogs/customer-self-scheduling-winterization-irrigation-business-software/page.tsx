@@ -46,7 +46,7 @@ export default function Page() {
         <h2>Every Self-Booked Job Lands Ready to Run</h2>
         <p>
           A booking is only useful if your crew can actually execute it without a second pass through the office. When a
-          customer self-schedules a winterization, the job drops straight onto your calendar and Job Board as a complete
+          customer self-schedules a winterization, the job drops straight onto your calendar and Pending Jobs Board as a complete
           work order&mdash;property profile attached, a line-item estimate for the blowout already priced, and the tech
           notes from last season riding along. Your crews see the controller location, the valve box spots, and how many
           zones to clear before they ever pull up. If a tech finds a worn head or a leaking valve during the blowout, the
@@ -60,7 +60,7 @@ export default function Page() {
           winterizations accumulate, the software clusters them geographically so you can assign tight, efficient runs to
           each crew instead of sending a truck across town for a single blowout. You set how many jobs a day each crew can
           absorb, and the booking page only offers slots that keep those routes full but realistic. Dispatch pushes the
-          day&apos;s grouped jobs to the Job Board, crews drive a logical loop, and you clear far more systems per truck
+          day&apos;s grouped jobs to the Pending Jobs board, crews drive a logical loop, and you clear far more systems per truck
           per day. The customer thinks they chose freely; behind the scenes, the software steered them into the slots that
           made your routes profitable.
         </p>

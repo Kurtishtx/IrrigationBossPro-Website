@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>Let Test Dates Drive Your Schedule</h2>
         <p>
-          Backflow certification is calendar work. Most jurisdictions require an annual test, and the renewal date is the single most valuable field you can track. Because the device profile stores the last test date, the software can flag everything coming due over the next 30, 60, or 90 days. That turns into a ready-made list for job scheduling and crew dispatch &mdash; you batch devices by neighborhood, drop them on the Job Board, and route a tech through a tight loop instead of crisscrossing town. Recurring annual tests become a predictable seasonal revenue stream you actually capture, not a pile of expired devices you forgot to chase. A quick customer text confirms the appointment and the gate code before the truck leaves the shop.
+          Backflow certification is calendar work. Most jurisdictions require an annual test, and the renewal date is the single most valuable field you can track. Because the device profile stores the last test date, the software can flag everything coming due over the next 30, 60, or 90 days. That turns into a ready-made list for job scheduling and crew dispatch &mdash; you batch devices by neighborhood, drop them on the Pending Jobs board, and route a tech through a tight loop instead of crisscrossing town. Recurring annual tests become a predictable seasonal revenue stream you actually capture, not a pile of expired devices you forgot to chase. A quick customer text confirms the appointment and the gate code before the truck leaves the shop.
         </p>
 
         <h2>Tie Repair Parts to the Device, Not Just the Job</h2>

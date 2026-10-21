@@ -13,12 +13,12 @@ export default function Page() {
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/irrigation-dispatch-software" style={{display:"inline-block",background:"#eef7da",color:"#3f6212",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #d4e8a8"}}>&#128167; More Irrigation Crew & Dispatch Software guides &rarr;</a></p>
         <h1>Dispatch KPIs and Reporting That Keep Irrigation Crews Productive</h1>
         <p>
-          You can feel when a crew is dragging, but feelings don&apos;t fix a route or close a backflow re-test. Numbers do. If your irrigation business runs on gut and end-of-week guesswork, you&apos;re leaving installs, valve repairs, and winterization jobs on the table. The right dispatch software turns every job &mdash; the new system bid, the head swap, the spring start-up &mdash; into data you can actually steer with. IrrigationBossPro builds reporting straight into the Job Board and dispatch tools so you can spot a slow week before it costs you a season.
+          You can feel when a crew is dragging, but feelings don&apos;t fix a route or close a backflow re-test. Numbers do. If your irrigation business runs on gut and end-of-week guesswork, you&apos;re leaving installs, valve repairs, and winterization jobs on the table. The right dispatch software turns every job &mdash; the new system bid, the head swap, the spring start-up &mdash; into data you can actually steer with. IrrigationBossPro builds reporting straight into the Pending Jobs board and dispatch tools so you can spot a slow week before it costs you a season.
         </p>
 
         <h2>Jobs Per Crew Per Day Is Your North Star</h2>
         <p>
-          The single most useful KPI for an irrigation operation is jobs completed per crew per day. A repair-and-service crew running five or six stops a day is healthy; a crew stuck at two or three is either over-routed, under-stocked, or losing time hunting for the right valve. IrrigationBossPro counts completed jobs off the Job Board automatically, so you see today&apos;s number live instead of reconstructing it from paper tickets at 7 p.m. When a crew is running light, you can pull the next scheduled repair or a nearby winterization blowout forward and fill the gap the same afternoon.
+          The single most useful KPI for an irrigation operation is jobs completed per crew per day. A repair-and-service crew running five or six stops a day is healthy; a crew stuck at two or three is either over-routed, under-stocked, or losing time hunting for the right valve. IrrigationBossPro counts completed jobs off the Pending Jobs board automatically, so you see today&apos;s number live instead of reconstructing it from paper tickets at 7 p.m. When a crew is running light, you can pull the next scheduled repair or a nearby winterization blowout forward and fill the gap the same afternoon.
         </p>
 
         <h2>Drive Time and Route Density</h2>
@@ -43,17 +43,17 @@ export default function Page() {
 
         <h2>Reading the Numbers Without Drowning in Them</h2>
         <p>
-          A dashboard nobody opens is wasted. The point of these KPIs isn&apos;t a wall of charts &mdash; it&apos;s three or four numbers you check each morning and one weekly review that tells you whether to hire, re-route, or chase aging invoices. IrrigationBossPro keeps the metrics that matter on one screen tied to the same Job Board, dispatch, and invoicing tools your crews already use, so reporting is a byproduct of doing the work instead of a second job. If you want the full picture of how scheduling, the Job Board, materials, and crew dispatch fit together, start with our overview of <a href="/irrigation-dispatch-software">irrigation crew & dispatch software</a> and build your KPI habit from there.
+          A dashboard nobody opens is wasted. The point of these KPIs isn&apos;t a wall of charts &mdash; it&apos;s three or four numbers you check each morning and one weekly review that tells you whether to hire, re-route, or chase aging invoices. IrrigationBossPro keeps the metrics that matter on one screen tied to the same Pending Jobs Board, dispatch, and invoicing tools your crews already use, so reporting is a byproduct of doing the work instead of a second job. If you want the full picture of how scheduling, the Pending Jobs board, materials, and crew dispatch fit together, start with our overview of <a href="/irrigation-dispatch-software">irrigation crew & dispatch software</a> and build your KPI habit from there.
         </p>
 
         <div className="blog-cta-box">
           <h3>Run Your Irrigation Crews on Real Numbers</h3>
-          <p>IrrigationBossPro pairs the Job Board, dispatch, line-item estimates, and invoicing with built-in KPIs so you can keep every crew productive through install and service season.</p>
+          <p>IrrigationBossPro pairs the Pending Jobs board, dispatch, line-item estimates, and invoicing with built-in KPIs so you can keep every crew productive through install and service season.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler crew KPIs, irrigation job board, irrigation crew reporting, winterization scheduling software, irrigation invoicing software</div>
+        <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler crew KPIs, irrigation Pending Jobs board, irrigation crew reporting, winterization scheduling software, irrigation invoicing software</div>
       </article>
     </BlogShell>
   );

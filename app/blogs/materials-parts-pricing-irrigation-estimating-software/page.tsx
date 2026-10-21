@@ -89,7 +89,7 @@ export default function Page() {
         <p>
           The real win is the feedback loop. Once parts are priced and tracked on every job, you can
           see what a typical install actually costs in materials versus what you bid, then sharpen
-          your price book so the next estimate is even tighter. The Job Board and dispatch keep
+          your price book so the next estimate is even tighter. The Pending Jobs board and dispatch keep
           approved work moving, but it is accurate parts pricing that keeps each job profitable as it
           flows from bid to crew to paid invoice. That is exactly why pricing parts inside your
           {' '}

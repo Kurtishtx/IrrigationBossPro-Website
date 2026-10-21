@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Your First Week on Irrigation Scheduling Software: A Setup Roadmap | IrrigationBossPro',
-  description: 'A day-by-day first-week roadmap for setting up irrigation scheduling software: properties, parts library, estimates, the Job Board, dispatch, and seasonal service.',
+  description: 'A day-by-day first-week roadmap for setting up irrigation scheduling software: properties, parts library, estimates, the Pending Jobs board, dispatch, and seasonal service.',
 };
 
 export default function Page() {
@@ -24,8 +24,8 @@ export default function Page() {
         <h2>Day 3: Create Estimate and Job Templates</h2>
         <p>By day three you have customers and parts, so now build the line-item estimates and job templates you reuse constantly. Most irrigation shops run the same handful of jobs over and over: a multi-zone install bid, a valve repair, a controller swap, a backflow test, a fall blowout, and a spring start-up. Build each one as a template with its standard line items and labor pulled from the library you finished yesterday. Now a bid that used to mean a blank page and a calculator becomes selecting a template and adjusting quantities. Clean, itemized estimates also win more work &mdash; a homeowner comparing two contractors trusts the one whose proposal spells out every head, valve, and length of pipe over the one who scrawled a round number on the back of a card.</p>
 
-        <h2>Day 4: Get Comfortable With the Job Board and Scheduling</h2>
-        <p>Day four is about flow. The Job Board is where approved estimates and incoming calls become scheduled work, and the goal is to learn how a job moves from request to assigned to completed. Drop a few real jobs onto the calendar, group nearby stops so a crew isn&apos;t crossing town twice in a day, and practice rescheduling when a rain delay or a parts backorder shifts your week. Irrigation scheduling has its own rhythm &mdash; installs eat whole days, repairs slot into gaps, and seasonal pushes overload the calendar &mdash; so getting fluent with the board now means peak weeks won&apos;t catch you flat-footed. Spend time here until moving a job feels automatic.</p>
+        <h2>Day 4: Get Comfortable With the Pending Jobs board and Scheduling</h2>
+        <p>Day four is about flow. The Pending Jobs board is where approved estimates and incoming calls become scheduled work, and the goal is to learn how a job moves from request to assigned to completed. Drop a few real jobs onto the calendar, group nearby stops so a crew isn&apos;t crossing town twice in a day, and practice rescheduling when a rain delay or a parts backorder shifts your week. Irrigation scheduling has its own rhythm &mdash; installs eat whole days, repairs slot into gaps, and seasonal pushes overload the calendar &mdash; so getting fluent with the board now means peak weeks won&apos;t catch you flat-footed. Spend time here until moving a job feels automatic.</p>
 
         <h2>Day 5: Set Up Dispatch, Invoicing, and Customer Texts</h2>
         <p>Friday ties the field to the office. Assign jobs to crews and confirm each tech can see the day&apos;s route, the property profile, and the estimate on their phone so they arrive knowing the controller model and where the valves are buried. Turn on automated customer texts for appointment confirmations and on-the-way alerts &mdash; the small touch that cuts no-shows and the &quot;are you still coming?&quot; calls. Then connect invoicing and card-on-file payments so a completed job converts straight to a paid invoice instead of a stack of paperwork waiting for end-of-month billing. When parts and labor flow from the estimate into the invoice automatically, your billing matches the work, and your cash arrives the day the truck leaves the driveway.</p>
@@ -37,7 +37,7 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Set up your irrigation business in a week, not a month</h3>
-          <p>IrrigationBossPro brings property profiles, a parts library, line-item estimates, the Job Board, dispatch, invoicing, and seasonal scheduling into one platform built for sprinkler and irrigation pros.</p>
+          <p>IrrigationBossPro brings property profiles, a parts library, line-item estimates, the Pending Jobs board, dispatch, invoicing, and seasonal scheduling into one platform built for sprinkler and irrigation pros.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>

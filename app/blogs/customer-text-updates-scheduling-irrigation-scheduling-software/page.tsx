@@ -48,7 +48,7 @@ export default function Page() {
           solves that&mdash;an automatic text the morning of the appointment, restating the window so the customer turns
           the water on and clears access without you calling. Some contractors add an &quot;on the way&quot; text when the
           crew leaves the previous stop, which trims the wait and cuts the &quot;are you still coming?&quot; calls that tie
-          up the office phone. None of this is hand-typed. The software watches the schedule and the Job Board and sends
+          up the office phone. None of this is hand-typed. The software watches the schedule and the Pending Jobs board and sends
           the messages on its own, so a two-hundred-stop start-up season does not turn into two hundred phone calls.
         </p>
 

@@ -58,7 +58,7 @@ export default function Page() {
         <p>
           With clients and estimates flowing, move to the schedule. Drop your approved installs and repairs onto the
           calendar, then group nearby jobs so a crew is not crossing town between a start-up and a valve repair. Use the
-          Job Board to see unassigned work at a glance, then dispatch each job to the right tech with the address, the
+          Pending Jobs Board to see unassigned work at a glance, then dispatch each job to the right tech with the address, the
           property profile, and the parts list attached. Routing keeps drive time down and lets you fit more billable
           stops into a day &mdash; which matters most during the spring start-up rush and the fall blowout crunch when
           calls stack up faster than you can answer them. For a feel of how this plays out on a real route, read

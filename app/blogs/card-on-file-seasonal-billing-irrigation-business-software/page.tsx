@@ -46,7 +46,7 @@ export default function Page() {
 
         <h2>Billing the Blowout the Same Day It Happens</h2>
         <p>
-          Here is where the time savings show up. A tech pulls into the driveway, opens the job on the Job Board, runs
+          Here is where the time savings show up. A tech pulls into the driveway, opens the job on the Pending Jobs board, runs
           the blowout, and closes the visit on their phone. The invoice generates instantly from the line-item estimate
           attached to the job&mdash;the winterization charge, plus any per-zone or oversized-system pricing you have set.
           Because the card is on file, the software can charge it automatically on close or queue it for a one-tap

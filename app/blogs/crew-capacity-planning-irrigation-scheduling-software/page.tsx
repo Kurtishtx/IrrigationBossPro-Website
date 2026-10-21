@@ -48,7 +48,7 @@ export default function Page() {
           eight hours of repairs spread across opposite ends of the service area will never finish, even though the
           job total &quot;fit.&quot; That is why capacity planning has to include the route. When you assign a batch of
           jobs to a crew, the software groups them geographically and accounts for drive time, then pushes the optimized
-          run to the Job Board for dispatch. If adding one more stop blows past the truck&apos;s realistic finish time,
+          run to the Pending Jobs board for dispatch. If adding one more stop blows past the truck&apos;s realistic finish time,
           the calendar flags it before you commit, not after the tech is already behind. Tight clusters mean more
           completed jobs per truck&mdash;and a capacity number you can actually trust.
         </p>
@@ -68,7 +68,7 @@ export default function Page() {
         <h2>Filling Gaps and Handling the Inevitable Rain Day</h2>
         <p>
           Capacity planning is not only about saying no&mdash;it is about never leaving a truck half-empty either. When a
-          job cancels or a part is still on order, the open hours show on the Job Board, so the office can pull a waiting
+          job cancels or a part is still on order, the open hours show on the Pending Jobs board, so the office can pull a waiting
           repair or a nearby start-up into the slot instead of sending a crew out under capacity. When a rain day forces
           a shuffle, you move the affected jobs and the software re-checks each crew&apos;s remaining hours so you do not
           quietly overload the next clear day. Automated customer texts fire with the new windows, so a reschedule never
@@ -93,7 +93,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, crew capacity planning, sprinkler crew dispatch, irrigation route optimization, seasonal irrigation scheduling, sprinkler job board software</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, crew capacity planning, sprinkler crew dispatch, irrigation route optimization, seasonal irrigation scheduling, sprinkler Pending Jobs board software</div>
       </article>
     </BlogShell>
   );

@@ -360,7 +360,7 @@ export default function IrrigationInvoicingSoftware() {
             {icon:'💳', title:'Card-on-File Payments', body:'Store cards on file via Stripe. Charge after the install, send the invoice, and collect without chasing anyone down. Deposits and progress payments on big system jobs handled the same way.'},
             {icon:'🔁', title:'Seasonal Recurring Billing', body:'Put winterization, blowout, and spring start-up customers on a seasonal schedule. IrrigationBossPro generates the invoice and the reminder every fall and spring so no recurring revenue slips through.'},
             {icon:'🗓️', title:'Job &amp; Project Scheduling', body:'Schedule installs, valve repairs, backflow tests, and seasonal service to a date and a crew. See the day\'s board in one view with the parts and property notes attached to each job.'},
-            {icon:'📋', title:'The Job Board', body:'Every job waiting to be scheduled sits on one board &mdash; new installs, repairs, backflow certifications, and seasonal service. Assign it to a date and a tech and it drops onto the dispatch view.'},
+            {icon:'📋', title:'The Pending Jobs board', body:'Every job waiting to be scheduled sits on one board &mdash; new installs, repairs, backflow certifications, and seasonal service. Assign it to a date and a tech and it drops onto the dispatch view.'},
             {icon:'🚛', title:'Crew Dispatch &amp; Routing', body:'Assign jobs to crews and trucks, order the day\'s stops geographically, and cut windshield time between repair calls and seasonal service across town.'},
             {icon:'🏠', title:'Property Profiles', body:'Every property holds its zones, controller model, backflow device, install history, photos, and past invoices &mdash; everything tied to the address, not just the customer name.'},
             {icon:'👥', title:'Client &amp; Lead Management', body:'Manage existing clients and active prospects side by side. Track estimates, install history, and notes tied to each contact in one searchable database.'},
@@ -492,16 +492,16 @@ export default function IrrigationInvoicingSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>59</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Line-Item Estimates &amp; Parts Catalog</li>
               <li>Invoicing &amp; Stripe Card-on-File Payments</li>
               <li>Seasonal Recurring Billing &amp; Renewals</li>
-              <li>Job Board, Scheduling &amp; Crew Dispatch</li>
+              <li>Pending Jobs Board, Scheduling &amp; Crew Dispatch</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>
               <li>Backflow Test &amp; Certification Records</li>
               <li>Mobile App for Your Crew</li>

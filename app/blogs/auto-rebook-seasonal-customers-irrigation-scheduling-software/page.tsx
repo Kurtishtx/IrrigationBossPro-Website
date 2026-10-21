@@ -58,7 +58,7 @@ export default function Page() {
           Auto-rebooking is only useful if customers actually expect you. As soon as the season generates, the software
           can queue an automated text to every rebooked customer letting them know they are on the schedule and giving
           their service window. Homeowners reply to confirm or ask to move the date, and changes flow right back onto the
-          Job Board&mdash;no one in the office is dialing two hundred numbers to re-confirm standing customers. For the
+          Pending Jobs Board&mdash;no one in the office is dialing two hundred numbers to re-confirm standing customers. For the
           handful who want to skip a season or cancel, you handle it in seconds and the recurrence pauses cleanly. The
           result is a confirmed, customer-approved schedule built from texts instead of a week of phone tag.
         </p>

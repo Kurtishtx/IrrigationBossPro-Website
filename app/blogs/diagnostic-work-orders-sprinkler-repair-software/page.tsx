@@ -76,7 +76,7 @@ export default function Page() {
           The whole point of a diagnostic work order is to drive a decision. Once the tech has documented the problem
           and the parts, IrrigationBossPro lets you act on it without a second trip to the office. Approve the repair
           and it becomes a scheduled job on the board. Need a part you don&apos;t carry on the truck? Flag the line and
-          push the job back onto the Job Board so dispatch can route it once the controller or backflow device comes in.
+          push the job back onto the Pending Jobs board so dispatch can route it once the controller or backflow device comes in.
           Send the customer a text with the diagnosis and the estimate so they can approve from their phone. When
           they say yes, you collect with a card on file and move on. The diagnostic ticket stops being a dead piece of
           paper and becomes the first step in a scheduled, billed, and tracked repair.

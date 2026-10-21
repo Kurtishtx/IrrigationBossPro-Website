@@ -199,12 +199,12 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Job Board by Service Type',d:'See every job waiting for each service type before you build a route — installs, repairs, winterizations, start-ups, backflow tests. Know what you have before you make a call.'},
+              {t:'Pending Jobs Board by Service Type',d:'See every job waiting for each service type before you build a route — installs, repairs, winterizations, start-ups, backflow tests. Know what you have before you make a call.'},
               {t:'Circle-to-Schedule Map Tool',d:'Draw a circle on the job map. Get instant totals — properties, zones, stops, jobs by type — then schedule them all at once.'},
-              {t:'One-Click Schedule from Job Board',d:'Click any property and assign a date, crew, and truck in seconds. No extra screens, no copy-paste.'},
+              {t:'One-Click Schedule from Pending Jobs Board',d:'Click any property and assign a date, crew, and truck in seconds. No extra screens, no copy-paste.'},
               {t:'Daily Dispatch Board',d:'All scheduled stops for any day in one view. Filter by crew, truck, or service. Print dispatch sheets for drivers.'},
               {t:'Crew & Truck Assignment',d:'Assign a crew and truck to every stop at scheduling time. Track who handled what and with which vehicle.'},
-              {t:'Mark Complete, Skip, or Reschedule',d:'Update stop status from the board or mobile app. Skipped stops return to the job board automatically.'},
+              {t:'Mark Complete, Skip, or Reschedule',d:'Update stop status from the board or mobile app. Skipped stops return to the Pending Jobs board automatically.'},
               {t:'Day Summary Bar',d:'Total stops, total jobs, and total revenue for the day shown at the top of the dispatch board at a glance.'},
               {t:'Full Service History per Property',d:'Every completed stop logged to the property record with date, crew, notes, and parts installed.'},
             ].map((f,i) => (

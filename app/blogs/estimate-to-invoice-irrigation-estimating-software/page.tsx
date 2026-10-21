@@ -63,10 +63,10 @@ export default function Page() {
         <h2>Scheduling and Dispatch Carry the Estimate Forward</h2>
         <p>
           An approved bid is not finished work &mdash; it has to get onto the calendar and out to a
-          crew. The estimate becomes a job that lands on the Job Board, where it waits to be
+          crew. The estimate becomes a job that lands on the Pending Jobs board, where it waits to be
           scheduled and assigned. If you want a deeper look at that handoff, read{' '}
           <a href="/blogs/estimate-to-job-board-irrigation-estimating-software">
-            From Estimate to the Job Board: Turning Bids Into Scheduled Work
+            From Estimate to the Pending Jobs board: Turning Bids Into Scheduled Work
           </a>{' '}
           for the full walkthrough. The short version is that your crew sees the same materials and
           scope you quoted, so the tech showing up to install knows precisely which heads, valves,

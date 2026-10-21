@@ -91,7 +91,7 @@ export default function Page() {
         <h2>Make It the Crew&apos;s Habit, Not the Office&apos;s Burden</h2>
         <p>
           Same-day billing only sticks if it&apos;s built into the workflow your techs already use. Tie the
-          job board to dispatch so the tech sees their stops, routes between them, and closes out each
+          Pending Jobs board to dispatch so the tech sees their stops, routes between them, and closes out each
           one before driving to the next. Closing out means snapping a photo of the new heads, adding
           the parts, and either collecting payment or sending the invoice with a text. A short customer
           text confirming the repair and the amount keeps homeowners in the loop and heads off

@@ -60,7 +60,7 @@ export default function Page() {
           A smart middle path is to quote a flat-rate bid for the obvious work and convert to T&amp;M only when the scope opens
           up. IrrigationBossPro makes this easy because an estimate becomes an invoice without re-keying anything. Send a
           line-item estimate by text before the appointment so the homeowner approves the price, then dispatch the crew from the
-          Job Board with the approved scope attached. If the tech opens a valve box and finds the problem is bigger than quoted, a
+          Pending Jobs Board with the approved scope attached. If the tech opens a valve box and finds the problem is bigger than quoted, a
           quick customer text proposes the added time and materials, the customer approves, and the new lines drop right onto the
           same document. No surprise bills, no awkward phone call from the office a week later. The job stays scheduled, routed,
           and tracked the entire time.

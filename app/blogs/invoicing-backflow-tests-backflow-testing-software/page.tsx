@@ -70,7 +70,7 @@ export default function Page() {
           finalizes the second the tech closes the job, the office isn&apos;t sitting on a pile of
           paperwork at five o&apos;clock. By the time the crew clocks out, the day&apos;s tests are
           billed, the card-on-file charges have run, and the email invoices are already in
-          customers&apos; inboxes. The Job Board shows the office exactly which tests are done,
+          customers&apos; inboxes. The Pending Jobs board shows the office exactly which tests are done,
           which are invoiced, and which are paid, so nothing slips through the cracks during the
           busiest weeks of the year. Dispatch can route the next test to the closest available tech
           without ever touching the billing side.

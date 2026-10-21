@@ -56,7 +56,7 @@ export default function Page() {
         <h2>Dispatch the Batch and Text Every Customer</h2>
         <p>
           Building drivable days is only useful if the crew and the customer both know the plan. From the batch you push
-          each day to the Job Board, and dispatch sends the routed stop list straight to the crew&apos;s phones with the
+          each day to the Pending Jobs board, and dispatch sends the routed stop list straight to the crew&apos;s phones with the
           property notes and any flagged repairs already loaded. At the same time, the software queues an automated text
           to every customer with their service window, so they leave the gate unlocked and the backflow valves on. Day-of
           reminders fire the same way. When rain forces a shuffle, you reschedule the affected stops and the new texts go
@@ -77,7 +77,7 @@ export default function Page() {
 
         <h2>See the Whole Season on One Board</h2>
         <p>
-          The real payoff of route batching is visibility. The Job Board shows what is booked, what is completed, and
+          The real payoff of route batching is visibility. The Pending Jobs board shows what is booked, what is completed, and
           which start-ups still need a slot, so you can fill a cancellation from the waiting list instead of letting
           crew-hours sit idle. Properties waiting on a back-ordered part stay flagged until they are closed out, and you
           can rebalance a crew that is running ahead by handing it the next nearby cluster. When the bulk of your spring
@@ -90,7 +90,7 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Batch a Drivable Spring Start-Up Season in One Sitting</h3>
-          <p>IrrigationBossPro pulls last fall&apos;s customers into routed start-up days, dispatches your crews, texts your customers, and invoices on completion&mdash;all from one job board.</p>
+          <p>IrrigationBossPro pulls last fall&apos;s customers into routed start-up days, dispatches your crews, texts your customers, and invoices on completion&mdash;all from one Pending Jobs board.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>

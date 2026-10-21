@@ -66,7 +66,7 @@ export default function Page() {
         <h2>Batch and Route So Billing Follows the Map</h2>
         <p>
           Invoicing at scale starts upstream, in how you schedule. IrrigationBossPro lets you batch
-          your seasonal list onto the Job Board and auto-schedule blowouts into tight geographic
+          your seasonal list onto the Pending Jobs board and auto-schedule blowouts into tight geographic
           routes, so a crew works one neighborhood at a time instead of crisscrossing the county.
           Dispatch and routing group nearby properties, which means more stops per day and more
           invoices closed per day. Because each scheduled job already carries the customer&apos;s

@@ -70,7 +70,7 @@ export default function Page() {
         <p>
           Backflow testing is recurring seasonal work, and the documentation you capture today is what drives next
           year&apos;s revenue. Because every test record carries a completion date and an annual cycle, IrrigationBossPro
-          surfaces the device on the Job Board when it comes due, drops it onto a route, and lets you dispatch a tester
+          surfaces the device on the Pending Jobs board when it comes due, drops it onto a route, and lets you dispatch a tester
           without digging through files. The customer gets an automated reminder text, you batch nearby annual tests into
           an efficient day, and the gauge readings and photos from last year are already loaded for reference. The
           documentation is not just a record &mdash; it is the trigger that keeps your certification calendar full and

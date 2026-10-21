@@ -38,7 +38,7 @@ export default function Page() {
         <h2>Software Puts Every Job on One Live Board</h2>
         <p>
           With <a href="/irrigation-dispatch-software">irrigation crew &amp; dispatch software</a>,
-          the whiteboard becomes a live Job Board that every tech sees on their phone. When you
+          the whiteboard becomes a live Pending Jobs Board that every tech sees on their phone. When you
           drag a spring start-up to a new day or reassign a valve repair to the nearer crew, the
           schedule updates instantly in their pocket &mdash; no re-texting, no stale photo. Each
           job card carries the property profile, the controller location, the zone notes from the
@@ -65,7 +65,7 @@ export default function Page() {
           didn&apos;t miss anyone. Recurring service in the software remembers every property, so
           when the season turns you generate the whole route from last year&apos;s list in one
           click. The system sends customer texts to confirm the blowout window, drops each
-          stop onto the Job Board in routed order, and flags any account with a balance before
+          stop onto the Pending Jobs board in routed order, and flags any account with a balance before
           the truck rolls. The recurring revenue that keeps an irrigation business alive in the
           shoulder seasons stops depending on your memory.
         </p>
@@ -100,11 +100,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run a Tighter Irrigation Crew with IrrigationBossPro</h3>
-          <p>IrrigationBossPro gives you a live Job Board, smart routing, recurring seasonal service, line-item estimates, and same-day invoicing built for sprinkler and irrigation businesses.</p>
+          <p>IrrigationBossPro gives you a live Pending Jobs Board, smart routing, recurring seasonal service, line-item estimates, and same-day invoicing built for sprinkler and irrigation businesses.</p>
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler crew scheduling, irrigation job board, winterization route software, irrigation invoicing software, seasonal service scheduling</div>
+        <div className="blog-keywords">Keywords: irrigation dispatch software, sprinkler crew scheduling, irrigation Pending Jobs board, winterization route software, irrigation invoicing software, seasonal service scheduling</div>
       </article>
     </BlogShell>
   );

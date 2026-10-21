@@ -74,7 +74,7 @@ export default function Page() {
           When invoicing is driven by the schedule, the office&apos;s job changes. Instead of building bills from
           tickets and chasing checks, the office reviews a clean list of completed jobs that have already invoiced and
           collected. Anything that did not charge&mdash;a customer without a card on file, a job that needs a manager to
-          approve a discount&mdash;is flagged for follow-up rather than buried in a pile. The Job Board shows what is
+          approve a discount&mdash;is flagged for follow-up rather than buried in a pile. The Pending Jobs board shows what is
           scheduled, what is done, and what is paid, so you always know where the season&apos;s revenue stands. That
           shifts hours of data entry and phone-tag into a few minutes of exception handling, and it means the cash that
           your crews earned in the field actually lands in the bank while the work is still fresh.
@@ -98,7 +98,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation invoicing software, card-on-file payments, sprinkler service billing, recurring seasonal service invoicing, irrigation job board</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation invoicing software, card-on-file payments, sprinkler service billing, recurring seasonal service invoicing, irrigation Pending Jobs board</div>
       </article>
     </BlogShell>
   );

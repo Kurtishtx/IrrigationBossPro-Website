@@ -74,7 +74,7 @@ export default function Page() {
           Every texted invoice is linked to the job it came from and the property profile it belongs to.
           That means when a customer calls in April asking what you did to their backflow device last
           fall, you pull up the property and see the job, the parts used, the photos, and the paid
-          invoice in one place. Dispatch a crew from the Job Board, route the truck efficiently between
+          invoice in one place. Dispatch a crew from the Pending Jobs board, route the truck efficiently between
           stops, complete the work, and bill it &mdash; the whole chain lives together. No spreadsheet
           reconciling, no &quot;which invoice was that?&quot; guesswork. The same record that scheduled
           the controller install is the one that proves it was paid.

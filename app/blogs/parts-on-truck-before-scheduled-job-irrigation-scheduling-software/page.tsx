@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>Each Scheduled Job Carries Its Own Materials List</h2>
 
-        <p>The strength of building irrigation work this way is that materials ride along with the schedule. When a job lands on the calendar or the Job Board, it already carries the heads, valves, controllers, and pipe that were quoted. Open tomorrow&apos;s schedule and you&apos;re not just looking at addresses and time windows &mdash; you&apos;re looking at what each stop consumes. A new-system install on Maple Street needs a 12-station controller and 22 spray heads; the repair on Oak needs a single replacement diaphragm and a rotor. Both are visible before anyone touches a truck.</p>
+        <p>The strength of building irrigation work this way is that materials ride along with the schedule. When a job lands on the calendar or the Pending Jobs board, it already carries the heads, valves, controllers, and pipe that were quoted. Open tomorrow&apos;s schedule and you&apos;re not just looking at addresses and time windows &mdash; you&apos;re looking at what each stop consumes. A new-system install on Maple Street needs a 12-station controller and 22 spray heads; the repair on Oak needs a single replacement diaphragm and a rotor. Both are visible before anyone touches a truck.</p>
 
         <p>This turns the night-before or first-thing-morning load-out into a checklist instead of a guessing game. The crew lead pulls the day&apos;s jobs, totals what&apos;s required across every stop, and loads once. No more topping off the truck mid-route because three separate repairs each quietly needed the same valve you only carried one of.</p>
 

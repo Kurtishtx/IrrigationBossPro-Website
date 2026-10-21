@@ -21,9 +21,9 @@ export default function Page() {
           The first thing the rush exposes is whether you actually know who needs service. If your start-up list lives in a fall notebook or a tech&apos;s memory, you are going to miss properties and double-book others. With IrrigationBossPro, every client and property profile already holds last season&apos;s history&mdash;zone count, controller model, where the manifold and backflow device sit, and what the crew did at the last visit. When the warm week hits, you do not build a calendar from scratch. You filter for every customer who got a winterization and convert them straight into spring start-up jobs. Recurring seasonal service means the system already queued these the moment fall closed out, so the rush is a list you confirm, not a list you reconstruct under pressure.
         </p>
 
-        <h2>Triage the Surge With the Job Board</h2>
+        <h2>Triage the Surge With the Pending Jobs board</h2>
         <p>
-          During the first warm week, demand always outruns capacity. The skill is deciding what gets done today and what waits, and doing it without losing track of anything. The Job Board shows every unassigned start-up and service call in one place, so you can see the whole backlog at a glance instead of flipping through voicemails. New requests drop onto the board the moment a customer texts or books online, and you triage from there&mdash;commercial accounts and prepaid seasonal customers first, then the rest in the order the calls came in. Nothing falls off the radar because nothing leaves the board until a crew is assigned and the job is closed out. That single view is the difference between a controlled queue and a panicked free-for-all.
+          During the first warm week, demand always outruns capacity. The skill is deciding what gets done today and what waits, and doing it without losing track of anything. The Pending Jobs board shows every unassigned start-up and service call in one place, so you can see the whole backlog at a glance instead of flipping through voicemails. New requests drop onto the board the moment a customer texts or books online, and you triage from there&mdash;commercial accounts and prepaid seasonal customers first, then the rest in the order the calls came in. Nothing falls off the radar because nothing leaves the board until a crew is assigned and the job is closed out. That single view is the difference between a controlled queue and a panicked free-for-all.
         </p>
 
         <h2>Route Crews Tight So You Clear More Stops</h2>
@@ -47,7 +47,7 @@ export default function Page() {
         </p>
 
         <p>
-          Put it together and the first warm week stops being the stretch you dread every spring. Your customer list builds the schedule, the Job Board triages the surge, routing clears more stops, on-site bids capture the winter damage, texts protect the route, and automated billing collects every dollar the same day. That is what surviving&mdash;and profiting from&mdash;the rush looks like when the right system carries the load. To see the whole platform behind it, start with our overview of <a href="/irrigation-software">irrigation software</a> built for sprinkler and irrigation contractors.
+          Put it together and the first warm week stops being the stretch you dread every spring. Your customer list builds the schedule, the Pending Jobs board triages the surge, routing clears more stops, on-site bids capture the winter damage, texts protect the route, and automated billing collects every dollar the same day. That is what surviving&mdash;and profiting from&mdash;the rush looks like when the right system carries the load. To see the whole platform behind it, start with our overview of <a href="/irrigation-software">irrigation software</a> built for sprinkler and irrigation contractors.
         </p>
 
         <div className="blog-cta-box">

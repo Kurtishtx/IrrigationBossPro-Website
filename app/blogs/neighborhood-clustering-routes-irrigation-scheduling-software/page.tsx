@@ -20,8 +20,8 @@ export default function Page() {
         <h2>How the Software Groups Jobs by Property Location</h2>
         <p>IrrigationBossPro stores a full property profile for every customer &mdash; address, zone count, controller model, backflow device, and service history. Because each job is pinned to a real location, the scheduling tools can see which work orders sit near each other on the map. When you&apos;re building out a day or a week, the software groups open jobs into neighborhood clusters so you can assign a whole subdivision to one crew in one pass instead of scattering those addresses across three different days. A street with eight winterizations becomes a single tight loop, not eight separate drives.</p>
 
-        <h2>From the Job Board to a Routed Day</h2>
-        <p>Unassigned work lands on the Job Board first &mdash; the repair call that came in overnight, the start-up a customer texted to confirm, the backflow test that&apos;s due. From there you drag jobs onto a crew and the software keeps the day ordered by proximity, so the dispatch list reads like a logical drive rather than a random pile of addresses. Each crew sees their stops in route order on their phone, with the property profile, the parts the job needs, and any gate codes or notes attached. No one is texting the office asking, &quot;Where am I headed next?&quot; The route answers it.</p>
+        <h2>From the Pending Jobs board to a Routed Day</h2>
+        <p>Unassigned work lands on the Pending Jobs board first &mdash; the repair call that came in overnight, the start-up a customer texted to confirm, the backflow test that&apos;s due. From there you drag jobs onto a crew and the software keeps the day ordered by proximity, so the dispatch list reads like a logical drive rather than a random pile of addresses. Each crew sees their stops in route order on their phone, with the property profile, the parts the job needs, and any gate codes or notes attached. No one is texting the office asking, &quot;Where am I headed next?&quot; The route answers it.</p>
 
         <h2>Clustering Pays Off Twice During Seasonal Rushes</h2>
         <p>The clustering advantage compounds during the two big crunches. In fall, you might have 300 winterizations to clear before the ground freezes. Routing those by neighborhood means a crew can blow out an entire street in an afternoon instead of bouncing across the service area. The same property list drives the spring start-ups, so the cluster you built in October is already there in April. Managing that recurring rush well is its own discipline &mdash; <a href="/blogs/waiting-list-startup-winterization-irrigation-scheduling-software">How a Waiting List Tames Startup and Winterization Season in Irrigation Scheduling Software</a> walks through pairing a waiting list with clustered routing so you fill cancellations with the nearest customer instead of leaving a hole in the day.</p>
@@ -41,7 +41,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation route optimization, sprinkler crew dispatch software, winterization scheduling software, irrigation job board, sprinkler service routing</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, irrigation route optimization, sprinkler crew dispatch software, winterization scheduling software, irrigation Pending Jobs board, sprinkler service routing</div>
       </article>
     </BlogShell>
   );

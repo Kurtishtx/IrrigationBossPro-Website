@@ -38,7 +38,7 @@ export default function Page() {
           <a href="https://my.irrigationbosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler install project scheduling, multi-day install scheduling, irrigation job board, crew dispatch and routing, milestone invoicing for installs</div>
+        <div className="blog-keywords">Keywords: irrigation scheduling software, sprinkler install project scheduling, multi-day install scheduling, irrigation Pending Jobs board, crew dispatch and routing, milestone invoicing for installs</div>
       </article>
     </BlogShell>
   );

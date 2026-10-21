@@ -22,10 +22,10 @@ export default function Page() {
           heavy lifting.
         </p>
 
-        <h2>Start With the Job Board, Not the Whiteboard</h2>
+        <h2>Start With the Pending Jobs board, Not the Whiteboard</h2>
         <p>
           The old whiteboard told you what was on the schedule, but it never told you whether a job
-          was actually ready. A digital Job Board does. Every job &mdash; a fall blowout, a backflow
+          was actually ready. A digital Pending Jobs Board does. Every job &mdash; a fall blowout, a backflow
           recertification, a controller swap &mdash; carries its status, its assigned crew, its
           property profile, and its line-item estimate in one card. When you open IrrigationBossPro
           at the start of the day, you are not reconstructing the plan from memory. You are reading
@@ -108,7 +108,7 @@ export default function Page() {
 
         <div className="blog-keywords">
           Keywords: irrigation scheduling software, crew dispatch software, sprinkler business
-          software, winterization scheduling, irrigation job board, irrigation invoicing software
+          software, winterization scheduling, irrigation Pending Jobs board, irrigation invoicing software
         </div>
       </article>
     </BlogShell>
