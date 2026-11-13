@@ -1,0 +1,27 @@
+{
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "destination": "https://www.irrigationbosspro.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "destination": "https://www.irrigationbosspro.com/:path*",
+      "permanent": true
+    }
+  ]
+}
