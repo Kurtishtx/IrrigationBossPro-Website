@@ -2,7 +2,8 @@
 import { useEffect } from 'react';
 import PlanCompare from './components/PlanCompare';
 import Navbar from './components/Navbar';
-import HeroDemo from './components/HeroDemo';
+import SiteScore from './components/SiteScore';
+import { pixelDemoStarted } from './components/MetaPixel';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -73,7 +74,7 @@ export default function Home() {
     <>
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        :root { --purple-dark:#0f1720; --purple-mid:#0d141c; --purple-deep:#1f2937; --orange:#84cc16; --orange-dark:#4d7c0f; --blue:#bef264; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
+        :root { --purple-dark:#0f1720; --purple-mid:#0d141c; --purple-deep:#1f2937; --orange:#84cc16; --orange-ink:#4a720c; --orange-dark:#4d7c0f; --blue:#bef264; --text:#1a1a2e; --muted:#555; --light-bg:#f8f7fc; --border:#e4e0f0; }
         html { scroll-behavior: smooth; }
         body { font-family: 'Segoe UI', Arial, sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
         .hero { background: linear-gradient(135deg, #0f1720 0%, #1f2937 60%, #263445 100%); padding: 100px 40px 80px; text-align: center; position: relative; overflow: hidden; }
@@ -94,7 +95,8 @@ export default function Home() {
         .hero-stat-val { color: var(--orange); font-size: 36px; font-weight: 800; }
         .hero-stat-lbl { color: rgba(255,255,255,.6); font-size: 13px; margin-top: 2px; }
         section { padding: 90px 40px; }
-        .section-label { display: inline-block; color: var(--orange); font-size: 12px; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; margin-bottom: 12px; }
+        .section-label { display: inline-block; color: var(--orange-ink); font-size: 12px; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; margin-bottom: 12px; }
+        .dark-section .section-label, .on-dark .section-label { color: var(--orange); }
         .section-title { font-size: clamp(26px, 4vw, 40px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; color: var(--text); }
         .section-sub { color: var(--muted); font-size: 17px; max-width: 600px; margin-bottom: 56px; }
         .centered { text-align: center; }
@@ -111,7 +113,7 @@ export default function Home() {
         .hub-card .hub-icon { font-size: 28px; display: block; margin-bottom: 12px; }
         .hub-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
         .hub-card p { color: var(--muted); font-size: 13px; line-height: 1.55; }
-        .hub-card .hub-arrow { color: var(--orange); font-size: 13px; font-weight: 700; margin-top: 10px; display: inline-block; }
+        .hub-card .hub-arrow { color: var(--orange-ink); font-size: 13px; font-weight: 700; margin-top: 10px; display: inline-block; }
         .dark-section { background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-deep) 100%); color: #fff; }
         .dark-section .section-title { color: #fff; }
         .dark-section .section-sub { color: rgba(255,255,255,.65); }
@@ -132,9 +134,9 @@ export default function Home() {
         .mock-dot.yellow { background: #a1d84e; }
         .mock-label { color: rgba(255,255,255,.85); font-size: 13px; font-weight: 600; }
         .mock-sub { color: rgba(255,255,255,.45); font-size: 11px; margin-top: 1px; }
-        .mock-badge { margin-left: auto; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 10px; flex-shrink: 0; }
-        .mock-badge.green-badge { background: #16a34a; }
-        .mock-badge.blue-badge { background: #2272c3; }
+        .mock-badge { margin-left: auto; background: var(--orange); color: #111; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 10px; flex-shrink: 0; }
+        .mock-badge.green-badge { background: #15803d; color: #fff; }
+        .mock-badge.blue-badge { background: #2272c3; color: #fff; }
         .alert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 1100px; margin: 0 auto; }
         .alert-pill { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12); border-radius: 10px; padding: 16px 18px; display: flex; align-items: center; gap: 12px; }
         .alert-pill .ap-icon { font-size: 22px; flex-shrink: 0; }
@@ -143,13 +145,13 @@ export default function Home() {
         .stats-band { background: var(--orange); padding: 56px 40px; }
         .stats-band-inner { display: flex; justify-content: center; gap: 60px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap; }
         .stat-item { text-align: center; }
-        .stat-item .val { font-size: 44px; font-weight: 800; color: #fff; line-height: 1; }
-        .stat-item .lbl { color: rgba(255,255,255,.85); font-size: 14px; margin-top: 6px; }
+        .stat-item .val { font-size: 44px; font-weight: 800; color: #111; line-height: 1; }
+        .stat-item .lbl { color: #111; font-size: 14px; margin-top: 6px; }
         .pricing-grid { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
         .price-card { background: #fff; border: 2px solid var(--border); border-radius: 14px; padding: 36px 32px; width: 280px; position: relative; transition: box-shadow .2s, transform .2s; }
         .price-card:hover { box-shadow: 0 12px 40px rgba(15,23,32,.12); transform: translateY(-4px); }
         .price-card.featured { border-color: var(--orange); background: linear-gradient(180deg, #fff 0%, #fff8f2 100%); }
-        .featured-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
+        .featured-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #111; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
         .price-tier { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
         .price-amount { font-size: 48px; font-weight: 800; color: var(--text); line-height: 1; }
         .price-amount sup { font-size: 22px; vertical-align: super; }
@@ -160,8 +162,8 @@ export default function Home() {
         .price-features li:last-child { border-bottom: none; }
         .price-features li::before { content: '✓'; color: var(--orange); font-weight: 700; flex-shrink: 0; }
         .price-btn { display: block; text-align: center; padding: 13px; border-radius: 6px; font-weight: 700; font-size: 15px; text-decoration: none; transition: background .2s; cursor: pointer; border: none; }
-        .price-btn-primary { background: var(--orange); color: #fff; }
-        .price-btn-primary:hover { background: var(--orange-dark); }
+        .price-btn-primary { background: var(--orange); color: #111; }
+        .price-btn-primary:hover { background: var(--orange-dark); color: #fff; }
         .price-btn-outline { border: 2px solid var(--orange); color: var(--orange); }
         .price-btn-outline:hover { background: var(--orange); color: #fff; }
         .testimonial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
@@ -192,7 +194,7 @@ export default function Home() {
         .premium-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 12px; padding: 28px 24px; text-align: left; transition: border-color .2s; }
         .premium-card:hover { border-color: var(--orange); }
         .premium-card-icon { font-size: 28px; margin-bottom: 14px; }
-        .premium-card h4 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+        .premium-card h4, .premium-card h3 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
         .premium-card p { color: rgba(255,255,255,.52); font-size: 13px; line-height: 1.6; }
         .lasso-map { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1); border-radius: 10px; padding: 20px; margin-bottom: 14px; position: relative; min-height: 130px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
         .lasso-ring { position: absolute; top: 14px; left: 18px; right: 18px; bottom: 14px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
@@ -209,7 +211,7 @@ export default function Home() {
         .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
         .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
         .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(132,204,22,.1); transform: translateY(-2px); }
-        .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
+        .simple-num { font-size: 40px; font-weight: 800; color: var(--orange-ink); opacity: .72; line-height: 1; margin-bottom: 12px; }
         .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
         .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
         @media (max-width: 700px) {
@@ -224,17 +226,268 @@ export default function Home() {
 
       {/* ═══ PRICE + LIVE DEMO ═══ */}
       <div style={{background:'linear-gradient(135deg, #0f1720 0%, #1f2937 60%, #263445 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
+        {/* ═══ AI ANSWERING — headline feature ═══ */}
+        <style>{`
+          @keyframes aiGlow { 0%,100% { box-shadow: 0 0 0 1px rgba(132,204,22,.55), 0 12px 40px rgba(132,204,22,.25); } 50% { box-shadow: 0 0 0 1px rgba(255,190,90,.9), 0 14px 56px rgba(132,204,22,.45); } }
+          @keyframes aiStar { 0%,100% { transform: rotate(0deg) scale(1); } 50% { transform: rotate(18deg) scale(1.15); } }
+          .ai-card { max-width: 900px; margin: 0 auto clamp(28px,4vw,40px); text-align: left; border-radius: 18px; padding: clamp(20px,3vw,30px) clamp(18px,3.4vw,34px); background: linear-gradient(135deg, rgba(132,204,22,.16) 0%, rgba(30,10,53,.9) 55%, rgba(132,204,22,.10) 100%); animation: aiGlow 3.2s ease-in-out infinite; position: relative; }
+          .ai-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+          .ai-star { font-size: 26px; display: inline-block; animation: aiStar 2.4s ease-in-out infinite; filter: drop-shadow(0 0 8px rgba(255,190,90,.8)); }
+          .ai-tag { font-size: 11px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; color: #111; background: #84cc16; border-radius: 20px; padding: 4px 11px; }
+          .ai-soon { font-size: 11px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: #ffd28a; border: 1px solid rgba(255,210,138,.5); border-radius: 20px; padding: 3px 10px; }
+          .ai-h { color: #fff; font-size: clamp(24px,3.6vw,38px); font-weight: 800; line-height: 1.15; margin: 0 0 8px; }
+          .ai-h b { color: #84cc16; }
+          .ai-p { color: rgba(255,255,255,.82); font-size: clamp(15px,1.8vw,17px); line-height: 1.55; margin: 0 0 16px; max-width: 760px; }
+          .ai-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+          .ai-chip { color: #fff; font-size: 13px; font-weight: 700; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); border-radius: 20px; padding: 6px 12px; }
+          .top-h { color: #fff; font-size: clamp(24px,3.6vw,40px); font-weight: 800; line-height: 1.15; margin: 0 auto clamp(14px,2vw,20px); max-width: 900px; }
+          .top-h span { color: #84cc16; }
+          .addons-label { color: #ffffff; font-size: clamp(26px,3.6vw,40px); font-weight: 900; letter-spacing: 3px; text-transform: uppercase; text-align: center; margin: 8px 0 14px; }
+          .top-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 4px 0 clamp(26px,4vw,40px); }
+          .cta-demo { background: #84cc16; color: #111; font-weight: 800; font-size: 17px; padding: 15px 28px; border-radius: 10px; text-decoration: none; box-shadow: 0 10px 30px rgba(132,204,22,.45); }
+          .cta-trial { background: transparent; color: #fff; font-weight: 800; font-size: 17px; padding: 14px 26px; border-radius: 10px; text-decoration: none; border: 2px solid rgba(255,255,255,.5); }
+          /* Add-ons sit last in the dark band here (the picture is above them), so the grid carries the band's bottom padding. */
+          .addons { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 1200px; margin: 0 auto; padding-bottom: clamp(40px,6vw,80px); align-items: stretch; }
+          .addons .ai-card { margin: 0; max-width: none; }
+          .addons .ai-h { font-size: clamp(22px,2.4vw,28px); }
+          @media (max-width: 900px) { .addons { grid-template-columns: 1fr; } }
+          .ss-btn { margin-top: 4px; background: #84cc16; color: #111; border: none; border-radius: 10px; padding: 12px 18px; font-weight: 800; font-size: 15px; cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+          .ss-go { background: #84cc16; }
+          .hero-mock { display: block; width: 100%; max-width: 1200px; height: auto; margin: 0 auto; }
+          .ai-pill { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 900px; margin: 0 auto clamp(18px,3vw,26px); padding: 8px 16px 8px 12px; border-radius: 30px; background: rgba(255,255,255,.06); color: rgba(255,255,255,.9); font-size: clamp(13px,1.6vw,15px); line-height: 1.35; animation: aiGlow 3.2s ease-in-out infinite; }
+          .ai-pill .ai-star { font-size: 18px; }
+          .ai-pill b { color: #fff; } .ai-pill .ai-price { color: #84cc16; }
+        `}</style>
+        <h2 className="top-h">CRM &amp; Scheduling Software for <span>Irrigation &amp; Sprinkler Pros</span></h2>
+
         {/* Price up top, above the demo — same order sprayboss-website uses. */}
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}><span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>CRM Software starting at </span>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
-          <div style={{color:'rgba(255,255,255,.75)', fontSize:'13px', fontWeight:600, marginTop:'6px', letterSpacing:'.3px'}}>Works in the US, Canada, Australia, New Zealand &amp; the UK &middot; bills your customers in your own currency</div>
         </div>
-        <HeroDemo />
+        <div className="top-cta"><a href="https://my.irrigationbosspro.com/demo.html" target="_blank" rel="noopener" className="cta-demo" onClick={(e) => { if (typeof window !== 'undefined' && screen.availWidth > 900) { e.preventDefault(); window.open((e.currentTarget as HTMLAnchorElement).href, 'bossprodemo', 'width=' + screen.availWidth + ',height=' + screen.availHeight + ',left=0,top=0,resizable=yes,scrollbars=yes'); }  try { if (localStorage.getItem('bp_notrack') !== '1') pixelDemoStarted(); } catch (e) { pixelDemoStarted(); } }}>&#9654; Try the Live Demo</a><a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="cta-trial">Start Free Trial</a></div>
+        <link rel="preload" as="image" href="/hero-mockup.webp" fetchPriority="high" />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        {/* 10/31 owner: highlight offline crew app + QuickBooks auto-sync */}
+        <div className="hl-band" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', gap:16, maxWidth:1000, margin:'0 auto 22px', padding:'0 16px'}}>
+          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
+            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128246;</span>Works even when you&apos;re offline</div>
+            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>No signal? No problem. The crew app keeps working: jobs, notes, photos and estimates save on the phone and sync the moment you&apos;re back online.</p>
+          </div>
+          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
+            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128260;</span>QuickBooks syncs automatically every 5 minutes</div>
+            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>Connect QuickBooks Online with one click. Your customers, invoices and payments sync to QuickBooks every 5 minutes, so there&apos;s no double entry.</p>
+          </div>
+        </div>
+        <div className="integ-strip" style={{display:'flex', flexWrap:'wrap', alignItems:'center', justifyContent:'center', gap:'10px 14px', maxWidth:1000, margin:'0 auto clamp(26px,4vw,40px)', color:'rgba(255,255,255,.82)', fontSize:'clamp(14px,1.7vw,16px)', textAlign:'center'}}>
+          <span style={{fontWeight:800, color:'#fff'}}>Integrates with</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#ff4f00'}}></span>Zapier</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#6d00cc'}}></span>Make</span>
+          <span style={{fontWeight:800, color:'#fff', marginLeft:6}}>Payroll</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#f45d48'}}></span>Gusto</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#2ca01c'}}></span>QuickBooks</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#d0271d'}}></span>ADP</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#004b8d'}}></span>Paychex</span>
+          <span>Connect to thousands of apps, and run payroll: hours, overtime, tips &amp; bonuses</span>
+        </div>
+        <img src="/hero-mockup.webp" srcSet="/hero-mockup-640.webp 640w, /hero-mockup.webp 1200w" sizes="(max-width: 700px) 100vw, 1200px" fetchPriority="high" decoding="async" alt="IrrigationBossPro software on a laptop with the AI Assistant button and a hand-drawn map lasso, plus the client app and crew app on phones" className="hero-mock" width={1600} height={880} />
+        <div className="addons-label" style={{marginTop:'clamp(28px,4vw,44px)'}}>Add-ons</div>
+        <p style={{ textAlign: 'center', color: 'rgba(255,255,255,.82)', fontSize: 'clamp(14px,1.7vw,16px)', lineHeight: 1.55, margin: '-6px auto 18px', maxWidth: 720 }}>All optional &mdash; use the ones you want, skip the ones you don&apos;t. Everything else in IrrigationBossPro works the same either way, and you can turn any of them on or off anytime.</p>
+        <div className="addons">
+        <div className="ai-card">
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#11088;</span>
+            <span className="ai-tag">AI Answering</span>
+            <span className="ai-soon">New Add-On</span>
+          </div>
+          <h2 className="ai-h">An AI receptionist for only <b>49&cent; a minute</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Answering 100+ calls a day? Email <a href="mailto:Support@bossprohq.com" style={{ color: 'inherit', textDecoration: 'underline' }}>Support@bossprohq.com</a> for our 29&cent; volume rate.</p>
+          <p className="ai-p">The most real, human-sounding AI on the market &mdash; and it&apos;s built into IrrigationBossPro, so it doesn&apos;t just take messages. It knows your customers and your CRM, tells them when you&apos;re coming, skips and reschedules services, tells existing customers your pricing and adds new services, sends a secure form to update their card, and takes down new customers for you. 24/7. You only pay when it answers.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128222; Answers every call, 24/7</span>
+            <span className="ai-chip">&#129504; Knows your customers &amp; CRM</span>
+            <span className="ai-chip">&#128197; Skips &amp; reschedules</span>
+            <span className="ai-chip">&#128178; Quotes &amp; adds services</span>
+            <span className="ai-chip">&#128179; Sends card-update form</span>
+            <span className="ai-chip">&#128221; Takes new leads</span>
+            <span className="ai-chip">&#9989; No monthly fee</span>
+          </div>
+        </div>
+        <div className="ai-card">
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#10024;</span>
+            <span className="ai-tag">AI Assistant</span>
+            <span className="ai-soon">Included on every plan</span>
+          </div>
+          <h2 className="ai-h">An AI office assistant that <b>does the work</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Included on every plan &mdash; see the plans below for how many questions each one comes with.</p>
+          <p className="ai-p">Just tell it what to do &mdash; like you&apos;d tell your office manager. It&apos;s built into IrrigationBossPro, so it knows your customers, your schedule and your money. It schedules and moves visits, adds plans at your price-table prices, texts customers, sends invoices and card forms, runs reports like your sales tax, and opens any page you ask for. It shows you every change first, and nothing happens until you press Confirm.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128197; Schedules &amp; moves visits</span>
+            <span className="ai-chip">&#10133; Adds plans &amp; customers</span>
+            <span className="ai-chip">&#128172; Texts customers</span>
+            <span className="ai-chip">&#128196; Sends invoices</span>
+            <span className="ai-chip">&#128202; Reports in seconds</span>
+            <span className="ai-chip">&#129517; Opens any page</span>
+            <a className="ai-chip" href="#ai-assistant" style={{ textDecoration: 'none' }}>&#128064; See it work &rarr;</a>
+          </div>
+        </div>
+        <div className="ai-card" style={{ gridColumn: '1 / -1' }}>
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#128236;</span>
+            <span className="ai-tag">Neighbor Postcards</span>
+            <span className="ai-soon">New Add-On</span>
+          </div>
+          <h2 className="ai-h">Every finished job mails <b>your neighbors</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>$1.59 a postcard, printing and postage included. No monthly fee.</p>
+          <p className="ai-p">When your crew finishes a job, IrrigationBossPro automatically mails your postcard to the closest homes on that street &mdash; 5, 10, 20 or as many as you want &mdash; and skips anyone who&apos;s already your customer. Pick a template or make it 100% your own with the drag-and-drop designer, set a monthly budget, and see every card that went out. Or pick properties on your list and mail around all of them at once.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128236; Mails after every job</span>
+            <span className="ai-chip">&#127969; Closest neighbors, not random</span>
+            <span className="ai-chip">&#128683; Skips current customers</span>
+            <span className="ai-chip">&#127912; Templates or fully custom</span>
+            <span className="ai-chip">&#128207; QR code to book</span>
+            <span className="ai-chip">&#128176; Monthly budget cap</span>
+          </div>
+        </div>
+        <div className="ai-card" style={{ gridColumn: '1 / -1' }}>
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#127760;</span>
+            <span className="ai-tag">Free Website</span>
+            <span className="ai-soon">Included</span>
+          </div>
+          <h2 className="ai-h">A professional website, <b>free</b> with any paid plan</h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Websites like this often cost $5,000&ndash;$15,000 to have built. Yours is free.</p>
+          <p className="ai-p">We build it for you &mdash; a perfectly built 200&ndash;300 page website with a free domain, or use your own. Built to score 90+ on Google, and 100 on SEO, and we send you the score report once it&apos;s built. Fast on every phone, and every form on it goes straight into IrrigationBossPro as a new lead.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#127760; Free domain (or use yours)</span>
+            <span className="ai-chip">&#128196; 200&ndash;300 pages</span>
+            <span className="ai-chip">&#128200; 90+ and 100 on SEO</span>
+            <span className="ai-chip">&#128221; Forms flow into your CRM</span>
+            <span className="ai-chip">&#128241; Mobile-perfect</span>
+            <span className="ai-chip">&#128736; We build it for you</span>
+          </div>
+          <p className="ai-p" style={{margin:'14px 0 10px'}}>Compare our score to any other website you&apos;ve been quoted &mdash; or the one you have now.</p>
+          <SiteScore />
+        </div>
+        </div>
       </div>
+
+      {/* The 3 plans, right after the top picture and before the real-picture sections (owner, 10/30). */}
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
+
+      {/* ═══ BILLING DEEP DIVE ═══ */}
+      <section id="billing" style={{background:'var(--light-bg)'}}>
+        <div className="highlight-row reverse">
+          <div className="highlight-text">
+            <span className="section-label">Estimates &amp; Billing</span>
+            <h2>Get Paid Faster. Chase Less.</h2>
+            <p>Build a line-item bid in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice, collect a deposit, and take the balance &mdash; all without leaving IrrigationBossPro.</p>
+            <p><strong>Fully customizable, top to bottom.</strong> Change every color, choose exactly what shows and what doesn&apos;t, and pick from over 100 preloaded header photos &mdash; or upload your own photos and logos.</p>
+            <ul className="check-list">
+              <li>Estimate builder with your parts catalog and line items</li>
+              <li>Email bids via Resend with custom branded templates</li>
+              <li>Client-facing estimate page with Accept / Decline buttons</li>
+              <li>Automatic status tracking: Draft → Sent → Accepted → Invoiced</li>
+              <li>Invoice management with unpaid, partial, paid, and overdue filters</li>
+              <li>Card-on-file for deposits and post-service payments</li>
+              <li>Sales tax management by jurisdiction with tax reports</li>
+              <li>Discount codes &mdash; percentage or fixed dollar amount</li>
+              <li>Full payment history with method, date, and reference tracking</li>
+            </ul>
+          </div>
+          <div className="highlight-visual" style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'16px', alignItems:'start', padding:'24px', background:'#7d838c', border:'none'}}>
+              <figure style={{margin:0}}>
+                <figcaption style={{color:'#ffffff', fontWeight:700, fontSize:'12px', textAlign:'center', marginBottom:'10px', textTransform:'uppercase', letterSpacing:'1px'}}>Branded Estimate</figcaption>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/branded-estimate-v5.webp" width={900} height={2397} loading="lazy" decoding="async" alt="Branded estimate email with the company logo, a header photo, service badges and an Approve Estimate button" style={{display:'block', width:'100%', height:'auto', borderRadius:'8px', boxShadow:'0 10px 30px rgba(0,0,0,.35)', border:'3px solid #ffffff'}} />
+              </figure>
+              <figure style={{margin:0}}>
+                <figcaption style={{color:'#ffffff', fontWeight:700, fontSize:'12px', textAlign:'center', marginBottom:'10px', textTransform:'uppercase', letterSpacing:'1px'}}>Branded Invoice</figcaption>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/branded-invoice-v5.webp" width={900} height={1681} loading="lazy" decoding="async" alt="Branded invoice email with line items, sales tax, amount due and a Pay Now button" style={{display:'block', width:'100%', height:'auto', borderRadius:'8px', boxShadow:'0 10px 30px rgba(0,0,0,.35)', border:'3px solid #ffffff'}} />
+              </figure>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ MEETINGS: real screenshots of the Meetings page and Meeting Alerts (10/29) ═══ */}
+      <section id="ai-assistant" aria-label="AI office assistant" style={{ background: '#ffffff', padding: 'clamp(44px,7vw,80px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 380px), 1fr))', gap: 'clamp(24px,4vw,48px)', alignItems: 'center' }}>
+          <figure style={{ margin: 0, background: '#7d838c', borderRadius: 16, padding: 'clamp(14px,2.5vw,24px)' }}>
+            <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>A Real Task, Start to Finish</figcaption>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ai-assistant.webp" width={720} height={938} loading="lazy" decoding="async" alt="AI Assistant scheduling a Mosquito Control visit for Tuesday, with a Confirm card" style={{ display: 'block', width: '100%', maxWidth: 420, margin: '0 auto', height: 'auto', borderRadius: 10, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+          </figure>
+          <div>
+            <span style={{ display: 'inline-block', color: '#ff6a00', fontWeight: 900, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 10 }}>AI Assistant</span>
+            <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.8vw,42px)', fontWeight: 900, lineHeight: 1.12, margin: '0 0 12px' }}>Your AI Office Assistant. Just Tell It What To Do.</h2>
+            <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.9vw,18px)', lineHeight: 1.7, margin: '0 0 14px' }}>It&apos;s built right into IrrigationBossPro and knows your customers, your schedule and your money. Type "Schedule Mary Jones&apos;s Mosquito Control for this Tuesday" and it finds the job, picks the date and shows you a card. Nothing changes until you press Confirm.</p>
+            <p style={{ color: '#111827', fontSize: 15.5, fontWeight: 800, margin: '0 0 10px' }}>Talk to it like you&apos;d talk to your office manager:</p>
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 16px', display: 'grid', gap: '8px' }}>
+              {[
+                ['"Schedule the Smiths for Tuesday"', 'Done'],
+                ['"Add a plan for Dirk at $50 a visit"', 'Done'],
+                ['"Text Mary we\'re running late"', 'Sent'],
+                ['"Take me to unpaid invoices"', 'Opens the page'],
+                ['"How much sales tax did I collect last month?"', 'Answered in seconds'],
+                ['"How do I set up auto-billing?"', 'Explains it, with an Open button'],
+              ].map(([say, did]) => (
+                <li key={say} style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '4px 10px', background: '#f3f4f6', borderRadius: 10, padding: '9px 12px', fontSize: 15, lineHeight: 1.45 }}>
+                  <span style={{ color: '#111827', fontStyle: 'italic', fontWeight: 600 }}>{say}</span>
+                  <span style={{ color: '#16a34a', fontWeight: 900, whiteSpace: 'nowrap' }}>&rarr; {did}</span>
+                </li>
+              ))}
+            </ul>
+            <p style={{ color: '#4b5563', fontSize: 15, lineHeight: 1.6, margin: '0 0 12px' }}>It shows you every change first. Nothing happens until you press <b>Confirm</b>.</p>
+            <p style={{ color: '#111827', fontSize: 15.5, lineHeight: 1.6, margin: 0, fontWeight: 700 }}>Included on every plan: 50, 100 or 250 questions a month. Need more? 250 more for $15.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="meetings" aria-label="Meetings and booking link" style={{ background: '#f6f7f9', padding: 'clamp(44px,7vw,80px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: 800, margin: '0 auto clamp(22px,3.5vw,36px)' }}>
+            <span style={{ display: 'inline-block', color: '#ff6a00', fontWeight: 900, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 10 }}>Meetings</span>
+            <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.8vw,42px)', fontWeight: 900, lineHeight: 1.12, margin: '0 0 12px' }}>Book Meetings. Get a YES Back by Text.</h2>
+            <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.9vw,18px)', lineHeight: 1.7, margin: 0 }}>Estimate walkthroughs, phone calls or video meetings &mdash; your customers pick a day and time from your booking link, or you and your staff set it up for them. IrrigationBossPro texts them right away and sends reminders before, and when they reply YES or NO the meeting marks itself Confirmed or Can&apos;t make it.</p>
+          </div>
+          <div style={{ background: '#7d838c', borderRadius: 16, padding: 'clamp(14px,2.5vw,24px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: 18, alignItems: 'start' }}>
+            <figure style={{ margin: 0 }}>
+              <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>Your Meetings Page</figcaption>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/meetings-list.webp" width={1200} height={617} loading="lazy" decoding="async" alt="Meetings page: upcoming meetings by day with Confirmed, Waiting on reply and Booked online tags, a Copy booking link button and New Meeting" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 8, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+            </figure>
+            <figure style={{ margin: 0 }}>
+              <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>The Texts They Get</figcaption>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/meetings-alerts.webp" width={1000} height={921} loading="lazy" decoding="async" alt="Meeting Alerts: reminders 1 day and 1 hour before, a Reply YES to confirm option, and the booked text with a live preview" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 8, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+            </figure>
+            <figure style={{ margin: 0, gridColumn: '1 / -1' }}>
+              <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>Turn Each One On or Off Under Alerts</figcaption>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/meetings-toggles.webp" width={1400} height={439} loading="lazy" decoding="async" alt="Alerts page, Client Meeting Alerts: Meeting Booked, Reminder, Moved and Canceled, each with its own Text and Email switch" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 8, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+            </figure>
+          </div>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 'clamp(20px,3vw,30px) auto 0', maxWidth: 1000, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '10px 28px' }}>
+            {[
+              'Customers book themselves from your link',
+              'Or you and your staff book it for them',
+              'In person, phone or video',
+              'Booked, moved and canceled texts',
+              'Reminders whenever you want them',
+              'YES / NO replies confirm on their own',
+              'Assign each meeting to someone on your team',
+              'Turn it on any time in Settings › Add-ons',
+            ].map((t) => (
+              <li key={t} style={{ display: 'flex', gap: 10, color: '#374151', fontSize: 15.5, lineHeight: 1.5 }}><span style={{ color: '#16a34a', fontWeight: 900 }}>✓</span>{t}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'60px'}}>
@@ -259,14 +512,14 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean irrigation bid or keep your part counts straight. IrrigationBossPro does everything the enterprise platforms do &mdash; line-item estimates, materials &amp; parts tracking, the Pending Jobs board, crew dispatch and routing, Stripe payments, role-based access, and a full mobile app &mdash; built specifically for sprinkler and irrigation contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean irrigation bid or keep your part counts straight. IrrigationBossPro does everything the enterprise platforms do &mdash; line-item estimates, materials &amp; parts tracking, the Pending Jobs board, crew dispatch and routing, card payments, role-based access, and a full mobile app &mdash; built specifically for sprinkler and irrigation contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimates &amp; Bids</h4><p>Build detailed install and repair bids with zones, heads, valves, controllers, pipe, and backflow devices as line items. Save your catalog once and turn a walkthrough into a priced proposal in minutes &mdash; included at every plan level.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔧</div><h4>Materials &amp; Parts Tracking</h4><p>Keep a full parts catalog &mdash; rotor and spray heads, valves, controllers, wire, fittings, and backflow assemblies. Pull materials straight onto estimates and work orders so every job is priced and stocked right before the truck rolls.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📅</div><h4>Pending Jobs Board &amp; Scheduling</h4><p>Every install, repair, backflow test, winterization, and start-up lives on one Pending Jobs Board. Drag jobs onto the calendar, assign crews, and see your whole week at a glance &mdash; no extra charge.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Invoicing &amp; Card-on-File</h4><p>Convert an accepted bid to an invoice, store a card on file, collect deposits, and take post-service payments through Stripe. The same billing infrastructure the big guys use &mdash; included in your $59.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, and Field Tech roles &mdash; the same granular permission system as platforms charging 5× more. Your office staff sees bids and billing. Your techs see only their stops for the day.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Crews</h4><p>Your techs see their route, open work orders, log the parts used, mark complete, and add photos and notes from their phone &mdash; a mobile view purpose-built for someone working out of a service truck.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📝</div><h3>Line-Item Estimates &amp; Bids</h3><p>Build detailed install and repair bids with zones, heads, valves, controllers, pipe, and backflow devices as line items. Save your catalog once and turn a walkthrough into a priced proposal in minutes &mdash; included at every plan level.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔧</div><h3>Materials &amp; Parts Tracking</h3><p>Keep a full parts catalog &mdash; rotor and spray heads, valves, controllers, wire, fittings, and backflow assemblies. Pull materials straight onto estimates and work orders so every job is priced and stocked right before the truck rolls.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📅</div><h3>Pending Jobs Board &amp; Scheduling</h3><p>Every install, repair, backflow test, winterization, and start-up lives on one Pending Jobs Board. Drag jobs onto the calendar, assign crews, and see your whole week at a glance &mdash; no extra charge.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h3>Invoicing &amp; Card-on-File</h3><p>Convert an accepted bid to an invoice, store a card on file, collect deposits, and take post-service payments online. The same billing infrastructure the big guys use &mdash; included in your $59.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👑</div><h3>Role-Based Access Control</h3><p>Owner, Manager, Office, and Field Tech roles &mdash; the same granular permission system as platforms charging 5× more. Your office staff sees bids and billing. Your techs see only their stops for the day.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📱</div><h3>Full Mobile App for Crews</h3><p>Your techs see their route, open work orders, log the parts used, mark complete, and add photos and notes from their phone &mdash; a mobile view purpose-built for someone working out of a service truck.</p></div>
         </div>
       </div>
 
@@ -307,7 +560,7 @@ export default function Home() {
               <div className="stat-cell"><div className="stat-val">3 days</div><div className="stat-lbl">Est. Crew Time</div></div>
               <div className="stat-cell full"><div className="stat-val">Winterization · 38 &nbsp;|&nbsp; Backflow Test · 12 &nbsp;|&nbsp; Repair Add-On · 7</div><div className="stat-lbl">Breakdown by Service Type</div></div>
             </div>
-            <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule All 38 Blowouts →</button>
+            <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#111', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule All 38 Blowouts →</button>
             <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to the Pending Jobs board with a full route map</div>
           </div>
         </div>
@@ -327,13 +580,13 @@ export default function Home() {
           <a href="/irrigation-estimating-software" className="hub-card"><span className="hub-icon">📝</span><h3>Irrigation Estimating Software</h3><p>Build line-item bids with zones, heads, valves, controllers, and pipe &mdash; priced and ready to send in minutes.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/backflow-testing-software" className="hub-card"><span className="hub-icon">🛡️</span><h3>Backflow Testing Software</h3><p>Track test due dates, log device readings, and keep certification records ready for any water authority report.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/irrigation-dispatch-software" className="hub-card"><span className="hub-icon">🚛</span><h3>Irrigation Crew &amp; Dispatch Software</h3><p>Route your trucks, dispatch crews to the right stops, and keep the field and office connected all day long.</p><span className="hub-arrow">Learn more →</span></a>
-          <a href="/irrigation-invoicing-software" className="hub-card"><span className="hub-icon">💳</span><h3>Irrigation Invoicing &amp; Billing</h3><p>Convert bids to invoices, store cards on file, collect deposits, and take card payments through Stripe.</p><span className="hub-arrow">Learn more →</span></a>
+          <a href="/irrigation-invoicing-software" className="hub-card"><span className="hub-icon">💳</span><h3>Irrigation Invoicing &amp; Billing</h3><p>Convert bids to invoices, store cards on file, collect deposits, and take card payments online.</p><span className="hub-arrow">Learn more →</span></a>
           <a href="/irrigation-business-software" className="hub-card"><span className="hub-icon">📊</span><h3>Irrigation Business Software</h3><p>Run the whole operation &mdash; clients, properties, crews, seasons, and reports &mdash; from a single dashboard.</p><span className="hub-arrow">Learn more →</span></a>
         </div>
       </section>
 
       {/* ═══ CUSTOMER APP ═══ */}
-      <section style={{background:'linear-gradient(135deg,#1c0a33,#12061f)'}}>
+      <section className="on-dark" style={{background:'linear-gradient(135deg,#1c0a33,#12061f)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Your Customers Get an App, Too</span>
           <h2 className="section-title" style={{color:'#fff'}}>Give Every Customer Their Own App —<br />And You Decide What They See.</h2>
@@ -384,13 +637,26 @@ export default function Home() {
           <div className="feature-card"><span className="feature-icon">📅</span><h3>Pending Jobs Board &amp; Scheduling</h3><p>Every install, repair, backflow test, start-up, and winterization on one board. Drag jobs onto the calendar, assign crews, and see exactly how full each day is.</p></div>
           <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build tight routes, drag to reorder, and give every crew a clear path through the day.</p></div>
           <div className="feature-card"><span className="feature-icon">🚛</span><h3>Crew Dispatch</h3><p>Send the right crew to the right stops and keep the field and office in sync. Techs get their route and work orders on their phone in real time.</p></div>
-          <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Stripe</h3><p>Convert an accepted bid to an invoice in one click, store a card on file, collect deposits, and take post-service payments &mdash; all in one place.</p></div>
+          <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Card Payments</h3><p>Convert an accepted bid to an invoice in one click, store a card on file, collect deposits, and take post-service payments &mdash; all in one place.</p></div>
           <div className="feature-card"><span className="feature-icon">🛡️</span><h3>Backflow Testing</h3><p>Track test due dates, log device readings and pass or fail results, and keep clean certification records ready for any water authority.</p></div>
           <div className="feature-card"><span className="feature-icon">🔁</span><h3>Recurring Seasonal Service</h3><p>Tag properties for fall winterization and spring start-up, then roll the whole list onto the Pending Jobs board when the season turns.</p></div>
           <div className="feature-card"><span className="feature-icon">💬</span><h3>Customer Texts</h3><p>Send and receive texts from customers right inside the app. Full conversation history by contact &mdash; no more switching to your phone.</p></div>
           <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track bids, service history, properties, and notes all tied to each contact.</p></div>
           <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile &mdash; controller type, zone count, valve locations, system notes, and full job history.</p></div>
           <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, jobs completed, properties served, money owed, and more &mdash; the moment you log in.</p></div>
+          <div className="feature-card"><span className="feature-icon">📞</span><h3>AI Receptionist</h3><p>A human-sounding AI answers your phone 24/7, knows your customers, books and reschedules, and takes new leads. 49¢ a minute, only when it answers.</p></div>
+          <div className="feature-card"><span className="feature-icon">📬</span><h3>Neighbor Postcards</h3><p>Every finished job mails your postcard to the closest neighbors, skipping current customers. Design it yourself, set a budget. $1.59 a card, postage included.</p></div>
+          <div className="feature-card"><span className="feature-icon">⭐</span><h3>Tech Reviews &amp; Tips</h3><p>After every job, customers rate the tech who did it and can leave a tip. Every tip is tracked per employee.</p></div>
+          <div className="feature-card"><span className="feature-icon">🎯</span><h3>Crew Bonuses &amp; Splits</h3><p>Set bonus goals by gross, jobs or rating. Give drivers a bigger share. Techs see &ldquo;You&rsquo;re $200 away from your bonus&rdquo; in the crew app.</p></div>
+          <div className="feature-card"><span className="feature-icon">💸</span><h3>One-Click Payroll</h3><p>Hours and overtime from the time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or on a schedule.</p></div>
+          <div className="feature-card"><span className="feature-icon">👋</span><h3>Meet Your Tech</h3><p>Customers see who is coming before the visit, with a photo, star rating, reviews and an &ldquo;about me.&rdquo;</p></div>
+          <div className="feature-card"><span className="feature-icon">🔗</span><h3>Zapier &amp; Make</h3><p>Connect IrrigationBossPro to thousands of apps like Google Sheets, Mailchimp and Slack with instant webhooks and an API key.</p></div>
+          <div className="feature-card"><span className="feature-icon">📱</span><h3>Social Inbox (Soon)</h3><p>Facebook and Instagram messages, comments and lead forms plus Google reviews in one inbox, and post to all of them plus TikTok. Launching soon.</p></div>
+          <div className="feature-card"><span className="feature-icon">⚡</span><h3>Fast Setup</h3><p>Trucks, crew, products, services, pricing and packages in about 10 minutes. Upload what you already have.</p></div>
+          <div className="feature-card"><span className="feature-icon">🌐</span><h3>Free Website</h3><p>A 200–300 page website built for Google, with a free domain. Every form goes straight into IrrigationBossPro as a new lead.</p></div>
+          <div className="feature-card"><span className="feature-icon">🎨</span><h3>Make It Yours</h3><p>Pick any colors for your software and choose exactly what shows in your sidebar, in any order.</p></div>
+          <div className="feature-card"><span className="feature-icon">📝</span><h3>Estimates from the Field</h3><p>Techs write and send estimates from the crew app on the spot, even with no signal.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔒</span><h3>Your Data Is Yours</h3><p>Never sold, never shared. Export anytime. Bigger companies get a signed data protection agreement.</p></div>
         </div>
       </section>
 
@@ -420,7 +686,7 @@ export default function Home() {
               <li>Materials &amp; Parts Catalog</li>
               <li>Pending Jobs Board, Scheduling &amp; Route Map</li>
               <li>Crew Dispatch &amp; Mobile Field App</li>
-              <li>Invoicing &amp; Stripe Card-on-File</li>
+              <li>Invoicing &amp; Card-on-File</li>
               <li>Backflow Testing &amp; Certification Records</li>
               <li>Recurring Winterization &amp; Start-Up Service</li>
               <li>500 texts/month included (sent + received, US &amp; Canada)</li>
@@ -432,7 +698,70 @@ export default function Home() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
 
-      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
+      <section aria-label="Our promise" style={{ background: '#0b0b12', padding: 'clamp(40px,6vw,64px) 20px', textAlign: 'center' }}>
+        <h2 style={{ color: '#fff', fontSize: 'clamp(24px,3.4vw,38px)', fontWeight: 800, lineHeight: 1.2, margin: '0 auto 12px', maxWidth: 900 }}>We give you everything you need to succeed, <span style={{ color: 'var(--orange)' }}>because we want you to win.</span></h2>
+        <p style={{ color: 'rgba(255,255,255,.82)', fontSize: 'clamp(15px,1.8vw,18px)', lineHeight: 1.6, margin: '0 auto', maxWidth: 760 }}>Software, a free website, AI answering, and a real owner who&apos;ll move your data and pick up the phone.</p>
+      </section>
+      <section aria-label="Your data is yours" style={{ background: '#f6f7f9', padding: 'clamp(40px,6vw,70px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', textAlign: 'center' }}>
+          <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.6vw,40px)', fontWeight: 800, lineHeight: 1.15, margin: '0 0 10px' }}>Your data is yours. Period.</h2>
+          <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.8vw,18px)', lineHeight: 1.6, margin: '0 auto 28px', maxWidth: 720 }}>Moving your business into new software is a big deal. Here is our promise, in writing.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 14, textAlign: 'left' }}>
+            {[
+              ['\u{1F512}', 'We never sell your data', 'Not your info, not your customers\u2019. Not ever, to anyone.'],
+              ['\u{1F91D}', 'Your customers are yours', 'We never contact, market to, or sell to your customers.'],
+              ['\u{1F6AB}', 'Never used against you', 'We won\u2019t use your data to compete with you or hand it to anyone in your industry.'],
+              ['\u{1F4E4}', 'Take it with you anytime', 'Export your customers, properties, invoices and history whenever you want.'],
+              ['\u{1F5D1}\uFE0F', 'Leave and it\u2019s deleted', 'Cancel and we delete it within 90 days, or sooner if you ask.'],
+              ['\u{1F440}', 'Nobody snoops', 'We only open your account when you ask us for help. Your data never trains AI.'],
+            ].map(([ic, h, t]) => (
+              <div key={h} style={{ background: '#fff', borderRadius: 12, padding: '18px 18px 16px', boxShadow: '0 1px 3px rgba(0,0,0,.07)' }}>
+                <div aria-hidden="true" style={{ fontSize: 24, marginBottom: 6 }}>{ic}</div>
+                <div style={{ fontWeight: 800, fontSize: 16, color: '#111827', marginBottom: 4 }}>{h}</div>
+                <div style={{ fontSize: 14.5, color: '#4b5563', lineHeight: 1.5 }}>{t}</div>
+              </div>
+            ))}
+          </div>
+          <p style={{ color: '#374151', fontSize: 15, margin: '24px 0 0', lineHeight: 1.6 }}>
+            <b>Larger company?</b> We&apos;ll sign a Data Protection Agreement with you, already signed on our side. <a href="mailto:Support@bossprohq.com?subject=Data%20Protection%20Agreement%20request" style={{ color: '#1d4ed8', fontWeight: 700 }}>Request it</a>
+            <span style={{ color: '#6b7280' }}> &middot; <a href="/privacy-policy" style={{ color: '#4b5563' }}>Privacy Policy</a> &middot; <a href="/terms" style={{ color: '#4b5563' }}>Terms</a></span>
+          </p>
+        </div>
+      </section>
+      <section aria-label="Tech reviews, tips and bonuses" style={{ background: '#ffffff', padding: 'clamp(44px,7vw,80px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 'clamp(22px,3.5vw,36px)' }}>
+            <span style={{ display: 'inline-block', background: '#16a34a', color: '#fff', fontWeight: 900, fontSize: 12, letterSpacing: 1.5, borderRadius: 20, padding: '5px 12px', marginBottom: 12 }}>NEW</span>
+            <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.8vw,42px)', fontWeight: 900, lineHeight: 1.12, margin: '0 0 12px' }}>Tech reviews, tips &amp; crew bonuses</h2>
+            <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.9vw,19px)', lineHeight: 1.6, margin: '0 auto', maxWidth: 780 }}>Your customers rate the tech who did the job and can leave a tip. Your crew sees their stars, their tips and exactly how close they are to their next bonus. Included on every IrrigationBossPro plan.</p>
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'clamp(20px,3vw,36px)', alignItems: 'center', justifyContent: 'center' }}>
+          <figure style={{ flex: '0 0 auto', width: 'min(290px, 82vw)', margin: 0, textAlign: 'center' }}>
+            <div style={{ background: '#0b0b0f', borderRadius: 38, padding: 10, boxShadow: '0 24px 60px rgba(15,23,42,.28), 0 0 0 2px #26262c' }}>
+              <img src="/crew-bonus.webp" width={600} height={1055} loading="lazy" decoding="async" alt="Crew app Bonus &amp; Tips screen: the tech's star rating, tips owed, how close they are to their bonus, and what customers said" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 29 }} />
+            </div>
+            <figcaption style={{ color: '#4b5563', fontSize: 13.5, fontWeight: 600, marginTop: 10 }}>What your tech sees in the crew app</figcaption>
+          </figure>
+          <div style={{ flex: '1 1 520px', minWidth: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 14 }}>
+            {[
+              ['\u2B50', 'Customers rate their tech', 'After every job, a text, email or app alert asks \u201cHow did Jake do?\u201d One tap for stars and a comment.'],
+              ['\u{1F49A}', 'Tips go to the crew', 'Customers tip on their card on file or a new card. Every tip is tracked per employee, minus processing.'],
+              ['\u{1F69A}', 'Fair crew splits', 'Set the split per truck, give drivers a bigger share, or change any single job. Drag your crew between trucks.'],
+              ['\u{1F3AF}', 'Bonuses they can see', 'Set goals by gross, jobs or rating. Techs see \u201cYou\u2019re $200 away from your bonus\u201d in the crew app.'],
+              ['\u{1F44B}', 'Meet your tech', 'Customers see who\u2019s coming, with a photo, rating, reviews and an \u201cabout me\u201d before the visit.'],
+              ['\u{1F4B8}', 'Run payroll in one click', 'Hours and overtime from the crew time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or automatically.'],
+            ].map(([ic, h, t]) => (
+              <div key={h} style={{ background: '#f8fafc', border: '1px solid #e5e7eb', borderRadius: 14, padding: '18px 18px 16px' }}>
+                <div aria-hidden="true" style={{ fontSize: 26, marginBottom: 6 }}>{ic}</div>
+                <div style={{ fontWeight: 800, fontSize: 16.5, color: '#111827', marginBottom: 4 }}>{h}</div>
+                <div style={{ fontSize: 14.5, color: '#4b5563', lineHeight: 1.5 }}>{t}</div>
+              </div>
+            ))}
+          </div>
+          </div>
+          <p style={{ textAlign: 'center', color: '#374151', fontSize: 15, margin: '22px 0 0', lineHeight: 1.6 }}>Happy customers can share it on Google or Facebook too, and private feedback comes straight to you.</p>
+        </div>
+      </section>
 
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
@@ -482,77 +811,33 @@ export default function Home() {
               <div style={{display:'flex', flexDirection:'column', gap:'7px'}}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{background:'var(--orange)', color:'#111', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
                     <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>New System Install</span>
                   </div>
                   <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>8 zones</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{background:'var(--orange)', color:'#111', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
                     <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Sprinkler Repair</span>
                   </div>
                   <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>3 heads</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{background:'var(--orange)', color:'#111', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
                     <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Backflow Test</span>
                   </div>
                   <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>1 device</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{background:'var(--orange)', color:'#111', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
                     <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Fall Winterization</span>
                   </div>
                   <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>6 zones</span>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ BILLING DEEP DIVE ═══ */}
-      <section id="billing" style={{background:'var(--light-bg)'}}>
-        <div className="highlight-row reverse">
-          <div className="highlight-text">
-            <span className="section-label">Estimates &amp; Billing</span>
-            <h2>Get Paid Faster. Chase Less.</h2>
-            <p>Build a line-item bid in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice, collect a deposit, and take the balance &mdash; all without leaving IrrigationBossPro.</p>
-            <ul className="check-list">
-              <li>Estimate builder with your parts catalog and line items</li>
-              <li>Email bids via Resend with custom branded templates</li>
-              <li>Client-facing estimate page with Accept / Decline buttons</li>
-              <li>Automatic status tracking: Draft → Sent → Accepted → Invoiced</li>
-              <li>Invoice management with unpaid, partial, paid, and overdue filters</li>
-              <li>Stripe card-on-file for deposits and post-service payments</li>
-              <li>Sales tax management by jurisdiction with tax reports</li>
-              <li>Discount codes &mdash; percentage or fixed dollar amount</li>
-              <li>Full payment history with method, date, and reference tracking</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Estimate #0042 &mdash; Pending Acceptance</div>
-            <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items</div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Add Zone 7 &mdash; 4 rotor heads</span><span>$420.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Replace 1&quot; master valve</span><span>$185.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Smart controller upgrade</span><span>$310.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
-                <span>Total</span><span style={{color:'var(--orange)'}}>$915.00</span>
-              </div>
-            </div>
-            <div style={{display:'flex', gap:'8px', marginTop:'4px'}}>
-              <div style={{flex:1, background:'#16a34a', borderRadius:'6px', padding:'10px', textAlign:'center', color:'#fff', fontSize:'13px', fontWeight:700}}>✓ Accept</div>
-              <div style={{flex:1, background:'rgba(255,255,255,.08)', borderRadius:'6px', padding:'10px', textAlign:'center', color:'rgba(255,255,255,.5)', fontSize:'13px'}}>✕ Decline</div>
             </div>
           </div>
         </div>
