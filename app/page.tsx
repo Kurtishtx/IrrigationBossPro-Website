@@ -228,13 +228,13 @@ export default function Home() {
       <div style={{background:'linear-gradient(135deg, #0f1720 0%, #1f2937 60%, #263445 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
         {/* ═══ AI ANSWERING — headline feature ═══ */}
         <style>{`
-          @keyframes aiGlow { 0%,100% { box-shadow: 0 0 0 1px rgba(132,204,22,.55), 0 12px 40px rgba(132,204,22,.25); } 50% { box-shadow: 0 0 0 1px rgba(255,190,90,.9), 0 14px 56px rgba(132,204,22,.45); } }
+          @keyframes aiGlow { 0%,100% { box-shadow: 0 0 0 1px rgba(132,204,22,.55), 0 12px 40px rgba(132,204,22,.25); } 50% { box-shadow: 0 0 0 1px rgba(181,224,115,.9), 0 14px 56px rgba(132,204,22,.45); } }
           @keyframes aiStar { 0%,100% { transform: rotate(0deg) scale(1); } 50% { transform: rotate(18deg) scale(1.15); } }
-          .ai-card { max-width: 900px; margin: 0 auto clamp(28px,4vw,40px); text-align: left; border-radius: 18px; padding: clamp(20px,3vw,30px) clamp(18px,3.4vw,34px); background: linear-gradient(135deg, rgba(132,204,22,.16) 0%, rgba(30,10,53,.9) 55%, rgba(132,204,22,.10) 100%); animation: aiGlow 3.2s ease-in-out infinite; position: relative; }
+          .ai-card { max-width: 900px; margin: 0 auto clamp(28px,4vw,40px); text-align: left; border-radius: 18px; padding: clamp(20px,3vw,30px) clamp(18px,3.4vw,34px); background: linear-gradient(135deg, rgba(132,204,22,.16) 0%, rgba(53,66,82,.96) 55%, rgba(132,204,22,.10) 100%); animation: aiGlow 3.2s ease-in-out infinite; position: relative; }
           .ai-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
           .ai-star { font-size: 26px; display: inline-block; animation: aiStar 2.4s ease-in-out infinite; filter: drop-shadow(0 0 8px rgba(255,190,90,.8)); }
           .ai-tag { font-size: 11px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; color: #111; background: #84cc16; border-radius: 20px; padding: 4px 11px; }
-          .ai-soon { font-size: 11px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: #ffd28a; border: 1px solid rgba(255,210,138,.5); border-radius: 20px; padding: 3px 10px; }
+          .ai-soon { font-size: 11px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: rgb(181,224,115); border: 1px solid rgba(181,224,115,.5); border-radius: 20px; padding: 3px 10px; }
           .ai-h { color: #fff; font-size: clamp(24px,3.6vw,38px); font-weight: 800; line-height: 1.15; margin: 0 0 8px; }
           .ai-h b { color: #84cc16; }
           .ai-p { color: rgba(255,255,255,.82); font-size: clamp(15px,1.8vw,17px); line-height: 1.55; margin: 0 0 16px; max-width: 760px; }
@@ -587,7 +587,7 @@ export default function Home() {
       </section>
 
       {/* ═══ CUSTOMER APP ═══ */}
-      <section className="on-dark" style={{background:'linear-gradient(135deg,#1c0a33,#12061f)'}}>
+      <section className="on-dark" style={{background:'linear-gradient(135deg,#1f2937,#0f1720)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Your Customers Get an App, Too</span>
           <h2 className="section-title" style={{color:'#fff'}}>Give Every Customer Their Own App —<br />And You Decide What They See.</h2>
@@ -652,7 +652,7 @@ export default function Home() {
           <div className="feature-card"><span className="feature-icon">💸</span><h3>One-Click Payroll</h3><p>Hours and overtime from the time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or on a schedule.</p></div>
           <div className="feature-card"><span className="feature-icon">👋</span><h3>Meet Your Tech</h3><p>Customers see who is coming before the visit, with a photo, star rating, reviews and an &ldquo;about me.&rdquo;</p></div>
           <div className="feature-card"><span className="feature-icon">🔗</span><h3>Zapier &amp; Make</h3><p>Connect IrrigationBossPro to thousands of apps like Google Sheets, Mailchimp and Slack with instant webhooks and an API key.</p></div>
-          <div className="feature-card"><span className="feature-icon">📱</span><h3>Social Inbox (Soon)</h3><p>Facebook and Instagram messages, comments and lead forms plus Google reviews in one inbox, and post to all of them plus TikTok. Launching soon.</p></div>
+          <div className="feature-card"><span className="feature-icon">📱</span><h3>Google Reviews &amp; Social Inbox</h3><p>Connect your Google Business Profile to see and reply to every Google review, and let AI write the replies for you to approve or post automatically. Facebook and Instagram messages, comments and lead forms are coming soon.</p></div>
           <div className="feature-card"><span className="feature-icon">⚡</span><h3>Fast Setup</h3><p>Trucks, crew, products, services, pricing and packages in about 10 minutes. Upload what you already have.</p></div>
           <div className="feature-card"><span className="feature-icon">🌐</span><h3>Free Website</h3><p>A 200–300 page website built for Google, with a free domain. Every form goes straight into IrrigationBossPro as a new lead.</p></div>
           <div className="feature-card"><span className="feature-icon">🎨</span><h3>Make It Yours</h3><p>Pick any colors for your software and choose exactly what shows in your sidebar, in any order.</p></div>
